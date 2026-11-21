@@ -1,0 +1,496 @@
+{
+ "nreg": "1788-12",
+ "nazva": "Про пенсійне забезпечення",
+ "stan": "Чинний",
+ "rezhym": "povna",
+ "dzherelo": "https://zakon.rada.gov.ua/laws/show/1788-12",
+ "perevireno": "2026-11-21T21:19:28.908Z",
+ "redaktsii": [
+  {
+   "ed": "19911105",
+   "data": "05.11.1991",
+   "umovna": false,
+   "data_na_saiti": "05.11.1991",
+   "opys": "Прийняття Верховна Рада України; Закон № 1788-XII",
+   "pidstava": [],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "19920515",
+   "data": "15.05.1992",
+   "umovna": false,
+   "data_na_saiti": "15.05.1992",
+   "opys": "Редакція, підстава - 2356-XII",
+   "pidstava": [
+    "2356-XII"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "19921201",
+   "data": "01.12.1992",
+   "umovna": false,
+   "data_na_saiti": "01.12.1992",
+   "opys": "Редакція, підстава - 7-92",
+   "pidstava": [
+    "7-92"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "19930522",
+   "data": "22.05.1993",
+   "umovna": false,
+   "data_na_saiti": "22.05.1993",
+   "opys": "Редакція, підстава - 3128-XII",
+   "pidstava": [
+    "3128-XII"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "19930702",
+   "data": "02.07.1993",
+   "umovna": false,
+   "data_na_saiti": "02.07.1993",
+   "opys": "Редакція, підстава - 3284-XII",
+   "pidstava": [
+    "3284-XII"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "19940313",
+   "data": "13.03.1994",
+   "umovna": false,
+   "data_na_saiti": "13.03.1994",
+   "opys": "Редакція, підстава - 3948-XII",
+   "pidstava": [
+    "3948-XII"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "19951130",
+   "data": "30.11.1995",
+   "umovna": false,
+   "data_na_saiti": "30.11.1995",
+   "opys": "Редакція, підстава - 428/95-ВР",
+   "pidstava": [
+    "428/95-ВР"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "19960609",
+   "data": "09.06.1996",
+   "umovna": false,
+   "data_na_saiti": "09.06.1996",
+   "opys": "Редакція, підстава - 198/96-ВР",
+   "pidstava": [
+    "198/96-ВР"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "19961121",
+   "data": "21.11.1996",
+   "umovna": false,
+   "data_na_saiti": "21.11.1996",
+   "opys": "Редакція, підстава - 534/96-ВР",
+   "pidstava": [
+    "534/96-ВР"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "19971104",
+   "data": "04.11.1997",
+   "umovna": false,
+   "data_na_saiti": "04.11.1997",
+   "opys": "Редакція, підстава - 307/97-ВР",
+   "pidstava": [
+    "307/97-ВР"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "19980211",
+   "data": "11.02.1998",
+   "umovna": false,
+   "data_na_saiti": "11.02.1998",
+   "opys": "Редакція, підстава - 112/98-ВР",
+   "pidstava": [
+    "112/98-ВР"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "19991207",
+   "data": "07.12.1999",
+   "umovna": false,
+   "data_na_saiti": "07.12.1999",
+   "opys": "Редакція, підстава - 1222-XIV",
+   "pidstava": [
+    "1222-XIV"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20000315",
+   "data": "15.03.2000",
+   "umovna": false,
+   "data_na_saiti": "15.03.2000",
+   "opys": "Редакція, підстава - 1461-III",
+   "pidstava": [
+    "1461-III"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20010807",
+   "data": "07.08.2001",
+   "umovna": false,
+   "data_na_saiti": "07.08.2001",
+   "opys": "Редакція, підстава - 2631-III",
+   "pidstava": [
+    "2631-III"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20011129",
+   "data": "29.11.2001",
+   "umovna": false,
+   "data_na_saiti": "29.11.2001",
+   "opys": "Редакція, підстава - 2833-III",
+   "pidstava": [
+    "2833-III"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20020117",
+   "data": "17.01.2002",
+   "umovna": false,
+   "data_na_saiti": "17.01.2002",
+   "opys": "Редакція, підстава - 2981-III",
+   "pidstava": [
+    "2981-III"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20030610",
+   "data": "10.06.2003",
+   "umovna": false,
+   "data_na_saiti": "10.06.2003",
+   "opys": "Редакція, підстава - 854-IV",
+   "pidstava": [
+    "854-IV"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20030626",
+   "data": "26.06.2003",
+   "umovna": false,
+   "data_na_saiti": "26.06.2003",
+   "opys": "Редакція, підстава - 904-IV, 951-IV",
+   "pidstava": [
+    "904-IV",
+    "951-IV"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20030701",
+   "data": "01.07.2003",
+   "umovna": false,
+   "data_na_saiti": "01.07.2003",
+   "opys": "Редакція, підстава - 854-IV",
+   "pidstava": [
+    "854-IV"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20030814",
+   "data": "14.08.2003",
+   "umovna": false,
+   "data_na_saiti": "14.08.2003",
+   "opys": "Редакція, підстава - 1096-IV",
+   "pidstava": [
+    "1096-IV"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20030815",
+   "data": "15.08.2003",
+   "umovna": false,
+   "data_na_saiti": "15.08.2003",
+   "opys": "Редакція, підстава - 1110-IV",
+   "pidstava": [
+    "1110-IV"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20040101",
+   "data": "01.01.2004",
+   "umovna": false,
+   "data_na_saiti": "01.01.2004",
+   "opys": "Редакція, підстава - 1111-IV",
+   "pidstava": [
+    "1111-IV"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20050622",
+   "data": "22.06.2005",
+   "umovna": false,
+   "data_na_saiti": "22.06.2005",
+   "opys": "Редакція, підстава - 2603-IV",
+   "pidstava": [
+    "2603-IV"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20051213",
+   "data": "13.12.2005",
+   "umovna": false,
+   "data_na_saiti": "13.12.2005",
+   "opys": "Редакція, підстава - 3108-IV",
+   "pidstava": [
+    "3108-IV"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20060101",
+   "data": "01.01.2006",
+   "umovna": false,
+   "data_na_saiti": "01.01.2006",
+   "opys": "Редакція, підстава - 3235-IV",
+   "pidstava": [
+    "3235-IV"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20070101",
+   "data": "01.01.2007",
+   "umovna": false,
+   "data_na_saiti": "01.01.2007",
+   "opys": "Редакція, підстава - 489-V",
+   "pidstava": [
+    "489-V"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20070620",
+   "data": "20.06.2007",
+   "umovna": false,
+   "data_na_saiti": "20.06.2007",
+   "opys": "Редакція, підстава - 997-V",
+   "pidstava": [
+    "997-V"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20080101",
+   "data": "01.01.2008",
+   "umovna": false,
+   "data_na_saiti": "01.01.2008",
+   "opys": "Редакція, підстава - 107-VI",
+   "pidstava": [
+    "107-VI"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20090507",
+   "data": "07.05.2009",
+   "umovna": false,
+   "data_na_saiti": "07.05.2009",
+   "opys": "Редакція, підстава - 1276-VI",
+   "pidstava": [
+    "1276-VI"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20111001",
+   "data": "01.10.2011",
+   "umovna": false,
+   "data_na_saiti": "01.10.2011",
+   "opys": "Редакція, підстава - 3668-VI",
+   "pidstava": [
+    "3668-VI"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20121209",
+   "data": "09.12.2012",
+   "umovna": false,
+   "data_na_saiti": "09.12.2012",
+   "opys": "Редакція, підстава - 5462-VI",
+   "pidstava": [
+    "5462-VI"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20150401",
+   "data": "01.04.2015",
+   "umovna": false,
+   "data_na_saiti": "01.04.2015",
+   "opys": "Редакція, підстава - 213-VIII",
+   "pidstava": [
+    "213-VIII"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20151228",
+   "data": "28.12.2015",
+   "umovna": false,
+   "data_na_saiti": "28.12.2015",
+   "opys": "Редакція, підстава - 901-VIII",
+   "pidstava": [
+    "901-VIII"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20160101",
+   "data": "01.01.2016",
+   "umovna": false,
+   "data_na_saiti": "01.01.2016",
+   "opys": "Редакція, підстава - 911-VIII",
+   "pidstava": [
+    "911-VIII"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20170101",
+   "data": "01.01.2017",
+   "umovna": false,
+   "data_na_saiti": "01.01.2017",
+   "opys": "Редакція, підстава - 1774-VIII",
+   "pidstava": [
+    "1774-VIII"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20171011",
+   "data": "11.10.2017",
+   "umovna": false,
+   "data_na_saiti": "11.10.2017",
+   "opys": "Редакція, підстава - 2148-VIII",
+   "pidstava": [
+    "2148-VIII"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20180505",
+   "data": "05.05.2018",
+   "umovna": false,
+   "data_na_saiti": "05.05.2018",
+   "opys": "Редакція, підстава - 2325-VIII",
+   "pidstava": [
+    "2325-VIII"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20180610",
+   "data": "10.06.2018",
+   "umovna": false,
+   "data_na_saiti": "10.06.2018",
+   "opys": "Редакція, підстава - 2205-VIII",
+   "pidstava": [
+    "2205-VIII"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20180725",
+   "data": "25.07.2018",
+   "umovna": false,
+   "data_na_saiti": "25.07.2018",
+   "opys": "Редакція, підстава - 2443-VIII",
+   "pidstava": [
+    "2443-VIII"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  }
+ ],
+ "podii": [
+  {
+   "data": "01.01.1992",
+   "opys": "Введення в дію, підстава - 1931-XII Стан: Чинний"
+  },
+  {
+   "data": "22.05.2008",
+   "opys": "Визнання неконституційними окремих положень, підстава - v010p710-08"
+  },
+  {
+   "data": "04.06.2019",
+   "opys": "Визнання неконституційними окремих положень, підстава - va02p710-19"
+  },
+  {
+   "data": "23.01.2020",
+   "opys": "Визнання неконституційними окремих положень, підстава - v001p710-20"
+  }
+ ],
+ "bez_redaktsii": false
+}

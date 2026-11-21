@@ -1,0 +1,117 @@
+{
+ "nreg": "995_004",
+ "nazva": "Конвенція про захист прав людини і основоположних свобод (з протоколами) (Європейська конвенція з прав людини)",
+ "stan": "Чинний",
+ "rezhym": "povna",
+ "dzherelo": "https://zakon.rada.gov.ua/laws/show/995_004",
+ "perevireno": "2026-11-21T21:21:37.676Z",
+ "redaktsii": [
+  {
+   "ed": "19900101",
+   "data": "01.01.1990",
+   "umovna": false,
+   "data_na_saiti": "01.01.1990",
+   "opys": "Редакція",
+   "pidstava": [],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "19940511",
+   "data": "11.05.1994",
+   "umovna": false,
+   "data_na_saiti": "11.05.1994",
+   "opys": "Редакція",
+   "pidstava": [],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20001104",
+   "data": "04.11.2000",
+   "umovna": false,
+   "data_na_saiti": "04.11.2000",
+   "opys": "Редакція, підстава - 994_537",
+   "pidstava": [
+    "994_537"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20020503",
+   "data": "03.05.2002",
+   "umovna": false,
+   "data_na_saiti": "03.05.2002",
+   "opys": "Редакція, підстава - 994_180",
+   "pidstava": [
+    "994_180"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20090527",
+   "data": "27.05.2009",
+   "umovna": false,
+   "data_na_saiti": "27.05.2009",
+   "opys": "Редакція, підстава - 994_939",
+   "pidstava": [
+    "994_939"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20100601",
+   "data": "01.06.2010",
+   "umovna": false,
+   "data_na_saiti": "01.06.2010",
+   "opys": "Редакція, підстава - 994_527",
+   "pidstava": [
+    "994_527"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20130624",
+   "data": "24.06.2013",
+   "umovna": false,
+   "data_na_saiti": "24.06.2013",
+   "opys": "Редакція, підстава - 994_001-13",
+   "pidstava": [
+    "994_001-13"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20131002",
+   "data": "02.10.2013",
+   "umovna": false,
+   "data_na_saiti": "02.10.2013",
+   "opys": "Редакція, підстава - 994_002-13",
+   "pidstava": [
+    "994_002-13"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  }
+ ],
+ "podii": [
+  {
+   "data": "04.11.1950",
+   "opys": "Підписання"
+  },
+  {
+   "data": "17.07.1997",
+   "opys": "Ратифікація, підстава - 475/97-ВР Стан: Чинний"
+  },
+  {
+   "data": "11.09.1997",
+   "opys": "Набрання чинності для України міжнародного договору, підстава - n0001697-06"
+  }
+ ],
+ "bez_redaktsii": false
+}
