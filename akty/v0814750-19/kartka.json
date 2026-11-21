@@ -1,11 +1,145 @@
 {
  "nreg": "v0814750-19",
  "nazva": "Про затвердження Інструкції з діловодства в місцевих та апеляційних судах України",
- "stan": "",
+ "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/rada/show/v0814750-19",
- "perevireno": "2026-11-21T20:13:11.070Z",
- "redaktsii": [],
- "podii": [],
- "bez_redaktsii": true
+ "perevireno": "2026-11-21T21:32:24.723Z",
+ "redaktsii": [
+  {
+   "ed": "20190820",
+   "data": "20.08.2019",
+   "umovna": false,
+   "data_na_saiti": "20.08.2019",
+   "opys": "Прийняття ДСА України; Наказ № 814",
+   "pidstava": [],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20190829",
+   "data": "29.08.2019",
+   "umovna": false,
+   "data_na_saiti": "29.08.2019",
+   "opys": "Редакція, підстава - v0843750-19",
+   "pidstava": [
+    "v0843750-19"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20200101",
+   "data": "01.01.2020",
+   "umovna": false,
+   "data_na_saiti": "Редакція, підстава - v1196750-19",
+   "opys": "попередня редакція, 214 кб",
+   "pidstava": [],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20200603",
+   "data": "03.06.2020",
+   "umovna": false,
+   "data_na_saiti": "03.06.2020",
+   "opys": "Редакція, підстава - v0248750-20",
+   "pidstava": [
+    "v0248750-20"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20200805",
+   "data": "05.08.2020",
+   "umovna": false,
+   "data_na_saiti": "05.08.2020",
+   "opys": "Редакція, підстава - v0352750-20",
+   "pidstava": [
+    "v0352750-20"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20210324",
+   "data": "24.03.2021",
+   "umovna": false,
+   "data_na_saiti": "24.03.2021",
+   "opys": "Редакція, підстава - v0092750-21",
+   "pidstava": [
+    "v0092750-21"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20220725",
+   "data": "25.07.2022",
+   "umovna": false,
+   "data_na_saiti": "25.07.2022",
+   "opys": "Редакція, підстава - v0254750-22",
+   "pidstava": [
+    "v0254750-22"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20230110",
+   "data": "10.01.2023",
+   "umovna": false,
+   "data_na_saiti": "10.01.2023",
+   "opys": "Редакція, підстава - v0008750-23",
+   "pidstava": [
+    "v0008750-23"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20231017",
+   "data": "17.10.2023",
+   "umovna": false,
+   "data_na_saiti": "17.10.2023",
+   "opys": "Редакція, підстава - v0485750-23",
+   "pidstava": [
+    "v0485750-23"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20231018",
+   "data": "18.10.2023",
+   "umovna": false,
+   "data_na_saiti": "18.10.2023",
+   "opys": "Редакція, підстава - v0493750-23",
+   "pidstava": [
+    "v0493750-23"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20240715",
+   "data": "15.07.2024",
+   "umovna": false,
+   "data_na_saiti": "15.07.2024",
+   "opys": "Редакція, підстава - v0287750-24",
+   "pidstava": [
+    "v0287750-24"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
+  }
+ ],
+ "podii": [
+  {
+   "data": "01.01.2020",
+   "opys": "Набрання чинності Стан: Чинний"
+  }
+ ],
+ "bez_redaktsii": false
 }

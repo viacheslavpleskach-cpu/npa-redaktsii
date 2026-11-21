@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/3354-20",
- "perevireno": "2026-11-21T21:08:58.725Z",
+ "perevireno": "2026-11-21T21:35:56.682Z",
  "redaktsii": [
   {
    "ed": "20230824",
@@ -13,7 +13,8 @@
    "data_na_saiti": "24.08.2023",
    "opys": "Прийняття Верховна Рада України; Закон № 3354-IX",
    "pidstava": [],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20240918",
@@ -24,7 +25,20 @@
    "pidstava": [
     "3915-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20250419",
+   "data": "19.04.2025",
+   "umovna": false,
+   "data_na_saiti": "19.04.2025",
+   "opys": "Редакція, підстава - 3624-IX",
+   "pidstava": [
+    "3624-IX"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
   }
  ],
  "podii": [

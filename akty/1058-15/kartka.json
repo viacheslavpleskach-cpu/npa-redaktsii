@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/1058-15",
- "perevireno": "2026-11-21T21:00:05.879Z",
+ "perevireno": "2026-11-21T21:35:46.673Z",
  "redaktsii": [
   {
    "ed": "20030709",
@@ -13,7 +13,8 @@
    "data_na_saiti": "09.07.2003",
    "opys": "Прийняття Верховна Рада України; Закон № 1058-IV",
    "pidstava": [],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20040101",
@@ -22,7 +23,8 @@
    "data_na_saiti": "Редакція, підстава - 1344-IV",
    "opys": "попередня редакція, 325 кб",
    "pidstava": [],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20041124",
@@ -33,7 +35,8 @@
    "pidstava": [
     "2153-IV"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20050101",
@@ -46,7 +49,8 @@
     "2285-IV",
     "2287-IV"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20050112",
@@ -58,7 +62,8 @@
     "2291-IV",
     "2505-IV"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20050127",
@@ -69,7 +74,8 @@
    "pidstava": [
     "2343-IV"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20050331",
@@ -80,7 +86,8 @@
    "pidstava": [
     "2505-IV"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20051213",
@@ -91,7 +98,8 @@
    "pidstava": [
     "3108-IV"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20060101",
@@ -106,7 +114,8 @@
     "3058-IV",
     "3235-IV"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20060208",
@@ -117,7 +126,8 @@
    "pidstava": [
     "3297-IV"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20060429",
@@ -128,7 +138,8 @@
    "pidstava": [
     "3591-IV"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20060817",
@@ -139,7 +150,8 @@
    "pidstava": [
     "32-V"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20060930",
@@ -150,7 +162,8 @@
    "pidstava": [
     "3456-IV"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20061123",
@@ -161,7 +174,8 @@
    "pidstava": [
     "67-V"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20061207",
@@ -172,7 +186,8 @@
    "pidstava": [
     "364-V"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20061229",
@@ -183,7 +198,8 @@
    "pidstava": [
     "436-V"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20070101",
@@ -194,7 +210,8 @@
    "pidstava": [
     "489-V"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20070412",
@@ -205,7 +222,8 @@
    "pidstava": [
     "827-V"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20070608",
@@ -217,7 +235,8 @@
     "857-V",
     "996-V"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20070618",
@@ -228,7 +247,8 @@
    "pidstava": [
     "v004p710-07"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20070709",
@@ -239,7 +259,8 @@
    "pidstava": [
     "v0a6p710-07"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20080101",
@@ -250,7 +271,8 @@
    "pidstava": [
     "107-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20080604",
@@ -261,7 +283,8 @@
    "pidstava": [
     "309-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20080916",
@@ -272,7 +295,8 @@
    "pidstava": [
     "345-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20081001",
@@ -283,7 +307,8 @@
    "pidstava": [
     "107-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20081105",
@@ -294,7 +319,8 @@
    "pidstava": [
     "639-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20090109",
@@ -305,7 +331,8 @@
    "pidstava": [
     "795-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20090113",
@@ -316,7 +343,8 @@
    "pidstava": [
     "799-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20090507",
@@ -327,7 +355,8 @@
    "pidstava": [
     "1276-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20090611",
@@ -338,7 +367,8 @@
    "pidstava": [
     "1074-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20090717",
@@ -349,7 +379,8 @@
    "pidstava": [
     "1543-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20090722",
@@ -360,7 +391,8 @@
    "pidstava": [
     "1564-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20100717",
@@ -371,7 +403,8 @@
    "pidstava": [
     "2461-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20100727",
@@ -382,7 +415,8 @@
    "pidstava": [
     "2388-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20101012",
@@ -393,7 +427,8 @@
    "pidstava": [
     "2508-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20110101",
@@ -405,7 +440,8 @@
     "2464-VI",
     "2856-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20110115",
@@ -416,7 +452,8 @@
    "pidstava": [
     "2850-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20110209",
@@ -427,7 +464,8 @@
    "pidstava": [
     "2911-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20110806",
@@ -438,7 +476,8 @@
    "pidstava": [
     "3609-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20110807",
@@ -449,7 +488,8 @@
    "pidstava": [
     "3610-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20111001",
@@ -460,7 +500,8 @@
    "pidstava": [
     "3668-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20120101",
@@ -471,7 +512,8 @@
    "pidstava": [
     "3668-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20120613",
@@ -482,7 +524,8 @@
    "pidstava": [
     "4719-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20120617",
@@ -493,7 +536,8 @@
    "pidstava": [
     "4841-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20121030",
@@ -504,7 +548,8 @@
    "pidstava": [
     "5213-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20121206",
@@ -515,7 +560,8 @@
    "pidstava": [
     "5492-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20121209",
@@ -526,7 +572,8 @@
    "pidstava": [
     "5462-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20130428",
@@ -537,7 +584,8 @@
    "pidstava": [
     "184-VII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20130701",
@@ -548,7 +596,8 @@
    "pidstava": [
     "231-VII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20130811",
@@ -559,7 +608,8 @@
    "pidstava": [
     "406-VII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20131011",
@@ -570,7 +620,8 @@
    "pidstava": [
     "5178-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20140401",
@@ -581,7 +632,8 @@
    "pidstava": [
     "1166-VII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20140419",
@@ -592,7 +644,8 @@
    "pidstava": [
     "1170-VII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20140707",
@@ -603,7 +656,8 @@
    "pidstava": [
     "1258-VII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20150101",
@@ -614,7 +668,8 @@
    "pidstava": [
     "76-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20150401",
@@ -625,7 +680,8 @@
    "pidstava": [
     "213-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20151219",
@@ -636,7 +692,8 @@
    "pidstava": [
     "804-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20151228",
@@ -647,7 +704,8 @@
    "pidstava": [
     "901-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20160101",
@@ -659,7 +717,8 @@
     "614-VIII",
     "911-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20160313",
@@ -670,7 +729,8 @@
    "pidstava": [
     "1010-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20160415",
@@ -681,7 +741,8 @@
    "pidstava": [
     "1043-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20160512",
@@ -693,7 +754,8 @@
     "1109-VIII",
     "1110-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20161008",
@@ -704,7 +766,8 @@
    "pidstava": [
     "1492-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20161110",
@@ -715,7 +778,8 @@
    "pidstava": [
     "1692-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20170101",
@@ -727,7 +791,8 @@
     "1369-VIII",
     "1774-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20170206",
@@ -738,7 +803,8 @@
    "pidstava": [
     "1683-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20171011",
@@ -749,7 +815,8 @@
    "pidstava": [
     "2148-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20180101",
@@ -760,7 +827,8 @@
    "pidstava": [
     "2148-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20180120",
@@ -771,7 +839,8 @@
    "pidstava": [
     "2249-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20180221",
@@ -782,7 +851,8 @@
    "pidstava": [
     "2281-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20180802",
@@ -793,7 +863,8 @@
    "pidstava": [
     "2505-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20180831",
@@ -804,7 +875,8 @@
    "pidstava": [
     "2462-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20181219",
@@ -815,7 +887,8 @@
    "pidstava": [
     "2449-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20190101",
@@ -827,7 +900,8 @@
     "2427-VIII",
     "2476-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20191221",
@@ -838,7 +912,8 @@
    "pidstava": [
     "324-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200101",
@@ -849,7 +924,8 @@
    "pidstava": [
     "329-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200213",
@@ -860,7 +936,8 @@
    "pidstava": [
     "440-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200318",
@@ -871,7 +948,8 @@
    "pidstava": [
     "533-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200320",
@@ -882,7 +960,8 @@
    "pidstava": [
     "524-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200402",
@@ -893,7 +972,8 @@
    "pidstava": [
     "540-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200529",
@@ -904,7 +984,8 @@
    "pidstava": [
     "591-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200701",
@@ -915,7 +996,8 @@
    "pidstava": [
     "79-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200703",
@@ -926,7 +1008,8 @@
    "pidstava": [
     "720-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20201025",
@@ -937,7 +1020,8 @@
    "pidstava": [
     "931-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20201210",
@@ -949,7 +1033,8 @@
     "1071-IX",
     "1072-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20210610",
@@ -960,7 +1045,8 @@
    "pidstava": [
     "1217-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20210701",
@@ -971,7 +1057,8 @@
    "pidstava": [
     "738-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20210814",
@@ -982,7 +1069,8 @@
    "pidstava": [
     "1667-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20211201",
@@ -993,7 +1081,8 @@
    "pidstava": [
     "1871-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20220321",
@@ -1004,7 +1093,8 @@
    "pidstava": [
     "2121-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20220427",
@@ -1015,7 +1105,8 @@
    "pidstava": [
     "2191-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20220430",
@@ -1026,7 +1117,8 @@
    "pidstava": [
     "2040-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20220902",
@@ -1037,7 +1129,8 @@
    "pidstava": [
     "2506-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20221106",
@@ -1048,7 +1141,8 @@
    "pidstava": [
     "2682-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20221119",
@@ -1059,7 +1153,8 @@
    "pidstava": [
     "2010-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20221204",
@@ -1070,7 +1165,8 @@
    "pidstava": [
     "2734-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230101",
@@ -1081,7 +1177,8 @@
    "pidstava": [
     "2620-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230331",
@@ -1092,7 +1189,8 @@
    "pidstava": [
     "2849-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230415",
@@ -1103,7 +1201,8 @@
    "pidstava": [
     "2981-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230721",
@@ -1114,7 +1213,8 @@
    "pidstava": [
     "3201-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230907",
@@ -1125,7 +1225,8 @@
    "pidstava": [
     "3302-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20231224",
@@ -1136,7 +1237,8 @@
    "pidstava": [
     "3494-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20240101",
@@ -1149,7 +1251,8 @@
     "1909-IX",
     "3460-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20240504",
@@ -1160,7 +1263,8 @@
    "pidstava": [
     "3621-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20240623",
@@ -1171,7 +1275,8 @@
    "pidstava": [
     "3674-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20240809",
@@ -1182,7 +1287,8 @@
    "pidstava": [
     "3886-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20240824",
@@ -1193,7 +1299,8 @@
    "pidstava": [
     "3680-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20241115",
@@ -1204,7 +1311,8 @@
    "pidstava": [
     "4017-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20241219",
@@ -1215,7 +1323,8 @@
    "pidstava": [
     "4042-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20250101",
@@ -1227,7 +1336,8 @@
     "4170-IX",
     "4059-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20250404",
@@ -1239,7 +1349,8 @@
     "4157-IX",
     "4158-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20250907",
@@ -1250,7 +1361,8 @@
    "pidstava": [
     "4455-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20260101",
@@ -1264,7 +1376,8 @@
     "4681-IX",
     "4695-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20260126",
@@ -1275,7 +1388,8 @@
    "pidstava": [
     "4697-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20260802",
@@ -1286,7 +1400,20 @@
    "pidstava": [
     "4851-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20261022",
+   "data": "22.10.2026",
+   "umovna": false,
+   "data_na_saiti": "22.10.2026",
+   "opys": "Редакція, підстава - 4924-IX",
+   "pidstava": [
+    "4924-IX"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
   },
   {
    "ed": "20270701",
@@ -1297,7 +1424,8 @@
    "pidstava": [
     "4985-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20280101",
@@ -1308,7 +1436,8 @@
    "pidstava": [
     "5012-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   }
  ],
  "podii": [

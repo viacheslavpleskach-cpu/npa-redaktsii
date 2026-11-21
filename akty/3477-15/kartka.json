@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/3477-15",
- "perevireno": "2026-11-21T21:09:06.724Z",
+ "perevireno": "2026-11-21T21:35:59.677Z",
  "redaktsii": [
   {
    "ed": "20060223",
@@ -13,7 +13,8 @@
    "data_na_saiti": "23.02.2006",
    "opys": "Прийняття Верховна Рада України; Закон № 3477-IV",
    "pidstava": [],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20110413",
@@ -24,7 +25,20 @@
    "pidstava": [
     "3135-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20121202",
+   "data": "02.12.2012",
+   "umovna": false,
+   "data_na_saiti": "02.12.2012",
+   "opys": "Редакція, підстава - 5463-VI",
+   "pidstava": [
+    "5463-VI"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
   },
   {
    "ed": "30000101",
@@ -35,7 +49,8 @@
    "pidstava": [
     "2147а-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   }
  ],
  "podii": [

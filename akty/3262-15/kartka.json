@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/3262-15",
- "perevireno": "2026-11-21T20:13:16.686Z",
+ "perevireno": "2026-11-21T21:33:04.700Z",
  "redaktsii": [
   {
    "ed": "20051222",
@@ -13,7 +13,8 @@
    "data_na_saiti": "22.12.2005",
    "opys": "Прийняття Верховна Рада України; Закон № 3262-IV",
    "pidstava": [],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20090507",
@@ -24,7 +25,8 @@
    "pidstava": [
     "1276-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20100803",
@@ -35,7 +37,8 @@
    "pidstava": [
     "2453-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20111101",
@@ -46,7 +49,8 @@
    "pidstava": [
     "3674-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20111113",
@@ -57,7 +61,8 @@
    "pidstava": [
     "3932-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20120615",
@@ -68,7 +73,8 @@
    "pidstava": [
     "4779-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20150328",
@@ -79,7 +85,8 @@
    "pidstava": [
     "192-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20170105",
@@ -90,7 +97,8 @@
    "pidstava": [
     "1798-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20171215",
@@ -101,7 +109,8 @@
    "pidstava": [
     "2147а-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200428",
@@ -112,7 +121,8 @@
    "pidstava": [
     "361-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20201024",
@@ -123,7 +133,8 @@
    "pidstava": [
     "912-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20210423",
@@ -134,7 +145,8 @@
    "pidstava": [
     "1357-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230331",
@@ -145,7 +157,8 @@
    "pidstava": [
     "2849-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20240101",
@@ -156,7 +169,20 @@
    "pidstava": [
     "3295-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20250325",
+   "data": "25.03.2025",
+   "umovna": false,
+   "data_na_saiti": "25.03.2025",
+   "opys": "Редакція, підстава - 4112-IX",
+   "pidstava": [
+    "4112-IX"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
   },
   {
    "ed": "30000101",
@@ -167,7 +193,8 @@
    "pidstava": [
     "2147а-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   }
  ],
  "podii": [

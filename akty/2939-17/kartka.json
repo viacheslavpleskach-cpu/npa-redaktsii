@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/2939-17",
- "perevireno": "2026-11-21T20:33:05.752Z",
+ "perevireno": "2026-11-21T21:35:04.675Z",
  "redaktsii": [
   {
    "ed": "20110113",
@@ -13,7 +13,8 @@
    "data_na_saiti": "13.01.2011",
    "opys": "Прийняття Верховна Рада України; Закон № 2939-VI",
    "pidstava": [],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20120613",
@@ -24,7 +25,8 @@
    "pidstava": [
     "4711-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20121119",
@@ -35,7 +37,8 @@
    "pidstava": [
     "4652-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20130609",
@@ -46,7 +49,8 @@
    "pidstava": [
     "224-VII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20150426",
@@ -57,7 +61,8 @@
    "pidstava": [
     "1700-VII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20150501",
@@ -68,7 +73,8 @@
    "pidstava": [
     "319-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20191201",
@@ -79,7 +85,8 @@
    "pidstava": [
     "199-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200703",
@@ -90,7 +97,8 @@
    "pidstava": [
     "720-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200815",
@@ -101,7 +109,8 @@
    "pidstava": [
     "808-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20201001",
@@ -112,7 +121,8 @@
    "pidstava": [
     "890-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20201024",
@@ -123,7 +133,8 @@
    "pidstava": [
     "912-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20211002",
@@ -134,7 +145,8 @@
    "pidstava": [
     "1723-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20220101",
@@ -145,7 +157,8 @@
    "pidstava": [
     "1914-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20220219",
@@ -156,7 +169,8 @@
    "pidstava": [
     "2024-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230101",
@@ -167,7 +181,8 @@
    "pidstava": [
     "2811-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230331",
@@ -178,7 +193,8 @@
    "pidstava": [
     "2849-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20231008",
@@ -189,7 +205,20 @@
    "pidstava": [
     "2614-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20250808",
+   "data": "08.08.2025",
+   "umovna": false,
+   "data_na_saiti": "08.08.2025",
+   "opys": "Редакція, підстава - 4321-IX",
+   "pidstava": [
+    "4321-IX"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
   },
   {
    "ed": "30000101",
@@ -200,7 +229,8 @@
    "pidstava": [
     "2973-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "30000102",
@@ -211,7 +241,8 @@
    "pidstava": [
     "3354-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   }
  ],
  "podii": [

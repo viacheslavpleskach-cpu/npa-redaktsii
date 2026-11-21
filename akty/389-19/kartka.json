@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/389-19",
- "perevireno": "2026-11-21T21:09:17.750Z",
+ "perevireno": "2026-11-21T21:36:02.685Z",
  "redaktsii": [
   {
    "ed": "20150512",
@@ -399,6 +399,18 @@
    ],
    "tekst": true,
    "bez_posylannia": false
+  },
+  {
+   "ed": "20260304",
+   "data": "04.03.2026",
+   "umovna": false,
+   "data_na_saiti": "04.03.2026",
+   "opys": "Редакція, підстава - 4779-IX",
+   "pidstava": [
+    "4779-IX"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
   },
   {
    "ed": "20261211",

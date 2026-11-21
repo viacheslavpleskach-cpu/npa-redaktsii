@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/254к/96-вр",
- "perevireno": "2026-11-21T17:23:33.290Z",
+ "perevireno": "2026-11-21T21:31:21.388Z",
  "redaktsii": [
   {
    "ed": "19960628",
@@ -13,7 +13,8 @@
    "data_na_saiti": "28.06.1996",
    "opys": "Прийняття Верховна Рада України; Конституція України № 254к/96-ВР",
    "pidstava": [],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20060101",
@@ -24,7 +25,8 @@
    "pidstava": [
     "2222-IV"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20100930",
@@ -35,7 +37,8 @@
    "pidstava": [
     "v020p710-10"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20110204",
@@ -46,7 +49,8 @@
    "pidstava": [
     "2952-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20131006",
@@ -57,7 +61,8 @@
    "pidstava": [
     "586-VII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20140222",
@@ -66,7 +71,8 @@
    "data_na_saiti": "22.02.2014",
    "opys": "Редакція",
    "pidstava": [],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20140302",
@@ -77,7 +83,8 @@
    "pidstava": [
     "742-VII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20160930",
@@ -88,7 +95,8 @@
    "pidstava": [
     "1401-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20190221",
@@ -99,7 +107,20 @@
    "pidstava": [
     "2680-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20200101",
+   "data": "01.01.2020",
+   "umovna": false,
+   "data_na_saiti": "01.01.2020",
+   "opys": "Редакція, підстава - 27-IX",
+   "pidstava": [
+    "27-IX"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
   }
  ],
  "podii": [

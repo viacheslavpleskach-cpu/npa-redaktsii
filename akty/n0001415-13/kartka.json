@@ -4,8 +4,31 @@
  "stan": "",
  "rezhym": "odyn",
  "dzherelo": "https://zakon.rada.gov.ua/rada/show/n0001415-13",
- "perevireno": "2026-11-21T20:13:03.993Z",
- "redaktsii": [],
+ "perevireno": "2026-11-21T21:32:18.808Z",
+ "redaktsii": [
+  {
+   "ed": "20130222",
+   "data": "22.02.2013",
+   "umovna": false,
+   "data_na_saiti": "22.02.2013",
+   "opys": "Прийняття З'їзд суддів України; Рішення",
+   "pidstava": [],
+   "tekst": false,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20240918",
+   "data": "18.09.2024",
+   "umovna": false,
+   "data_na_saiti": "18.09.2024",
+   "opys": "Редакція, підстава - n0001415-24",
+   "pidstava": [
+    "n0001415-24"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
+  }
+ ],
  "podii": [],
- "bez_redaktsii": true
+ "bez_redaktsii": false
 }

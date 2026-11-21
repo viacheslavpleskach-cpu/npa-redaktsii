@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/1798-19",
- "perevireno": "2026-11-21T17:23:36.666Z",
+ "perevireno": "2026-11-21T21:31:24.710Z",
  "redaktsii": [
   {
    "ed": "20161221",
@@ -13,7 +13,8 @@
    "data_na_saiti": "21.12.2016",
    "opys": "Прийняття Верховна Рада України; Закон № 1798-VIII",
    "pidstava": [],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20171129",
@@ -24,7 +25,8 @@
    "pidstava": [
     "2147а-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20180614",
@@ -35,7 +37,8 @@
    "pidstava": [
     "2447-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20190111",
@@ -46,7 +49,8 @@
    "pidstava": [
     "2646-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20191107",
@@ -57,7 +61,8 @@
    "pidstava": [
     "193-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20191128",
@@ -68,7 +73,8 @@
    "pidstava": [
     "263-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20210526",
@@ -79,7 +85,8 @@
    "pidstava": [
     "1416-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20210610",
@@ -90,7 +97,8 @@
    "pidstava": [
     "1217-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20210716",
@@ -101,7 +109,8 @@
    "pidstava": [
     "2704-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20210805",
@@ -113,7 +122,8 @@
     "1635-IX",
     "1629-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20220322",
@@ -124,7 +134,8 @@
    "pidstava": [
     "2128-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20220507",
@@ -135,7 +146,8 @@
    "pidstava": [
     "1780-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20231019",
@@ -147,7 +159,8 @@
     "3304-IX",
     "3378-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20231230",
@@ -158,7 +171,8 @@
    "pidstava": [
     "3511-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20240415",
@@ -169,7 +183,20 @@
    "pidstava": [
     "3588-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20260625",
+   "data": "25.06.2026",
+   "umovna": false,
+   "data_na_saiti": "25.06.2026",
+   "opys": "Редакція, підстава - 4905-IX",
+   "pidstava": [
+    "4905-IX"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
   }
  ],
  "podii": [

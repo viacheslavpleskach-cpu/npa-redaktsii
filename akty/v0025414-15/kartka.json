@@ -1,11 +1,61 @@
 {
  "nreg": "v0025414-15",
  "nazva": "Про затвердження Положення про автоматизовану систему документообігу суду",
- "stan": "",
+ "stan": "Втратив чинність",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/rada/show/v0025414-15",
- "perevireno": "2026-11-21T20:16:48.998Z",
- "redaktsii": [],
- "podii": [],
- "bez_redaktsii": true
+ "perevireno": "2026-11-21T21:33:16.057Z",
+ "redaktsii": [
+  {
+   "ed": "20150402",
+   "data": "02.04.2015",
+   "umovna": false,
+   "data_na_saiti": "02.04.2015",
+   "opys": "Прийняття Рада суддів України; Рішення № 25",
+   "pidstava": [],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20221006",
+   "data": "06.10.2022",
+   "umovna": false,
+   "data_na_saiti": "06.10.2022",
+   "opys": "Редакція",
+   "pidstava": [],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20230504",
+   "data": "04.05.2023",
+   "umovna": false,
+   "data_na_saiti": "04.05.2023",
+   "opys": "Редакція, підстава - vr024414-23",
+   "pidstava": [
+    "vr024414-23"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20231102",
+   "data": "02.11.2023",
+   "umovna": false,
+   "data_na_saiti": "02.11.2023",
+   "opys": "Редакція, підстава - v0046414-23",
+   "pidstava": [
+    "v0046414-23"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  }
+ ],
+ "podii": [
+  {
+   "data": "01.04.2025",
+   "opys": "Втрата чинності, підстава - vr007414-25 Стан: Втратив чинність поточна редакція, 139 кб відкрито зараз"
+  }
+ ],
+ "bez_redaktsii": false
 }

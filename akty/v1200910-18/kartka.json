@@ -4,8 +4,149 @@
  "stan": "",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/rada/show/v1200910-18",
- "perevireno": "2026-11-21T20:17:57.078Z",
- "redaktsii": [],
+ "perevireno": "2026-11-21T21:34:04.755Z",
+ "redaktsii": [
+  {
+   "ed": "20180419",
+   "data": "19.04.2018",
+   "umovna": false,
+   "data_na_saiti": "19.04.2018",
+   "opys": "Прийняття Вища рада правосуддя; Рішення № 1200/0/15-18",
+   "pidstava": [],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20180927",
+   "data": "27.09.2018",
+   "umovna": false,
+   "data_na_saiti": "27.09.2018",
+   "opys": "Редакція, підстава - v3018910-18",
+   "pidstava": [
+    "v3018910-18"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20201201",
+   "data": "01.12.2020",
+   "umovna": false,
+   "data_na_saiti": "01.12.2020",
+   "opys": "Редакція, підстава - v3334910-20",
+   "pidstava": [
+    "v3334910-20"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20210525",
+   "data": "25.05.2021",
+   "umovna": false,
+   "data_na_saiti": "25.05.2021",
+   "opys": "Редакція, підстава - v1127910-21",
+   "pidstava": [
+    "v1127910-21"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20210805",
+   "data": "05.08.2021",
+   "umovna": false,
+   "data_na_saiti": "05.08.2021",
+   "opys": "Редакція, підстава - v1798910-21",
+   "pidstava": [
+    "v1798910-21"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20211209",
+   "data": "09.12.2021",
+   "umovna": false,
+   "data_na_saiti": "09.12.2021",
+   "opys": "Редакція, підстава - v2309910-21",
+   "pidstava": [
+    "v2309910-21"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20211223",
+   "data": "23.12.2021",
+   "umovna": false,
+   "data_na_saiti": "23.12.2021",
+   "opys": "Редакція, підстава - v2364910-21",
+   "pidstava": [
+    "v2364910-21"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20230711",
+   "data": "11.07.2023",
+   "umovna": false,
+   "data_na_saiti": "11.07.2023",
+   "opys": "Редакція",
+   "pidstava": [],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20240222",
+   "data": "22.02.2024",
+   "umovna": false,
+   "data_na_saiti": "22.02.2024",
+   "opys": "Редакція, підстава - v0544910-24",
+   "pidstava": [
+    "v0544910-24"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20240625",
+   "data": "25.06.2024",
+   "umovna": false,
+   "data_na_saiti": "25.06.2024",
+   "opys": "Редакція, підстава - v1955910-24",
+   "pidstava": [
+    "v1955910-24"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20240723",
+   "data": "23.07.2024",
+   "umovna": false,
+   "data_na_saiti": "23.07.2024",
+   "opys": "Редакція, підстава - v2273910-24",
+   "pidstava": [
+    "v2273910-24"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20260903",
+   "data": "03.09.2026",
+   "umovna": false,
+   "data_na_saiti": "03.09.2026",
+   "opys": "Редакція, підстава - v1807910-26",
+   "pidstava": [
+    "v1807910-26"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
+  }
+ ],
  "podii": [],
- "bez_redaktsii": true
+ "bez_redaktsii": false
 }

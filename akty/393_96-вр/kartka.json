@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/393/96-вр",
- "perevireno": "2026-11-21T20:31:51.730Z",
+ "perevireno": "2026-11-21T21:35:01.689Z",
  "redaktsii": [
   {
    "ed": "19961002",
@@ -13,7 +13,8 @@
    "data_na_saiti": "02.10.1996",
    "opys": "Прийняття Верховна Рада України; Закон № 393/96-ВР",
    "pidstava": [],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "19990602",
@@ -24,7 +25,8 @@
    "pidstava": [
     "653-XIV"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20040106",
@@ -35,7 +37,8 @@
    "pidstava": [
     "1294-IV"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20050209",
@@ -46,7 +49,8 @@
    "pidstava": [
     "2384-IV"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20090611",
@@ -57,7 +61,8 @@
    "pidstava": [
     "1254-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20111231",
@@ -68,7 +73,8 @@
    "pidstava": [
     "4054-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20120921",
@@ -79,7 +85,8 @@
    "pidstava": [
     "4452-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20121129",
@@ -90,7 +97,8 @@
    "pidstava": [
     "5477-VI"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20130609",
@@ -101,7 +109,8 @@
    "pidstava": [
     "245-VII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20140604",
@@ -112,7 +121,8 @@
    "pidstava": [
     "1261-VII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20141026",
@@ -123,7 +133,8 @@
    "pidstava": [
     "1697-VII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20150828",
@@ -134,7 +145,8 @@
    "pidstava": [
     "577-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20160101",
@@ -146,7 +158,8 @@
     "834-VIII",
     "835-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20161005",
@@ -157,7 +170,8 @@
    "pidstava": [
     "1404-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20180725",
@@ -168,7 +182,8 @@
    "pidstava": [
     "2443-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20190716",
@@ -179,7 +194,8 @@
    "pidstava": [
     "2704-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200101",
@@ -190,7 +206,8 @@
    "pidstava": [
     "198-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20220101",
@@ -201,7 +218,8 @@
    "pidstava": [
     "1089-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230331",
@@ -212,7 +230,8 @@
    "pidstava": [
     "2849-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230803",
@@ -223,7 +242,8 @@
    "pidstava": [
     "3022-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230907",
@@ -234,7 +254,8 @@
    "pidstava": [
     "3302-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20231215",
@@ -245,7 +266,8 @@
    "pidstava": [
     "2073-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20231231",
@@ -256,7 +278,8 @@
    "pidstava": [
     "2801-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20260124",
@@ -267,7 +290,20 @@
    "pidstava": [
     "4603-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20260627",
+   "data": "27.06.2026",
+   "umovna": false,
+   "data_na_saiti": "27.06.2026",
+   "opys": "Редакція, підстава - 3760-IX",
+   "pidstava": [
+    "3760-IX"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
   }
  ],
  "podii": [

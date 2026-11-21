@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/995_004",
- "perevireno": "2026-11-21T21:21:37.676Z",
+ "perevireno": "2026-11-21T21:31:56.688Z",
  "redaktsii": [
   {
    "ed": "19900101",
@@ -97,6 +97,16 @@
    ],
    "tekst": true,
    "bez_posylannia": false
+  },
+  {
+   "ed": "20210801",
+   "data": "01.08.2021",
+   "umovna": false,
+   "data_na_saiti": "01.08.2021",
+   "opys": "Редакція",
+   "pidstava": [],
+   "tekst": true,
+   "bez_posylannia": true
   }
  ],
  "podii": [

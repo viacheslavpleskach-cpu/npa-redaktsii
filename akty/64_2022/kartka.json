@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/64/2022",
- "perevireno": "2026-11-21T20:18:02.694Z",
+ "perevireno": "2026-11-21T21:34:40.685Z",
  "redaktsii": [
   {
    "ed": "20220224",
@@ -13,7 +13,8 @@
    "data_na_saiti": "24.02.2022",
    "opys": "Прийняття Президент України; Указ № 64/2022",
    "pidstava": [],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20220318",
@@ -24,7 +25,8 @@
    "pidstava": [
     "133/2022"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20220422",
@@ -35,7 +37,8 @@
    "pidstava": [
     "259/2022"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20220523",
@@ -46,7 +49,8 @@
    "pidstava": [
     "341/2022"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20220817",
@@ -57,7 +61,8 @@
    "pidstava": [
     "573/2022"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20221118",
@@ -68,7 +73,8 @@
    "pidstava": [
     "757/2022"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230214",
@@ -79,7 +85,8 @@
    "pidstava": [
     "58/2023"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230519",
@@ -90,7 +97,8 @@
    "pidstava": [
     "254/2023"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230817",
@@ -101,7 +109,8 @@
    "pidstava": [
     "451/2023"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20231110",
@@ -112,7 +121,8 @@
    "pidstava": [
     "734/2023"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20240213",
@@ -123,7 +133,8 @@
    "pidstava": [
     "49/2024"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20240510",
@@ -134,7 +145,8 @@
    "pidstava": [
     "271/2024"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20240808",
@@ -145,7 +157,8 @@
    "pidstava": [
     "469/2024"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20241107",
@@ -156,7 +169,8 @@
    "pidstava": [
     "740/2024"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20250206",
@@ -167,7 +181,8 @@
    "pidstava": [
     "26/2025"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20250419",
@@ -178,7 +193,8 @@
    "pidstava": [
     "235/2025"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20250726",
@@ -189,7 +205,8 @@
    "pidstava": [
     "478/2025"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20251031",
@@ -200,7 +217,8 @@
    "pidstava": [
     "793/2025"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20260128",
@@ -211,7 +229,8 @@
    "pidstava": [
     "40/2026"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20260501",
@@ -222,7 +241,8 @@
    "pidstava": [
     "342/2026"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20260725",
@@ -233,7 +253,20 @@
    "pidstava": [
     "596/2026"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20261027",
+   "data": "27.10.2026",
+   "umovna": false,
+   "data_na_saiti": "27.10.2026",
+   "opys": "Редакція, підстава - 1060/2026",
+   "pidstava": [
+    "1060/2026"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
   }
  ],
  "podii": [],

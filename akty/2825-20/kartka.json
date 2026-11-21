@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/2825-20",
- "perevireno": "2026-11-21T20:25:06.837Z",
+ "perevireno": "2026-11-21T21:34:47.686Z",
  "redaktsii": [
   {
    "ed": "20221213",
@@ -13,7 +13,20 @@
    "data_na_saiti": "13.12.2022",
    "opys": "Прийняття Верховна Рада України; Закон № 2825-IX",
    "pidstava": [],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20240926",
+   "data": "26.09.2024",
+   "umovna": false,
+   "data_na_saiti": "26.09.2024",
+   "opys": "Редакція, підстава - 3863-IX",
+   "pidstava": [
+    "3863-IX"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
   }
  ],
  "podii": [

@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/5076-17",
- "perevireno": "2026-11-21T20:17:07.657Z",
+ "perevireno": "2026-11-21T21:34:02.674Z",
  "redaktsii": [
   {
    "ed": "20120705",
@@ -13,7 +13,8 @@
    "data_na_saiti": "05.07.2012",
    "opys": "Прийняття Верховна Рада України; Закон № 5076-VI",
    "pidstava": [],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20150206",
@@ -24,7 +25,8 @@
    "pidstava": [
     "1702-VII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20161005",
@@ -35,7 +37,8 @@
    "pidstava": [
     "1404-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20170101",
@@ -46,7 +49,8 @@
    "pidstava": [
     "1791-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20170105",
@@ -57,7 +61,8 @@
    "pidstava": [
     "1798-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200101",
@@ -69,7 +74,8 @@
     "198-IX",
     "2671-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200320",
@@ -80,7 +86,8 @@
    "pidstava": [
     "524-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200703",
@@ -91,7 +98,8 @@
    "pidstava": [
     "720-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20210716",
@@ -102,7 +110,8 @@
    "pidstava": [
     "2704-VIII"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20221229",
@@ -113,7 +122,8 @@
    "pidstava": [
     "2571-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230331",
@@ -124,7 +134,8 @@
    "pidstava": [
     "2849-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230428",
@@ -135,7 +146,8 @@
    "pidstava": [
     "2970-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230803",
@@ -146,7 +158,8 @@
    "pidstava": [
     "3022-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20241115",
@@ -157,7 +170,8 @@
    "pidstava": [
     "4017-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20250901",
@@ -168,13 +182,18 @@
    "pidstava": [
     "3606-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   }
  ],
  "podii": [
   {
    "data": "15.08.2012",
    "opys": "Набрання чинності Стан: Чинний"
+  },
+  {
+   "data": "10.09.2025",
+   "opys": "Визнання конституційними окремих положень, підстава - v004p710-25 поточна редакція, 167 кб відкрито зараз"
   }
  ],
  "bez_redaktsii": false

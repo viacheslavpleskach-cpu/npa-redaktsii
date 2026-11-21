@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/2597-19",
- "perevireno": "2026-11-21T20:10:02.984Z",
+ "perevireno": "2026-11-21T21:34:56.684Z",
  "redaktsii": [
   {
    "ed": "20181018",
@@ -13,7 +13,8 @@
    "data_na_saiti": "18.10.2018",
    "opys": "Прийняття Верховна Рада України; Кодекс України № 2597-VIII",
    "pidstava": [],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20191017",
@@ -24,7 +25,8 @@
    "pidstava": [
     "132-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20191021",
@@ -35,7 +37,8 @@
    "pidstava": [
     "145-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20191229",
@@ -46,7 +49,8 @@
    "pidstava": [
     "399-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200201",
@@ -57,7 +61,8 @@
    "pidstava": [
     "157-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20200816",
@@ -68,7 +73,8 @@
    "pidstava": [
     "738-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20201008",
@@ -79,7 +85,8 @@
    "pidstava": [
     "895-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20201017",
@@ -91,7 +98,8 @@
     "686-IX",
     "728-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20210423",
@@ -103,7 +111,8 @@
     "1381-IX",
     "1382-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20210701",
@@ -114,7 +123,8 @@
    "pidstava": [
     "738-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20210801",
@@ -125,7 +135,8 @@
    "pidstava": [
     "1591-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20210814",
@@ -136,7 +147,8 @@
    "pidstava": [
     "1667-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20211006",
@@ -147,7 +159,8 @@
    "pidstava": [
     "1630-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20220106",
@@ -158,7 +171,8 @@
    "pidstava": [
     "1944-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20220112",
@@ -169,7 +183,8 @@
    "pidstava": [
     "1962-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230101",
@@ -180,7 +195,8 @@
    "pidstava": [
     "2850-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230401",
@@ -191,7 +207,8 @@
    "pidstava": [
     "2888-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230415",
@@ -202,7 +219,8 @@
    "pidstava": [
     "2971-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20230729",
@@ -213,7 +231,8 @@
    "pidstava": [
     "3249-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20231231",
@@ -224,7 +243,8 @@
    "pidstava": [
     "2801-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20240101",
@@ -236,7 +256,8 @@
     "1909-IX",
     "3254-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20240308",
@@ -247,7 +268,8 @@
    "pidstava": [
     "3577-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20240621",
@@ -258,7 +280,8 @@
    "pidstava": [
     "3723-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20241115",
@@ -269,7 +292,8 @@
    "pidstava": [
     "4017-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20250101",
@@ -282,7 +306,8 @@
     "3985-IX",
     "4114-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20250104",
@@ -293,7 +318,8 @@
    "pidstava": [
     "3291-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20250201",
@@ -304,7 +330,8 @@
    "pidstava": [
     "4217-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20250404",
@@ -315,7 +342,8 @@
    "pidstava": [
     "4158-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20250808",
@@ -326,7 +354,8 @@
    "pidstava": [
     "3855-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20250828",
@@ -337,7 +366,8 @@
    "pidstava": [
     "4196-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20251226",
@@ -348,7 +378,8 @@
    "pidstava": [
     "4465-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20260311",
@@ -359,7 +390,8 @@
    "pidstava": [
     "4777-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   },
   {
    "ed": "20261001",
@@ -370,7 +402,20 @@
    "pidstava": [
     "4952-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20261115",
+   "data": "15.11.2026",
+   "umovna": false,
+   "data_na_saiti": "15.11.2026",
+   "opys": "Редакція, підстава - 5062-IX",
+   "pidstava": [
+    "5062-IX"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
   },
   {
    "ed": "30000101",
@@ -381,7 +426,8 @@
    "pidstava": [
     "2937-IX"
    ],
-   "tekst": true
+   "tekst": true,
+   "bez_posylannia": false
   }
  ],
  "podii": [

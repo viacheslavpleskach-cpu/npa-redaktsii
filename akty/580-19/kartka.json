@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/580-19",
- "perevireno": "2026-11-21T21:15:22.898Z",
+ "perevireno": "2026-11-21T21:36:05.695Z",
  "redaktsii": [
   {
    "ed": "20150702",
@@ -689,6 +689,18 @@
    ],
    "tekst": true,
    "bez_posylannia": false
+  },
+  {
+   "ed": "20260412",
+   "data": "12.04.2026",
+   "umovna": false,
+   "data_na_saiti": "12.04.2026",
+   "opys": "Редакція, підстава - 4826-IX",
+   "pidstava": [
+    "4826-IX"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
   },
   {
    "ed": "20261124",

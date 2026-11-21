@@ -4,8 +4,115 @@
  "stan": "",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/rada/show/v1845910-21",
- "perevireno": "2026-11-21T20:16:57.189Z",
- "redaktsii": [],
+ "perevireno": "2026-11-21T21:33:30.278Z",
+ "redaktsii": [
+  {
+   "ed": "20210817",
+   "data": "17.08.2021",
+   "umovna": false,
+   "data_na_saiti": "17.08.2021",
+   "opys": "Прийняття Вища рада правосуддя; Рішення № 1845/0/15-21",
+   "pidstava": [],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20220125",
+   "data": "25.01.2022",
+   "umovna": false,
+   "data_na_saiti": "25.01.2022",
+   "opys": "Редакція, підстава - v083_910-22",
+   "pidstava": [
+    "v083_910-22"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20220222",
+   "data": "22.02.2022",
+   "umovna": false,
+   "data_na_saiti": "22.02.2022",
+   "opys": "Редакція, підстава - v166_910-22",
+   "pidstava": [
+    "v166_910-22"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20220412",
+   "data": "12.04.2022",
+   "umovna": false,
+   "data_na_saiti": "12.04.2022",
+   "opys": "Редакція, підстава - n0001910-22",
+   "pidstava": [
+    "n0001910-22"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20220519",
+   "data": "19.05.2022",
+   "umovna": false,
+   "data_na_saiti": "19.05.2022",
+   "opys": "Редакція, підстава - n0001780-22",
+   "pidstava": [
+    "n0001780-22"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20231012",
+   "data": "12.10.2023",
+   "umovna": false,
+   "data_na_saiti": "12.10.2023",
+   "opys": "Редакція, підстава - v0977910-23",
+   "pidstava": [
+    "v0977910-23"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20240307",
+   "data": "07.03.2024",
+   "umovna": false,
+   "data_na_saiti": "07.03.2024",
+   "opys": "Редакція, підстава - v0700910-24",
+   "pidstava": [
+    "v0700910-24"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20240905",
+   "data": "05.09.2024",
+   "umovna": false,
+   "data_na_saiti": "05.09.2024",
+   "opys": "Редакція, підстава - v2623910-24",
+   "pidstava": [
+    "v2623910-24"
+   ],
+   "tekst": true,
+   "bez_posylannia": false
+  },
+  {
+   "ed": "20260113",
+   "data": "13.01.2026",
+   "umovna": false,
+   "data_na_saiti": "13.01.2026",
+   "opys": "Редакція, підстава - v0026910-26",
+   "pidstava": [
+    "v0026910-26"
+   ],
+   "tekst": true,
+   "bez_posylannia": true
+  }
+ ],
  "podii": [],
- "bez_redaktsii": true
+ "bez_redaktsii": false
 }

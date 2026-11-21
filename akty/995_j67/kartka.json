@@ -4,8 +4,13 @@
  "stan": "",
  "rezhym": "odyn",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/995_j67",
- "perevireno": "2026-11-21T20:17:02.693Z",
+ "perevireno": "2026-11-21T21:33:58.678Z",
  "redaktsii": [],
- "podii": [],
+ "podii": [
+  {
+   "data": "19.05.2006",
+   "opys": "Прийняття ООН; Принципи"
+  }
+ ],
  "bez_redaktsii": true
 }
