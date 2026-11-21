@@ -53,7 +53,7 @@ def kartka(nreg):
     return json.load(open(p, encoding='utf-8')) if os.path.exists(p) else None
 
 
-def znaity(zapyt, na=None):
+def znaity(zapyt, na=None, stattia=None):
     """Повертає nreg акта. Кілька документів під одним скороченням (КУпАП) — обирає за датою."""
     q = zapyt.strip().lower()
     rows = perelik()
@@ -73,7 +73,15 @@ def znaity(zapyt, na=None):
     if len(tochni) == 1:
         return tochni[0]['nreg']
     nazvy = {r['skorocheno'].split(' (')[0] for r in tochni}
-    if len(nazvy) == 1:  # один акт, поділений на кілька документів
+    if len(nazvy) == 1:  # один акт, поділений на кілька документів (за датами або за статтями)
+        if stattia:
+            m = re.match(r'\d+', str(stattia))
+            if m:
+                n = int(m.group())
+                def mistyt(r):
+                    d = re.search(r'статті (\d+)\s*[-–]\s*(\d+)', r['nazva'])
+                    return not d or int(d.group(1)) <= n <= int(d.group(2))
+                tochni = [r for r in tochni if mistyt(r)] or tochni
         na = na or dt.date.today()
         naikr, best = None, None
         for r in tochni:
@@ -167,8 +175,8 @@ def shapka(k, r, na, pop):
     return '\n'.join(s)
 
 
-def potribna_kartka(akt, na=None):
-    nreg = znaity(akt, na)
+def potribna_kartka(akt, na=None, stattia=None):
+    nreg = znaity(akt, na, stattia)
     k = kartka(nreg)
     if not k:
         sys.exit(f'{nreg}: акт є в переліку, але ще не завантажений в архів.')
@@ -199,7 +207,7 @@ def cmd_redaktsii(a):
 
 def cmd_stattia(a):
     na = dataz(a.na)
-    k = potribna_kartka(a.akt, na)
+    k = potribna_kartka(a.akt, na, a.stattia)
     r, pop = redaktsiia_na(k, na)
     if not r:
         sys.exit('\n'.join('⚠ ' + p for p in pop))
@@ -225,7 +233,7 @@ def cmd_tekst(a):
 
 
 def cmd_zminy(a):
-    k = potribna_kartka(a.akt)
+    k = potribna_kartka(a.akt, None, a.stattia)
     prev, bulo = None, False
     for r in k['redaktsii']:
         if not r['tekst']:
@@ -249,7 +257,7 @@ def cmd_zminy(a):
 
 def cmd_porivniaty(a):
     d1, d2 = dataz(a.z), dataz(a.po)
-    k = potribna_kartka(a.akt, d2)
+    k = potribna_kartka(a.akt, d2, a.stattia)
     r1, p1 = redaktsiia_na(k, d1)
     r2, p2 = redaktsiia_na(k, d2)
     if not r1 or not r2:

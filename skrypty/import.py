@@ -69,7 +69,12 @@ def main(faily):
             with open(os.path.join(d, 'red', f'{ed}.txt'), 'w', encoding='utf-8') as f:
                 f.write(zag + '\n' + tekst + '\n')
             zapysano += 1
-        # перевірка: однакові тексти сусідніх редакцій
+        # справжні редакції з'явилися — тимчасовий текст без переліку редакцій більше не потрібен
+        bez = os.path.join(d, 'red', 'bez_redaktsii.txt')
+        if k['redaktsii'] and os.path.exists(bez) and 'bez_redaktsii' not in a['teksty']:
+            os.remove(bez)
+        # перевірка: однакові тексти сусідніх редакцій (буває законно: зміна стосувалася
+        # іншої частини акта, поділеного на кілька документів, або лише додатків)
         fs = sorted(glob.glob(os.path.join(d, 'red', '[0-9]*.txt')))
         prev = None
         for fp in fs:
@@ -84,7 +89,7 @@ def main(faily):
         for r in k['redaktsii']:
             redaktsii.append({'ed': r['ed'], 'data': data_ed(r['ed']), 'umovna': r['ed'].startswith('3000'),
                               'data_na_saiti': r['data_na_saiti'], 'opys': r['opys'], 'pidstava': r['pidstava'],
-                              'tekst': r['ed'] in ye})
+                              'tekst': r['ed'] in ye, 'bez_posylannia': bool(r.get('bez_posylannia'))})
         nova = {'nreg': nreg, 'nazva': k['nazva'], 'stan': k['stan'], 'rezhym': rezhym, 'dzherelo': url,
                 'perevireno': m['zibrano'], 'redaktsii': redaktsii, 'podii': k['podii'],
                 'bez_redaktsii': 'bez_redaktsii' in ye}
