@@ -1,0 +1,186 @@
+{
+ "nreg": "1798-19",
+ "nazva": "Про Вищу раду правосуддя",
+ "stan": "Чинний",
+ "rezhym": "povna",
+ "dzherelo": "https://zakon.rada.gov.ua/laws/show/1798-19",
+ "perevireno": "2026-11-21T17:23:36.666Z",
+ "redaktsii": [
+  {
+   "ed": "20161221",
+   "data": "21.12.2016",
+   "umovna": false,
+   "data_na_saiti": "21.12.2016",
+   "opys": "Прийняття Верховна Рада України; Закон № 1798-VIII",
+   "pidstava": [],
+   "tekst": true
+  },
+  {
+   "ed": "20171129",
+   "data": "29.11.2017",
+   "umovna": false,
+   "data_na_saiti": "29.11.2017",
+   "opys": "Редакція, підстава - 2147а-VIII",
+   "pidstava": [
+    "2147а-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20180614",
+   "data": "14.06.2018",
+   "umovna": false,
+   "data_na_saiti": "14.06.2018",
+   "opys": "Редакція, підстава - 2447-VIII",
+   "pidstava": [
+    "2447-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20190111",
+   "data": "11.01.2019",
+   "umovna": false,
+   "data_na_saiti": "11.01.2019",
+   "opys": "Редакція, підстава - 2646-VIII",
+   "pidstava": [
+    "2646-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20191107",
+   "data": "07.11.2019",
+   "umovna": false,
+   "data_na_saiti": "07.11.2019",
+   "opys": "Редакція, підстава - 193-IX",
+   "pidstava": [
+    "193-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20191128",
+   "data": "28.11.2019",
+   "umovna": false,
+   "data_na_saiti": "28.11.2019",
+   "opys": "Редакція, підстава - 263-IX",
+   "pidstava": [
+    "263-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20210526",
+   "data": "26.05.2021",
+   "umovna": false,
+   "data_na_saiti": "26.05.2021",
+   "opys": "Редакція, підстава - 1416-IX",
+   "pidstava": [
+    "1416-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20210610",
+   "data": "10.06.2021",
+   "umovna": false,
+   "data_na_saiti": "10.06.2021",
+   "opys": "Редакція, підстава - 1217-IX",
+   "pidstava": [
+    "1217-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20210716",
+   "data": "16.07.2021",
+   "umovna": false,
+   "data_na_saiti": "16.07.2021",
+   "opys": "Редакція, підстава - 2704-VIII",
+   "pidstava": [
+    "2704-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20210805",
+   "data": "05.08.2021",
+   "umovna": false,
+   "data_na_saiti": "05.08.2021",
+   "opys": "Редакція, підстава - 1635-IX, 1629-IX",
+   "pidstava": [
+    "1635-IX",
+    "1629-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20220322",
+   "data": "22.03.2022",
+   "umovna": false,
+   "data_na_saiti": "22.03.2022",
+   "opys": "Редакція, підстава - 2128-IX",
+   "pidstava": [
+    "2128-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20220507",
+   "data": "07.05.2022",
+   "umovna": false,
+   "data_na_saiti": "07.05.2022",
+   "opys": "Редакція, підстава - 1780-IX",
+   "pidstava": [
+    "1780-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20231019",
+   "data": "19.10.2023",
+   "umovna": false,
+   "data_na_saiti": "19.10.2023",
+   "opys": "Редакція, підстава - 3304-IX, 3378-IX",
+   "pidstava": [
+    "3304-IX",
+    "3378-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20231230",
+   "data": "30.12.2023",
+   "umovna": false,
+   "data_na_saiti": "30.12.2023",
+   "opys": "Редакція, підстава - 3511-IX",
+   "pidstava": [
+    "3511-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20240415",
+   "data": "15.04.2024",
+   "umovna": false,
+   "data_na_saiti": "15.04.2024",
+   "opys": "Редакція, підстава - 3588-IX",
+   "pidstava": [
+    "3588-IX"
+   ],
+   "tekst": true
+  }
+ ],
+ "podii": [
+  {
+   "data": "05.01.2017",
+   "opys": "Набрання чинності Стан: Чинний"
+  },
+  {
+   "data": "11.03.2020",
+   "opys": "Визнання неконституційними окремих положень, підстава - v004p710-20"
+  }
+ ],
+ "bez_redaktsii": false
+}
