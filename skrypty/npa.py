@@ -152,7 +152,8 @@ MEZHA = re.compile(r'^(Стаття\s+\d|Розділ\s|РОЗДІЛ\s|Глав�
 
 
 def stattia_z(radky, n):
-    rx = re.compile(r'^Стаття\s+' + re.escape(n) + r'\.(\s|$)')
+    # «Стаття 5.» у законах і кодексах; «Стаття 5» без крапки — у Кодексі суддівської етики та інших актах
+    rx = re.compile(r'^Стаття\s+' + re.escape(n) + r'\.?(\s|$)')
     idx = [i for i, l in enumerate(radky) if rx.match(l)]
     idx = [i for i in idx if not radky[i].rstrip().endswith('…')] or idx  # пропускаємо зміст
     if not idx:
