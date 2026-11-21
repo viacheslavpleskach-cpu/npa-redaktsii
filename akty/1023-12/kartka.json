@@ -1,0 +1,504 @@
+{
+ "nreg": "1023-12",
+ "nazva": "Про захист прав споживачів",
+ "stan": "Чинний",
+ "rezhym": "povna",
+ "dzherelo": "https://zakon.rada.gov.ua/laws/show/1023-12",
+ "perevireno": "2026-11-21T20:25:11.682Z",
+ "redaktsii": [
+  {
+   "ed": "19910512",
+   "data": "12.05.1991",
+   "umovna": false,
+   "data_na_saiti": "12.05.1991",
+   "opys": "Прийняття Верховна Рада УРСР; Закон № 1023-XII",
+   "pidstava": [],
+   "tekst": true
+  },
+  {
+   "ed": "19940115",
+   "data": "15.01.1994",
+   "umovna": false,
+   "data_na_saiti": "15.01.1994",
+   "opys": "Редакція, підстава - 3682-XII",
+   "pidstava": [
+    "3682-XII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "19950423",
+   "data": "23.04.1995",
+   "umovna": false,
+   "data_na_saiti": "23.04.1995",
+   "opys": "Редакція, підстава - 82/95-ВР",
+   "pidstava": [
+    "82/95-ВР"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "19950718",
+   "data": "18.07.1995",
+   "umovna": false,
+   "data_na_saiti": "18.07.1995",
+   "opys": "Редакція, підстава - 230/95-ВР",
+   "pidstava": [
+    "230/95-ВР"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "19970718",
+   "data": "18.07.1997",
+   "umovna": false,
+   "data_na_saiti": "18.07.1997",
+   "opys": "Редакція, підстава - 365/97-ВР",
+   "pidstava": [
+    "365/97-ВР"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20000101",
+   "data": "01.01.2000",
+   "umovna": false,
+   "data_na_saiti": "01.01.2000",
+   "opys": "Редакція, підстава - 783-XIV",
+   "pidstava": [
+    "783-XIV"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20010620",
+   "data": "20.06.2001",
+   "umovna": false,
+   "data_na_saiti": "20.06.2001",
+   "opys": "Редакція, підстава - 2438-III",
+   "pidstava": [
+    "2438-III"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20011220",
+   "data": "20.12.2001",
+   "umovna": false,
+   "data_na_saiti": "20.12.2001",
+   "opys": "Редакція, підстава - 2779-III",
+   "pidstava": [
+    "2779-III"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20020215",
+   "data": "15.02.2002",
+   "umovna": false,
+   "data_na_saiti": "15.02.2002",
+   "opys": "Редакція, підстава - 2949-III",
+   "pidstava": [
+    "2949-III"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20031205",
+   "data": "05.12.2003",
+   "umovna": false,
+   "data_na_saiti": "05.12.2003",
+   "opys": "Редакція, підстава - 1252-IV",
+   "pidstava": [
+    "1252-IV"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20060113",
+   "data": "13.01.2006",
+   "umovna": false,
+   "data_na_saiti": "13.01.2006",
+   "opys": "Нова редакція, підстава - 3161-IV",
+   "pidstava": [
+    "3161-IV"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20100306",
+   "data": "06.03.2010",
+   "umovna": false,
+   "data_na_saiti": "06.03.2010",
+   "opys": "Редакція, підстава - 1779-VI",
+   "pidstava": [
+    "1779-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20110106",
+   "data": "06.01.2011",
+   "umovna": false,
+   "data_na_saiti": "06.01.2011",
+   "opys": "Редакція, підстава - 2741-VI",
+   "pidstava": [
+    "2741-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20110714",
+   "data": "14.07.2011",
+   "umovna": false,
+   "data_na_saiti": "14.07.2011",
+   "opys": "Редакція, підстава - 3530-VI",
+   "pidstava": [
+    "3530-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20110807",
+   "data": "07.08.2011",
+   "umovna": false,
+   "data_na_saiti": "07.08.2011",
+   "opys": "Редакція, підстава - 3610-VI",
+   "pidstava": [
+    "3610-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20110916",
+   "data": "16.09.2011",
+   "umovna": false,
+   "data_na_saiti": "16.09.2011",
+   "opys": "Редакція, підстава - 3390-VI",
+   "pidstava": [
+    "3390-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20111016",
+   "data": "16.10.2011",
+   "umovna": false,
+   "data_na_saiti": "16.10.2011",
+   "opys": "Редакція, підстава - 3795-VI",
+   "pidstava": [
+    "3795-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20111101",
+   "data": "01.11.2011",
+   "umovna": false,
+   "data_na_saiti": "01.11.2011",
+   "opys": "Редакція, підстава - 3674-VI",
+   "pidstava": [
+    "3674-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20121018",
+   "data": "18.10.2012",
+   "umovna": false,
+   "data_na_saiti": "18.10.2012",
+   "opys": "Редакція, підстава - 5284-VI",
+   "pidstava": [
+    "5284-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20121104",
+   "data": "04.11.2012",
+   "umovna": false,
+   "data_na_saiti": "04.11.2012",
+   "opys": "Редакція, підстава - 5312-VI",
+   "pidstava": [
+    "5312-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20121119",
+   "data": "19.11.2012",
+   "umovna": false,
+   "data_na_saiti": "19.11.2012",
+   "opys": "Редакція, підстава - 4652-VI",
+   "pidstava": [
+    "4652-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20121202",
+   "data": "02.12.2012",
+   "umovna": false,
+   "data_na_saiti": "02.12.2012",
+   "opys": "Редакція, підстава - 5463-VI",
+   "pidstava": [
+    "5463-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20150101",
+   "data": "01.01.2015",
+   "umovna": false,
+   "data_na_saiti": "01.01.2015",
+   "opys": "Редакція, підстава - 77-VIII",
+   "pidstava": [
+    "77-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20150103",
+   "data": "03.01.2015",
+   "umovna": false,
+   "data_na_saiti": "03.01.2015",
+   "opys": "Редакція, підстава - 1315-VII",
+   "pidstava": [
+    "1315-VII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20150920",
+   "data": "20.09.2015",
+   "umovna": false,
+   "data_na_saiti": "20.09.2015",
+   "opys": "Редакція, підстава - 1602-VII",
+   "pidstava": [
+    "1602-VII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20150921",
+   "data": "21.09.2015",
+   "umovna": false,
+   "data_na_saiti": "21.09.2015",
+   "opys": "Редакція, підстава - 124-VIII",
+   "pidstava": [
+    "124-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20150930",
+   "data": "30.09.2015",
+   "umovna": false,
+   "data_na_saiti": "30.09.2015",
+   "opys": "Редакція, підстава - 675-VIII",
+   "pidstava": [
+    "675-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20160101",
+   "data": "01.01.2016",
+   "umovna": false,
+   "data_na_saiti": "01.01.2016",
+   "opys": "Редакція, підстава - 1314-VII",
+   "pidstava": [
+    "1314-VII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20170101",
+   "data": "01.01.2017",
+   "umovna": false,
+   "data_na_saiti": "01.01.2017",
+   "opys": "Редакція, підстава - 1791-VIII",
+   "pidstava": [
+    "1791-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20170610",
+   "data": "10.06.2017",
+   "umovna": false,
+   "data_na_saiti": "10.06.2017",
+   "opys": "Редакція, підстава - 1734-VIII",
+   "pidstava": [
+    "1734-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20190101",
+   "data": "01.01.2019",
+   "umovna": false,
+   "data_na_saiti": "01.01.2019",
+   "opys": "Редакція, підстава - 2628-VIII",
+   "pidstava": [
+    "2628-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20190703",
+   "data": "03.07.2019",
+   "umovna": false,
+   "data_na_saiti": "03.07.2019",
+   "opys": "Редакція, підстава - 2740-VIII",
+   "pidstava": [
+    "2740-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20190716",
+   "data": "16.07.2019",
+   "umovna": false,
+   "data_na_saiti": "16.07.2019",
+   "opys": "Редакція, підстава - 2704-VIII",
+   "pidstava": [
+    "2704-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20191211",
+   "data": "11.12.2019",
+   "umovna": false,
+   "data_na_saiti": "11.12.2019",
+   "opys": "Редакція, підстава - 286-IX",
+   "pidstava": [
+    "286-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200119",
+   "data": "19.01.2020",
+   "umovna": false,
+   "data_na_saiti": "19.01.2020",
+   "opys": "Редакція, підстава - 2264-VIII, 122-IX",
+   "pidstava": [
+    "2264-VIII",
+    "122-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200227",
+   "data": "27.02.2020",
+   "umovna": false,
+   "data_na_saiti": "27.02.2020",
+   "opys": "Редакція, підстава - 465-IX",
+   "pidstava": [
+    "465-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200703",
+   "data": "03.07.2020",
+   "umovna": false,
+   "data_na_saiti": "03.07.2020",
+   "opys": "Редакція, підстава - 720-IX",
+   "pidstava": [
+    "720-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200801",
+   "data": "01.08.2020",
+   "umovna": false,
+   "data_na_saiti": "01.08.2020",
+   "opys": "Редакція, підстава - 128-IX",
+   "pidstava": [
+    "128-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20201016",
+   "data": "16.10.2020",
+   "umovna": false,
+   "data_na_saiti": "16.10.2020",
+   "opys": "Редакція, підстава - 124-IX",
+   "pidstava": [
+    "124-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20210725",
+   "data": "25.07.2021",
+   "umovna": false,
+   "data_na_saiti": "25.07.2021",
+   "opys": "Редакція, підстава - 1603-IX",
+   "pidstava": [
+    "1603-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20220801",
+   "data": "01.08.2022",
+   "umovna": false,
+   "data_na_saiti": "01.08.2022",
+   "opys": "Редакція, підстава - 1591-IX",
+   "pidstava": [
+    "1591-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20221010",
+   "data": "10.10.2022",
+   "umovna": false,
+   "data_na_saiti": "10.10.2022",
+   "opys": "Редакція, підстава - 2518-IX",
+   "pidstava": [
+    "2518-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20221119",
+   "data": "19.11.2022",
+   "umovna": false,
+   "data_na_saiti": "19.11.2022",
+   "opys": "Редакція, підстава - 2529-IX",
+   "pidstava": [
+    "2529-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "30000101",
+   "data": null,
+   "umovna": true,
+   "data_na_saiti": "з дня набрання чинності законом України про внесення змін до Податкового кодексу України щодо особливостей оподаткування операцій з віртуальними активами",
+   "opys": "Редакція, підстава - 2074-IX",
+   "pidstava": [
+    "2074-IX"
+   ],
+   "tekst": true
+  }
+ ],
+ "podii": [
+  {
+   "data": "01.10.1991",
+   "opys": "Введення в дію, підстава - 1024-XII Стан: Чинний"
+  },
+  {
+   "data": "10.11.2011",
+   "opys": "Тлумачення, підстава - v015p710-11"
+  }
+ ],
+ "bez_redaktsii": false
+}

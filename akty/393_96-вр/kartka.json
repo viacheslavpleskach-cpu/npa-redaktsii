@@ -1,0 +1,284 @@
+{
+ "nreg": "393/96-вр",
+ "nazva": "Про звернення громадян",
+ "stan": "Чинний",
+ "rezhym": "povna",
+ "dzherelo": "https://zakon.rada.gov.ua/laws/show/393/96-вр",
+ "perevireno": "2026-11-21T20:31:51.730Z",
+ "redaktsii": [
+  {
+   "ed": "19961002",
+   "data": "02.10.1996",
+   "umovna": false,
+   "data_na_saiti": "02.10.1996",
+   "opys": "Прийняття Верховна Рада України; Закон № 393/96-ВР",
+   "pidstava": [],
+   "tekst": true
+  },
+  {
+   "ed": "19990602",
+   "data": "02.06.1999",
+   "umovna": false,
+   "data_na_saiti": "02.06.1999",
+   "opys": "Редакція, підстава - 653-XIV",
+   "pidstava": [
+    "653-XIV"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20040106",
+   "data": "06.01.2004",
+   "umovna": false,
+   "data_na_saiti": "06.01.2004",
+   "opys": "Редакція, підстава - 1294-IV",
+   "pidstava": [
+    "1294-IV"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20050209",
+   "data": "09.02.2005",
+   "umovna": false,
+   "data_na_saiti": "09.02.2005",
+   "opys": "Редакція, підстава - 2384-IV",
+   "pidstava": [
+    "2384-IV"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20090611",
+   "data": "11.06.2009",
+   "umovna": false,
+   "data_na_saiti": "11.06.2009",
+   "opys": "Редакція, підстава - 1254-VI",
+   "pidstava": [
+    "1254-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20111231",
+   "data": "31.12.2011",
+   "umovna": false,
+   "data_na_saiti": "31.12.2011",
+   "opys": "Редакція, підстава - 4054-VI",
+   "pidstava": [
+    "4054-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20120921",
+   "data": "21.09.2012",
+   "umovna": false,
+   "data_na_saiti": "21.09.2012",
+   "opys": "Редакція, підстава - 4452-VI",
+   "pidstava": [
+    "4452-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20121129",
+   "data": "29.11.2012",
+   "umovna": false,
+   "data_na_saiti": "29.11.2012",
+   "opys": "Редакція, підстава - 5477-VI",
+   "pidstava": [
+    "5477-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20130609",
+   "data": "09.06.2013",
+   "umovna": false,
+   "data_na_saiti": "09.06.2013",
+   "opys": "Редакція, підстава - 245-VII",
+   "pidstava": [
+    "245-VII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20140604",
+   "data": "04.06.2014",
+   "umovna": false,
+   "data_na_saiti": "04.06.2014",
+   "opys": "Редакція, підстава - 1261-VII",
+   "pidstava": [
+    "1261-VII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20141026",
+   "data": "26.10.2014",
+   "umovna": false,
+   "data_na_saiti": "26.10.2014",
+   "opys": "Редакція, підстава - 1697-VII",
+   "pidstava": [
+    "1697-VII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20150828",
+   "data": "28.08.2015",
+   "umovna": false,
+   "data_na_saiti": "28.08.2015",
+   "opys": "Редакція, підстава - 577-VIII",
+   "pidstava": [
+    "577-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20160101",
+   "data": "01.01.2016",
+   "umovna": false,
+   "data_na_saiti": "01.01.2016",
+   "opys": "Редакція, підстава - 834-VIII, 835-VIII",
+   "pidstava": [
+    "834-VIII",
+    "835-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20161005",
+   "data": "05.10.2016",
+   "umovna": false,
+   "data_na_saiti": "05.10.2016",
+   "opys": "Редакція, підстава - 1404-VIII",
+   "pidstava": [
+    "1404-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20180725",
+   "data": "25.07.2018",
+   "umovna": false,
+   "data_na_saiti": "25.07.2018",
+   "opys": "Редакція, підстава - 2443-VIII",
+   "pidstava": [
+    "2443-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20190716",
+   "data": "16.07.2019",
+   "umovna": false,
+   "data_na_saiti": "16.07.2019",
+   "opys": "Редакція, підстава - 2704-VIII",
+   "pidstava": [
+    "2704-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200101",
+   "data": "01.01.2020",
+   "umovna": false,
+   "data_na_saiti": "01.01.2020",
+   "opys": "Редакція, підстава - 198-IX",
+   "pidstava": [
+    "198-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20220101",
+   "data": "01.01.2022",
+   "umovna": false,
+   "data_na_saiti": "01.01.2022",
+   "opys": "Редакція, підстава - 1089-IX",
+   "pidstava": [
+    "1089-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230331",
+   "data": "31.03.2023",
+   "umovna": false,
+   "data_na_saiti": "31.03.2023",
+   "opys": "Редакція, підстава - 2849-IX",
+   "pidstava": [
+    "2849-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230803",
+   "data": "03.08.2023",
+   "umovna": false,
+   "data_na_saiti": "03.08.2023",
+   "opys": "Редакція, підстава - 3022-IX",
+   "pidstava": [
+    "3022-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230907",
+   "data": "07.09.2023",
+   "umovna": false,
+   "data_na_saiti": "07.09.2023",
+   "opys": "Редакція, підстава - 3302-IX",
+   "pidstava": [
+    "3302-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20231215",
+   "data": "15.12.2023",
+   "umovna": false,
+   "data_na_saiti": "15.12.2023",
+   "opys": "Редакція, підстава - 2073-IX",
+   "pidstava": [
+    "2073-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20231231",
+   "data": "31.12.2023",
+   "umovna": false,
+   "data_na_saiti": "31.12.2023",
+   "opys": "Редакція, підстава - 2801-IX",
+   "pidstava": [
+    "2801-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20260124",
+   "data": "24.01.2026",
+   "umovna": false,
+   "data_na_saiti": "24.01.2026",
+   "opys": "Редакція, підстава - 4603-IX",
+   "pidstava": [
+    "4603-IX"
+   ],
+   "tekst": true
+  }
+ ],
+ "podii": [
+  {
+   "data": "17.10.1996",
+   "opys": "Введення в дію, підстава - 394/96-ВР Стан: Чинний"
+  },
+  {
+   "data": "11.10.2018",
+   "opys": "Визнання неконституційними окремих положень, підстава - v008p710-18"
+  }
+ ],
+ "bez_redaktsii": false
+}

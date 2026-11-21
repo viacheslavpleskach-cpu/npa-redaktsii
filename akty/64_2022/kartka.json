@@ -1,0 +1,241 @@
+{
+ "nreg": "64/2022",
+ "nazva": "Про введення воєнного стану в Україні",
+ "stan": "Чинний",
+ "rezhym": "povna",
+ "dzherelo": "https://zakon.rada.gov.ua/laws/show/64/2022",
+ "perevireno": "2026-11-21T20:18:02.694Z",
+ "redaktsii": [
+  {
+   "ed": "20220224",
+   "data": "24.02.2022",
+   "umovna": false,
+   "data_na_saiti": "24.02.2022",
+   "opys": "Прийняття Президент України; Указ № 64/2022",
+   "pidstava": [],
+   "tekst": true
+  },
+  {
+   "ed": "20220318",
+   "data": "18.03.2022",
+   "umovna": false,
+   "data_na_saiti": "18.03.2022",
+   "opys": "Редакція, підстава - 133/2022",
+   "pidstava": [
+    "133/2022"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20220422",
+   "data": "22.04.2022",
+   "umovna": false,
+   "data_na_saiti": "22.04.2022",
+   "opys": "Редакція, підстава - 259/2022",
+   "pidstava": [
+    "259/2022"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20220523",
+   "data": "23.05.2022",
+   "umovna": false,
+   "data_na_saiti": "23.05.2022",
+   "opys": "Редакція, підстава - 341/2022",
+   "pidstava": [
+    "341/2022"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20220817",
+   "data": "17.08.2022",
+   "umovna": false,
+   "data_na_saiti": "17.08.2022",
+   "opys": "Редакція, підстава - 573/2022",
+   "pidstava": [
+    "573/2022"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20221118",
+   "data": "18.11.2022",
+   "umovna": false,
+   "data_na_saiti": "18.11.2022",
+   "opys": "Редакція, підстава - 757/2022",
+   "pidstava": [
+    "757/2022"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230214",
+   "data": "14.02.2023",
+   "umovna": false,
+   "data_na_saiti": "14.02.2023",
+   "opys": "Редакція, підстава - 58/2023",
+   "pidstava": [
+    "58/2023"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230519",
+   "data": "19.05.2023",
+   "umovna": false,
+   "data_na_saiti": "19.05.2023",
+   "opys": "Редакція, підстава - 254/2023",
+   "pidstava": [
+    "254/2023"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230817",
+   "data": "17.08.2023",
+   "umovna": false,
+   "data_na_saiti": "17.08.2023",
+   "opys": "Редакція, підстава - 451/2023",
+   "pidstava": [
+    "451/2023"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20231110",
+   "data": "10.11.2023",
+   "umovna": false,
+   "data_na_saiti": "10.11.2023",
+   "opys": "Редакція, підстава - 734/2023",
+   "pidstava": [
+    "734/2023"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20240213",
+   "data": "13.02.2024",
+   "umovna": false,
+   "data_na_saiti": "13.02.2024",
+   "opys": "Редакція, підстава - 49/2024",
+   "pidstava": [
+    "49/2024"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20240510",
+   "data": "10.05.2024",
+   "umovna": false,
+   "data_na_saiti": "10.05.2024",
+   "opys": "Редакція, підстава - 271/2024",
+   "pidstava": [
+    "271/2024"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20240808",
+   "data": "08.08.2024",
+   "umovna": false,
+   "data_na_saiti": "08.08.2024",
+   "opys": "Редакція, підстава - 469/2024",
+   "pidstava": [
+    "469/2024"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20241107",
+   "data": "07.11.2024",
+   "umovna": false,
+   "data_na_saiti": "07.11.2024",
+   "opys": "Редакція, підстава - 740/2024",
+   "pidstava": [
+    "740/2024"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20250206",
+   "data": "06.02.2025",
+   "umovna": false,
+   "data_na_saiti": "06.02.2025",
+   "opys": "Редакція, підстава - 26/2025",
+   "pidstava": [
+    "26/2025"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20250419",
+   "data": "19.04.2025",
+   "umovna": false,
+   "data_na_saiti": "19.04.2025",
+   "opys": "Редакція, підстава - 235/2025",
+   "pidstava": [
+    "235/2025"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20250726",
+   "data": "26.07.2025",
+   "umovna": false,
+   "data_na_saiti": "26.07.2025",
+   "opys": "Редакція, підстава - 478/2025",
+   "pidstava": [
+    "478/2025"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20251031",
+   "data": "31.10.2025",
+   "umovna": false,
+   "data_na_saiti": "31.10.2025",
+   "opys": "Редакція, підстава - 793/2025",
+   "pidstava": [
+    "793/2025"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20260128",
+   "data": "28.01.2026",
+   "umovna": false,
+   "data_na_saiti": "28.01.2026",
+   "opys": "Редакція, підстава - 40/2026",
+   "pidstava": [
+    "40/2026"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20260501",
+   "data": "01.05.2026",
+   "umovna": false,
+   "data_na_saiti": "01.05.2026",
+   "opys": "Редакція, підстава - 342/2026",
+   "pidstava": [
+    "342/2026"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20260725",
+   "data": "25.07.2026",
+   "umovna": false,
+   "data_na_saiti": "25.07.2026",
+   "opys": "Редакція, підстава - 596/2026",
+   "pidstava": [
+    "596/2026"
+   ],
+   "tekst": true
+  }
+ ],
+ "podii": [],
+ "bez_redaktsii": false
+}

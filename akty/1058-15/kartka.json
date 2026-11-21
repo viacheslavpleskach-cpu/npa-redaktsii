@@ -1,0 +1,1341 @@
+{
+ "nreg": "1058-15",
+ "nazva": "Про загальнообов'язкове державне пенсійне страхування",
+ "stan": "Чинний",
+ "rezhym": "povna",
+ "dzherelo": "https://zakon.rada.gov.ua/laws/show/1058-15",
+ "perevireno": "2026-11-21T21:00:05.879Z",
+ "redaktsii": [
+  {
+   "ed": "20030709",
+   "data": "09.07.2003",
+   "umovna": false,
+   "data_na_saiti": "09.07.2003",
+   "opys": "Прийняття Верховна Рада України; Закон № 1058-IV",
+   "pidstava": [],
+   "tekst": true
+  },
+  {
+   "ed": "20040101",
+   "data": "01.01.2004",
+   "umovna": false,
+   "data_na_saiti": "Редакція, підстава - 1344-IV",
+   "opys": "попередня редакція, 325 кб",
+   "pidstava": [],
+   "tekst": true
+  },
+  {
+   "ed": "20041124",
+   "data": "24.11.2004",
+   "umovna": false,
+   "data_na_saiti": "24.11.2004",
+   "opys": "Редакція, підстава - 2153-IV",
+   "pidstava": [
+    "2153-IV"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20050101",
+   "data": "01.01.2005",
+   "umovna": false,
+   "data_na_saiti": "01.01.2005",
+   "opys": "Редакція, підстава - 1878-IV, 2285-IV, 2287-IV",
+   "pidstava": [
+    "1878-IV",
+    "2285-IV",
+    "2287-IV"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20050112",
+   "data": "12.01.2005",
+   "umovna": false,
+   "data_na_saiti": "12.01.2005",
+   "opys": "Редакція, підстава - 2291-IV, 2505-IV",
+   "pidstava": [
+    "2291-IV",
+    "2505-IV"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20050127",
+   "data": "27.01.2005",
+   "umovna": false,
+   "data_na_saiti": "27.01.2005",
+   "opys": "Редакція, підстава - 2343-IV",
+   "pidstava": [
+    "2343-IV"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20050331",
+   "data": "31.03.2005",
+   "umovna": false,
+   "data_na_saiti": "31.03.2005",
+   "opys": "Редакція, підстава - 2505-IV",
+   "pidstava": [
+    "2505-IV"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20051213",
+   "data": "13.12.2005",
+   "umovna": false,
+   "data_na_saiti": "13.12.2005",
+   "opys": "Редакція, підстава - 3108-IV",
+   "pidstava": [
+    "3108-IV"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20060101",
+   "data": "01.01.2006",
+   "umovna": false,
+   "data_na_saiti": "01.01.2006",
+   "opys": "Редакція, підстава - 2613-IV, 2658-IV, 3057-IV, 3058-IV, 3235-IV",
+   "pidstava": [
+    "2613-IV",
+    "2658-IV",
+    "3057-IV",
+    "3058-IV",
+    "3235-IV"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20060208",
+   "data": "08.02.2006",
+   "umovna": false,
+   "data_na_saiti": "08.02.2006",
+   "opys": "Редакція, підстава - 3297-IV",
+   "pidstava": [
+    "3297-IV"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20060429",
+   "data": "29.04.2006",
+   "umovna": false,
+   "data_na_saiti": "29.04.2006",
+   "opys": "Редакція, підстава - 3591-IV",
+   "pidstava": [
+    "3591-IV"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20060817",
+   "data": "17.08.2006",
+   "umovna": false,
+   "data_na_saiti": "17.08.2006",
+   "opys": "Редакція, підстава - 32-V",
+   "pidstava": [
+    "32-V"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20060930",
+   "data": "30.09.2006",
+   "umovna": false,
+   "data_na_saiti": "30.09.2006",
+   "opys": "Редакція, підстава - 3456-IV",
+   "pidstava": [
+    "3456-IV"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20061123",
+   "data": "23.11.2006",
+   "umovna": false,
+   "data_na_saiti": "23.11.2006",
+   "opys": "Редакція, підстава - 67-V",
+   "pidstava": [
+    "67-V"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20061207",
+   "data": "07.12.2006",
+   "umovna": false,
+   "data_na_saiti": "07.12.2006",
+   "opys": "Редакція, підстава - 364-V",
+   "pidstava": [
+    "364-V"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20061229",
+   "data": "29.12.2006",
+   "umovna": false,
+   "data_na_saiti": "29.12.2006",
+   "opys": "Редакція, підстава - 436-V",
+   "pidstava": [
+    "436-V"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20070101",
+   "data": "01.01.2007",
+   "umovna": false,
+   "data_na_saiti": "01.01.2007",
+   "opys": "Редакція, підстава - 489-V",
+   "pidstava": [
+    "489-V"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20070412",
+   "data": "12.04.2007",
+   "umovna": false,
+   "data_na_saiti": "12.04.2007",
+   "opys": "Редакція, підстава - 827-V",
+   "pidstava": [
+    "827-V"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20070608",
+   "data": "08.06.2007",
+   "umovna": false,
+   "data_na_saiti": "08.06.2007",
+   "opys": "Редакція, підстава - 857-V, 996-V",
+   "pidstava": [
+    "857-V",
+    "996-V"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20070618",
+   "data": "18.06.2007",
+   "umovna": false,
+   "data_na_saiti": "18.06.2007",
+   "opys": "Редакція, підстава - v004p710-07",
+   "pidstava": [
+    "v004p710-07"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20070709",
+   "data": "09.07.2007",
+   "umovna": false,
+   "data_na_saiti": "09.07.2007",
+   "opys": "Редакція, підстава - v0a6p710-07",
+   "pidstava": [
+    "v0a6p710-07"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20080101",
+   "data": "01.01.2008",
+   "umovna": false,
+   "data_na_saiti": "01.01.2008",
+   "opys": "Редакція, підстава - 107-VI",
+   "pidstava": [
+    "107-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20080604",
+   "data": "04.06.2008",
+   "umovna": false,
+   "data_na_saiti": "04.06.2008",
+   "opys": "Редакція, підстава - 309-VI",
+   "pidstava": [
+    "309-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20080916",
+   "data": "16.09.2008",
+   "umovna": false,
+   "data_na_saiti": "16.09.2008",
+   "opys": "Редакція, підстава - 345-VI",
+   "pidstava": [
+    "345-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20081001",
+   "data": "01.10.2008",
+   "umovna": false,
+   "data_na_saiti": "01.10.2008",
+   "opys": "Редакція, підстава - 107-VI",
+   "pidstava": [
+    "107-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20081105",
+   "data": "05.11.2008",
+   "umovna": false,
+   "data_na_saiti": "05.11.2008",
+   "opys": "Редакція, підстава - 639-VI",
+   "pidstava": [
+    "639-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20090109",
+   "data": "09.01.2009",
+   "umovna": false,
+   "data_na_saiti": "09.01.2009",
+   "opys": "Редакція, підстава - 795-VI",
+   "pidstava": [
+    "795-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20090113",
+   "data": "13.01.2009",
+   "umovna": false,
+   "data_na_saiti": "13.01.2009",
+   "opys": "Редакція, підстава - 799-VI",
+   "pidstava": [
+    "799-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20090507",
+   "data": "07.05.2009",
+   "umovna": false,
+   "data_na_saiti": "07.05.2009",
+   "opys": "Редакція, підстава - 1276-VI",
+   "pidstava": [
+    "1276-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20090611",
+   "data": "11.06.2009",
+   "umovna": false,
+   "data_na_saiti": "11.06.2009",
+   "opys": "Редакція, підстава - 1074-VI",
+   "pidstava": [
+    "1074-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20090717",
+   "data": "17.07.2009",
+   "umovna": false,
+   "data_na_saiti": "17.07.2009",
+   "opys": "Редакція, підстава - 1543-VI",
+   "pidstava": [
+    "1543-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20090722",
+   "data": "22.07.2009",
+   "umovna": false,
+   "data_na_saiti": "22.07.2009",
+   "opys": "Редакція, підстава - 1564-VI",
+   "pidstava": [
+    "1564-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20100717",
+   "data": "17.07.2010",
+   "umovna": false,
+   "data_na_saiti": "17.07.2010",
+   "opys": "Редакція, підстава - 2461-VI",
+   "pidstava": [
+    "2461-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20100727",
+   "data": "27.07.2010",
+   "umovna": false,
+   "data_na_saiti": "27.07.2010",
+   "opys": "Редакція, підстава - 2388-VI",
+   "pidstava": [
+    "2388-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20101012",
+   "data": "12.10.2010",
+   "umovna": false,
+   "data_na_saiti": "12.10.2010",
+   "opys": "Редакція, підстава - 2508-VI",
+   "pidstava": [
+    "2508-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20110101",
+   "data": "01.01.2011",
+   "umovna": false,
+   "data_na_saiti": "01.01.2011",
+   "opys": "Редакція, підстава - 2464-VI, 2856-VI",
+   "pidstava": [
+    "2464-VI",
+    "2856-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20110115",
+   "data": "15.01.2011",
+   "umovna": false,
+   "data_na_saiti": "15.01.2011",
+   "opys": "Редакція, підстава - 2850-VI",
+   "pidstava": [
+    "2850-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20110209",
+   "data": "09.02.2011",
+   "umovna": false,
+   "data_na_saiti": "09.02.2011",
+   "opys": "Редакція, підстава - 2911-VI",
+   "pidstava": [
+    "2911-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20110806",
+   "data": "06.08.2011",
+   "umovna": false,
+   "data_na_saiti": "06.08.2011",
+   "opys": "Редакція, підстава - 3609-VI",
+   "pidstava": [
+    "3609-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20110807",
+   "data": "07.08.2011",
+   "umovna": false,
+   "data_na_saiti": "07.08.2011",
+   "opys": "Редакція, підстава - 3610-VI",
+   "pidstava": [
+    "3610-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20111001",
+   "data": "01.10.2011",
+   "umovna": false,
+   "data_na_saiti": "01.10.2011",
+   "opys": "Редакція, підстава - 3668-VI",
+   "pidstava": [
+    "3668-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20120101",
+   "data": "01.01.2012",
+   "umovna": false,
+   "data_na_saiti": "01.01.2012",
+   "opys": "Редакція, підстава - 3668-VI",
+   "pidstava": [
+    "3668-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20120613",
+   "data": "13.06.2012",
+   "umovna": false,
+   "data_na_saiti": "13.06.2012",
+   "opys": "Редакція, підстава - 4719-VI",
+   "pidstava": [
+    "4719-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20120617",
+   "data": "17.06.2012",
+   "umovna": false,
+   "data_na_saiti": "17.06.2012",
+   "opys": "Редакція, підстава - 4841-VI",
+   "pidstava": [
+    "4841-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20121030",
+   "data": "30.10.2012",
+   "umovna": false,
+   "data_na_saiti": "30.10.2012",
+   "opys": "Редакція, підстава - 5213-VI",
+   "pidstava": [
+    "5213-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20121206",
+   "data": "06.12.2012",
+   "umovna": false,
+   "data_na_saiti": "06.12.2012",
+   "opys": "Редакція, підстава - 5492-VI",
+   "pidstava": [
+    "5492-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20121209",
+   "data": "09.12.2012",
+   "umovna": false,
+   "data_na_saiti": "09.12.2012",
+   "opys": "Редакція, підстава - 5462-VI",
+   "pidstava": [
+    "5462-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20130428",
+   "data": "28.04.2013",
+   "umovna": false,
+   "data_na_saiti": "28.04.2013",
+   "opys": "Редакція, підстава - 184-VII",
+   "pidstava": [
+    "184-VII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20130701",
+   "data": "01.07.2013",
+   "umovna": false,
+   "data_na_saiti": "01.07.2013",
+   "opys": "Редакція, підстава - 231-VII",
+   "pidstava": [
+    "231-VII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20130811",
+   "data": "11.08.2013",
+   "umovna": false,
+   "data_na_saiti": "11.08.2013",
+   "opys": "Редакція, підстава - 406-VII",
+   "pidstava": [
+    "406-VII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20131011",
+   "data": "11.10.2013",
+   "umovna": false,
+   "data_na_saiti": "11.10.2013",
+   "opys": "Редакція, підстава - 5178-VI",
+   "pidstava": [
+    "5178-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20140401",
+   "data": "01.04.2014",
+   "umovna": false,
+   "data_na_saiti": "01.04.2014",
+   "opys": "Редакція, підстава - 1166-VII",
+   "pidstava": [
+    "1166-VII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20140419",
+   "data": "19.04.2014",
+   "umovna": false,
+   "data_na_saiti": "19.04.2014",
+   "opys": "Редакція, підстава - 1170-VII",
+   "pidstava": [
+    "1170-VII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20140707",
+   "data": "07.07.2014",
+   "umovna": false,
+   "data_na_saiti": "07.07.2014",
+   "opys": "Редакція, підстава - 1258-VII",
+   "pidstava": [
+    "1258-VII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20150101",
+   "data": "01.01.2015",
+   "umovna": false,
+   "data_na_saiti": "01.01.2015",
+   "opys": "Редакція, підстава - 76-VIII",
+   "pidstava": [
+    "76-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20150401",
+   "data": "01.04.2015",
+   "umovna": false,
+   "data_na_saiti": "01.04.2015",
+   "opys": "Редакція, підстава - 213-VIII",
+   "pidstava": [
+    "213-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20151219",
+   "data": "19.12.2015",
+   "umovna": false,
+   "data_na_saiti": "19.12.2015",
+   "opys": "Редакція, підстава - 804-VIII",
+   "pidstava": [
+    "804-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20151228",
+   "data": "28.12.2015",
+   "umovna": false,
+   "data_na_saiti": "28.12.2015",
+   "opys": "Редакція, підстава - 901-VIII",
+   "pidstava": [
+    "901-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20160101",
+   "data": "01.01.2016",
+   "umovna": false,
+   "data_na_saiti": "01.01.2016",
+   "opys": "Редакція, підстава - 614-VIII, 911-VIII",
+   "pidstava": [
+    "614-VIII",
+    "911-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20160313",
+   "data": "13.03.2016",
+   "umovna": false,
+   "data_na_saiti": "13.03.2016",
+   "opys": "Редакція, підстава - 1010-VIII",
+   "pidstava": [
+    "1010-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20160415",
+   "data": "15.04.2016",
+   "umovna": false,
+   "data_na_saiti": "15.04.2016",
+   "opys": "Редакція, підстава - 1043-VIII",
+   "pidstava": [
+    "1043-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20160512",
+   "data": "12.05.2016",
+   "umovna": false,
+   "data_na_saiti": "12.05.2016",
+   "opys": "Редакція, підстава - 1109-VIII, 1110-VIII",
+   "pidstava": [
+    "1109-VIII",
+    "1110-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20161008",
+   "data": "08.10.2016",
+   "umovna": false,
+   "data_na_saiti": "08.10.2016",
+   "opys": "Редакція, підстава - 1492-VIII",
+   "pidstava": [
+    "1492-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20161110",
+   "data": "10.11.2016",
+   "umovna": false,
+   "data_na_saiti": "10.11.2016",
+   "opys": "Редакція, підстава - 1692-VIII",
+   "pidstava": [
+    "1692-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20170101",
+   "data": "01.01.2017",
+   "umovna": false,
+   "data_na_saiti": "01.01.2017",
+   "opys": "Редакція, підстава - 1369-VIII, 1774-VIII",
+   "pidstava": [
+    "1369-VIII",
+    "1774-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20170206",
+   "data": "06.02.2017",
+   "umovna": false,
+   "data_na_saiti": "06.02.2017",
+   "opys": "Редакція, підстава - 1683-VIII",
+   "pidstava": [
+    "1683-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20171011",
+   "data": "11.10.2017",
+   "umovna": false,
+   "data_na_saiti": "11.10.2017",
+   "opys": "Редакція, підстава - 2148-VIII",
+   "pidstava": [
+    "2148-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20180101",
+   "data": "01.01.2018",
+   "umovna": false,
+   "data_na_saiti": "01.01.2018",
+   "opys": "Редакція, підстава - 2148-VIII",
+   "pidstava": [
+    "2148-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20180120",
+   "data": "20.01.2018",
+   "umovna": false,
+   "data_na_saiti": "20.01.2018",
+   "opys": "Редакція, підстава - 2249-VIII",
+   "pidstava": [
+    "2249-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20180221",
+   "data": "21.02.2018",
+   "umovna": false,
+   "data_na_saiti": "21.02.2018",
+   "opys": "Редакція, підстава - 2281-VIII",
+   "pidstava": [
+    "2281-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20180802",
+   "data": "02.08.2018",
+   "umovna": false,
+   "data_na_saiti": "02.08.2018",
+   "opys": "Редакція, підстава - 2505-VIII",
+   "pidstava": [
+    "2505-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20180831",
+   "data": "31.08.2018",
+   "umovna": false,
+   "data_na_saiti": "31.08.2018",
+   "opys": "Редакція, підстава - 2462-VIII",
+   "pidstava": [
+    "2462-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20181219",
+   "data": "19.12.2018",
+   "umovna": false,
+   "data_na_saiti": "19.12.2018",
+   "opys": "Редакція, підстава - 2449-VIII",
+   "pidstava": [
+    "2449-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20190101",
+   "data": "01.01.2019",
+   "umovna": false,
+   "data_na_saiti": "01.01.2019",
+   "opys": "Редакція, підстава - 2427-VIII, 2476-VIII",
+   "pidstava": [
+    "2427-VIII",
+    "2476-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20191221",
+   "data": "21.12.2019",
+   "umovna": false,
+   "data_na_saiti": "21.12.2019",
+   "opys": "Редакція, підстава - 324-IX",
+   "pidstava": [
+    "324-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200101",
+   "data": "01.01.2020",
+   "umovna": false,
+   "data_na_saiti": "01.01.2020",
+   "opys": "Редакція, підстава - 329-IX",
+   "pidstava": [
+    "329-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200213",
+   "data": "13.02.2020",
+   "umovna": false,
+   "data_na_saiti": "13.02.2020",
+   "opys": "Редакція, підстава - 440-IX",
+   "pidstava": [
+    "440-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200318",
+   "data": "18.03.2020",
+   "umovna": false,
+   "data_na_saiti": "18.03.2020",
+   "opys": "Редакція, підстава - 533-IX",
+   "pidstava": [
+    "533-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200320",
+   "data": "20.03.2020",
+   "umovna": false,
+   "data_na_saiti": "20.03.2020",
+   "opys": "Редакція, підстава - 524-IX",
+   "pidstava": [
+    "524-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200402",
+   "data": "02.04.2020",
+   "umovna": false,
+   "data_na_saiti": "02.04.2020",
+   "opys": "Редакція, підстава - 540-IX",
+   "pidstava": [
+    "540-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200529",
+   "data": "29.05.2020",
+   "umovna": false,
+   "data_na_saiti": "29.05.2020",
+   "opys": "Редакція, підстава - 591-IX",
+   "pidstava": [
+    "591-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200701",
+   "data": "01.07.2020",
+   "umovna": false,
+   "data_na_saiti": "01.07.2020",
+   "opys": "Редакція, підстава - 79-IX",
+   "pidstava": [
+    "79-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200703",
+   "data": "03.07.2020",
+   "umovna": false,
+   "data_na_saiti": "03.07.2020",
+   "opys": "Редакція, підстава - 720-IX",
+   "pidstava": [
+    "720-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20201025",
+   "data": "25.10.2020",
+   "umovna": false,
+   "data_na_saiti": "25.10.2020",
+   "opys": "Редакція, підстава - 931-IX",
+   "pidstava": [
+    "931-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20201210",
+   "data": "10.12.2020",
+   "umovna": false,
+   "data_na_saiti": "10.12.2020",
+   "opys": "Редакція, підстава - 1071-IX, 1072-IX",
+   "pidstava": [
+    "1071-IX",
+    "1072-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20210610",
+   "data": "10.06.2021",
+   "umovna": false,
+   "data_na_saiti": "10.06.2021",
+   "opys": "Редакція, підстава - 1217-IX",
+   "pidstava": [
+    "1217-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20210701",
+   "data": "01.07.2021",
+   "umovna": false,
+   "data_na_saiti": "01.07.2021",
+   "opys": "Редакція, підстава - 738-IX",
+   "pidstava": [
+    "738-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20210814",
+   "data": "14.08.2021",
+   "umovna": false,
+   "data_na_saiti": "14.08.2021",
+   "opys": "Редакція, підстава - 1667-IX",
+   "pidstava": [
+    "1667-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20211201",
+   "data": "01.12.2021",
+   "umovna": false,
+   "data_na_saiti": "01.12.2021",
+   "opys": "Редакція, підстава - 1871-IX",
+   "pidstava": [
+    "1871-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20220321",
+   "data": "21.03.2022",
+   "umovna": false,
+   "data_na_saiti": "21.03.2022",
+   "opys": "Редакція, підстава - 2121-IX",
+   "pidstava": [
+    "2121-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20220427",
+   "data": "27.04.2022",
+   "umovna": false,
+   "data_na_saiti": "27.04.2022",
+   "opys": "Редакція, підстава - 2191-IX",
+   "pidstava": [
+    "2191-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20220430",
+   "data": "30.04.2022",
+   "umovna": false,
+   "data_na_saiti": "30.04.2022",
+   "opys": "Редакція, підстава - 2040-IX",
+   "pidstava": [
+    "2040-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20220902",
+   "data": "02.09.2022",
+   "umovna": false,
+   "data_na_saiti": "02.09.2022",
+   "opys": "Редакція, підстава - 2506-IX",
+   "pidstava": [
+    "2506-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20221106",
+   "data": "06.11.2022",
+   "umovna": false,
+   "data_na_saiti": "06.11.2022",
+   "opys": "Редакція, підстава - 2682-IX",
+   "pidstava": [
+    "2682-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20221119",
+   "data": "19.11.2022",
+   "umovna": false,
+   "data_na_saiti": "19.11.2022",
+   "opys": "Редакція, підстава - 2010-IX",
+   "pidstava": [
+    "2010-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20221204",
+   "data": "04.12.2022",
+   "umovna": false,
+   "data_na_saiti": "04.12.2022",
+   "opys": "Редакція, підстава - 2734-IX",
+   "pidstava": [
+    "2734-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230101",
+   "data": "01.01.2023",
+   "umovna": false,
+   "data_na_saiti": "01.01.2023",
+   "opys": "Редакція, підстава - 2620-IX",
+   "pidstava": [
+    "2620-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230331",
+   "data": "31.03.2023",
+   "umovna": false,
+   "data_na_saiti": "31.03.2023",
+   "opys": "Редакція, підстава - 2849-IX",
+   "pidstava": [
+    "2849-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230415",
+   "data": "15.04.2023",
+   "umovna": false,
+   "data_na_saiti": "15.04.2023",
+   "opys": "Редакція, підстава - 2981-IX",
+   "pidstava": [
+    "2981-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230721",
+   "data": "21.07.2023",
+   "umovna": false,
+   "data_na_saiti": "21.07.2023",
+   "opys": "Редакція, підстава - 3201-IX",
+   "pidstava": [
+    "3201-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230907",
+   "data": "07.09.2023",
+   "umovna": false,
+   "data_na_saiti": "07.09.2023",
+   "opys": "Редакція, підстава - 3302-IX",
+   "pidstava": [
+    "3302-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20231224",
+   "data": "24.12.2023",
+   "umovna": false,
+   "data_na_saiti": "24.12.2023",
+   "opys": "Редакція, підстава - 3494-IX",
+   "pidstava": [
+    "3494-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20240101",
+   "data": "01.01.2024",
+   "umovna": false,
+   "data_na_saiti": "01.01.2024",
+   "opys": "Редакція, підстава - 1953-IX, 1909-IX, 3460-IX",
+   "pidstava": [
+    "1953-IX",
+    "1909-IX",
+    "3460-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20240504",
+   "data": "04.05.2024",
+   "umovna": false,
+   "data_na_saiti": "04.05.2024",
+   "opys": "Редакція, підстава - 3621-IX",
+   "pidstava": [
+    "3621-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20240623",
+   "data": "23.06.2024",
+   "umovna": false,
+   "data_na_saiti": "23.06.2024",
+   "opys": "Редакція, підстава - 3674-IX",
+   "pidstava": [
+    "3674-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20240809",
+   "data": "09.08.2024",
+   "umovna": false,
+   "data_na_saiti": "09.08.2024",
+   "opys": "Редакція, підстава - 3886-IX",
+   "pidstava": [
+    "3886-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20240824",
+   "data": "24.08.2024",
+   "umovna": false,
+   "data_na_saiti": "24.08.2024",
+   "opys": "Редакція, підстава - 3680-IX",
+   "pidstava": [
+    "3680-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20241115",
+   "data": "15.11.2024",
+   "umovna": false,
+   "data_na_saiti": "15.11.2024",
+   "opys": "Редакція, підстава - 4017-IX",
+   "pidstava": [
+    "4017-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20241219",
+   "data": "19.12.2024",
+   "umovna": false,
+   "data_na_saiti": "19.12.2024",
+   "opys": "Редакція, підстава - 4042-IX",
+   "pidstava": [
+    "4042-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20250101",
+   "data": "01.01.2025",
+   "umovna": false,
+   "data_na_saiti": "01.01.2025",
+   "opys": "Редакція, підстава - 4170-IX, 4059-IX",
+   "pidstava": [
+    "4170-IX",
+    "4059-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20250404",
+   "data": "04.04.2025",
+   "umovna": false,
+   "data_na_saiti": "04.04.2025",
+   "opys": "Редакція, підстава - 4157-IX, 4158-IX",
+   "pidstava": [
+    "4157-IX",
+    "4158-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20250907",
+   "data": "07.09.2025",
+   "umovna": false,
+   "data_na_saiti": "07.09.2025",
+   "opys": "Редакція, підстава - 4455-IX",
+   "pidstava": [
+    "4455-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20260101",
+   "data": "01.01.2026",
+   "umovna": false,
+   "data_na_saiti": "01.01.2026",
+   "opys": "Редакція, підстава - 4280-IX, 4219-IX, 4681-IX, 4695-IX",
+   "pidstava": [
+    "4280-IX",
+    "4219-IX",
+    "4681-IX",
+    "4695-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20260126",
+   "data": "26.01.2026",
+   "umovna": false,
+   "data_na_saiti": "26.01.2026",
+   "opys": "Редакція, підстава - 4697-IX",
+   "pidstava": [
+    "4697-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20260802",
+   "data": "02.08.2026",
+   "umovna": false,
+   "data_na_saiti": "02.08.2026",
+   "opys": "Редакція, підстава - 4851-IX",
+   "pidstava": [
+    "4851-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20270701",
+   "data": "01.07.2027",
+   "umovna": false,
+   "data_na_saiti": "01.07.2027",
+   "opys": "Редакція, підстава - 4985-IX",
+   "pidstava": [
+    "4985-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20280101",
+   "data": "01.01.2028",
+   "umovna": false,
+   "data_na_saiti": "01.01.2028",
+   "opys": "Редакція, підстава - 5012-IX",
+   "pidstava": [
+    "5012-IX"
+   ],
+   "tekst": true
+  }
+ ],
+ "podii": [
+  {
+   "data": "01.01.2004",
+   "opys": "Набрання чинності Стан: Чинний"
+  },
+  {
+   "data": "11.10.2005",
+   "opys": "Визнання неконституційними окремих положень, підстава - v008p710-05"
+  },
+  {
+   "data": "22.05.2008",
+   "opys": "Визнання неконституційними окремих положень, підстава - v010p710-08"
+  },
+  {
+   "data": "07.10.2009",
+   "opys": "Визнання неконституційними окремих положень, підстава - v025p710-09"
+  },
+  {
+   "data": "22.03.2023",
+   "opys": "Визнання неконституційними окремих положень, підстава - v003p710-23"
+  },
+  {
+   "data": "24.06.2026",
+   "opys": "Визнання неконституційними окремих положень, підстава - v005p710-26"
+  }
+ ],
+ "bez_redaktsii": false
+}

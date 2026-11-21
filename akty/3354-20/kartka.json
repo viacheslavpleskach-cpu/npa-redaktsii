@@ -1,0 +1,37 @@
+{
+ "nreg": "3354-20",
+ "nazva": "Про правотворчу діяльність",
+ "stan": "Чинний",
+ "rezhym": "povna",
+ "dzherelo": "https://zakon.rada.gov.ua/laws/show/3354-20",
+ "perevireno": "2026-11-21T21:08:58.725Z",
+ "redaktsii": [
+  {
+   "ed": "20230824",
+   "data": "24.08.2023",
+   "umovna": false,
+   "data_na_saiti": "24.08.2023",
+   "opys": "Прийняття Верховна Рада України; Закон № 3354-IX",
+   "pidstava": [],
+   "tekst": true
+  },
+  {
+   "ed": "20240918",
+   "data": "18.09.2024",
+   "umovna": false,
+   "data_na_saiti": "18.09.2024",
+   "opys": "Редакція, підстава - 3915-IX",
+   "pidstava": [
+    "3915-IX"
+   ],
+   "tekst": true
+  }
+ ],
+ "podii": [
+  {
+   "data": "20.09.2023",
+   "opys": "Набрання чинності Стан: Чинний"
+  }
+ ],
+ "bez_redaktsii": false
+}

@@ -1,0 +1,180 @@
+{
+ "nreg": "3262-15",
+ "nazva": "Про доступ до судових рішень",
+ "stan": "Чинний",
+ "rezhym": "povna",
+ "dzherelo": "https://zakon.rada.gov.ua/laws/show/3262-15",
+ "perevireno": "2026-11-21T20:13:16.686Z",
+ "redaktsii": [
+  {
+   "ed": "20051222",
+   "data": "22.12.2005",
+   "umovna": false,
+   "data_na_saiti": "22.12.2005",
+   "opys": "Прийняття Верховна Рада України; Закон № 3262-IV",
+   "pidstava": [],
+   "tekst": true
+  },
+  {
+   "ed": "20090507",
+   "data": "07.05.2009",
+   "umovna": false,
+   "data_na_saiti": "07.05.2009",
+   "opys": "Редакція, підстава - 1276-VI",
+   "pidstava": [
+    "1276-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20100803",
+   "data": "03.08.2010",
+   "umovna": false,
+   "data_na_saiti": "03.08.2010",
+   "opys": "Редакція, підстава - 2453-VI",
+   "pidstava": [
+    "2453-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20111101",
+   "data": "01.11.2011",
+   "umovna": false,
+   "data_na_saiti": "01.11.2011",
+   "opys": "Редакція, підстава - 3674-VI",
+   "pidstava": [
+    "3674-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20111113",
+   "data": "13.11.2011",
+   "umovna": false,
+   "data_na_saiti": "13.11.2011",
+   "opys": "Редакція, підстава - 3932-VI",
+   "pidstava": [
+    "3932-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20120615",
+   "data": "15.06.2012",
+   "umovna": false,
+   "data_na_saiti": "15.06.2012",
+   "opys": "Редакція, підстава - 4779-VI",
+   "pidstava": [
+    "4779-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20150328",
+   "data": "28.03.2015",
+   "umovna": false,
+   "data_na_saiti": "28.03.2015",
+   "opys": "Редакція, підстава - 192-VIII",
+   "pidstava": [
+    "192-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20170105",
+   "data": "05.01.2017",
+   "umovna": false,
+   "data_na_saiti": "05.01.2017",
+   "opys": "Редакція, підстава - 1798-VIII",
+   "pidstava": [
+    "1798-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20171215",
+   "data": "15.12.2017",
+   "umovna": false,
+   "data_na_saiti": "15.12.2017",
+   "opys": "Редакція, підстава - 2147а-VIII",
+   "pidstava": [
+    "2147а-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200428",
+   "data": "28.04.2020",
+   "umovna": false,
+   "data_na_saiti": "28.04.2020",
+   "opys": "Редакція, підстава - 361-IX",
+   "pidstava": [
+    "361-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20201024",
+   "data": "24.10.2020",
+   "umovna": false,
+   "data_na_saiti": "24.10.2020",
+   "opys": "Редакція, підстава - 912-IX",
+   "pidstava": [
+    "912-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20210423",
+   "data": "23.04.2021",
+   "umovna": false,
+   "data_na_saiti": "23.04.2021",
+   "opys": "Редакція, підстава - 1357-IX",
+   "pidstava": [
+    "1357-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230331",
+   "data": "31.03.2023",
+   "umovna": false,
+   "data_na_saiti": "31.03.2023",
+   "opys": "Редакція, підстава - 2849-IX",
+   "pidstava": [
+    "2849-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20240101",
+   "data": "01.01.2024",
+   "umovna": false,
+   "data_na_saiti": "01.01.2024",
+   "opys": "Редакція, підстава - 3295-IX",
+   "pidstava": [
+    "3295-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "30000101",
+   "data": null,
+   "umovna": true,
+   "data_na_saiti": "з дня початку функціонування підсистеми (модуля) Єдиної судової інформаційно-телекомунікаційної системи, що забезпечує функціонування Єдиного державного реєстру судових рішень",
+   "opys": "Редакція, підстава - 2147а-VIII",
+   "pidstava": [
+    "2147а-VIII"
+   ],
+   "tekst": true
+  }
+ ],
+ "podii": [
+  {
+   "data": "01.06.2006",
+   "opys": "Набрання чинності Стан: Чинний"
+  }
+ ],
+ "bez_redaktsii": false
+}

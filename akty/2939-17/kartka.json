@@ -1,0 +1,224 @@
+{
+ "nreg": "2939-17",
+ "nazva": "Про доступ до публічної інформації",
+ "stan": "Чинний",
+ "rezhym": "povna",
+ "dzherelo": "https://zakon.rada.gov.ua/laws/show/2939-17",
+ "perevireno": "2026-11-21T20:33:05.752Z",
+ "redaktsii": [
+  {
+   "ed": "20110113",
+   "data": "13.01.2011",
+   "umovna": false,
+   "data_na_saiti": "13.01.2011",
+   "opys": "Прийняття Верховна Рада України; Закон № 2939-VI",
+   "pidstava": [],
+   "tekst": true
+  },
+  {
+   "ed": "20120613",
+   "data": "13.06.2012",
+   "umovna": false,
+   "data_na_saiti": "13.06.2012",
+   "opys": "Редакція, підстава - 4711-VI",
+   "pidstava": [
+    "4711-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20121119",
+   "data": "19.11.2012",
+   "umovna": false,
+   "data_na_saiti": "19.11.2012",
+   "opys": "Редакція, підстава - 4652-VI",
+   "pidstava": [
+    "4652-VI"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20130609",
+   "data": "09.06.2013",
+   "umovna": false,
+   "data_na_saiti": "09.06.2013",
+   "opys": "Редакція, підстава - 224-VII",
+   "pidstava": [
+    "224-VII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20150426",
+   "data": "26.04.2015",
+   "umovna": false,
+   "data_na_saiti": "26.04.2015",
+   "opys": "Редакція, підстава - 1700-VII",
+   "pidstava": [
+    "1700-VII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20150501",
+   "data": "01.05.2015",
+   "umovna": false,
+   "data_na_saiti": "01.05.2015",
+   "opys": "Редакція, підстава - 319-VIII",
+   "pidstava": [
+    "319-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20191201",
+   "data": "01.12.2019",
+   "umovna": false,
+   "data_na_saiti": "01.12.2019",
+   "opys": "Редакція, підстава - 199-IX",
+   "pidstava": [
+    "199-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200703",
+   "data": "03.07.2020",
+   "umovna": false,
+   "data_na_saiti": "03.07.2020",
+   "opys": "Редакція, підстава - 720-IX",
+   "pidstava": [
+    "720-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200815",
+   "data": "15.08.2020",
+   "umovna": false,
+   "data_na_saiti": "15.08.2020",
+   "opys": "Редакція, підстава - 808-IX",
+   "pidstava": [
+    "808-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20201001",
+   "data": "01.10.2020",
+   "umovna": false,
+   "data_na_saiti": "01.10.2020",
+   "opys": "Редакція, підстава - 890-IX",
+   "pidstava": [
+    "890-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20201024",
+   "data": "24.10.2020",
+   "umovna": false,
+   "data_na_saiti": "24.10.2020",
+   "opys": "Редакція, підстава - 912-IX",
+   "pidstava": [
+    "912-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20211002",
+   "data": "02.10.2021",
+   "umovna": false,
+   "data_na_saiti": "02.10.2021",
+   "opys": "Редакція, підстава - 1723-IX",
+   "pidstava": [
+    "1723-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20220101",
+   "data": "01.01.2022",
+   "umovna": false,
+   "data_na_saiti": "01.01.2022",
+   "opys": "Редакція, підстава - 1914-IX",
+   "pidstava": [
+    "1914-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20220219",
+   "data": "19.02.2022",
+   "umovna": false,
+   "data_na_saiti": "19.02.2022",
+   "opys": "Редакція, підстава - 2024-IX",
+   "pidstava": [
+    "2024-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230101",
+   "data": "01.01.2023",
+   "umovna": false,
+   "data_na_saiti": "01.01.2023",
+   "opys": "Редакція, підстава - 2811-IX",
+   "pidstava": [
+    "2811-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230331",
+   "data": "31.03.2023",
+   "umovna": false,
+   "data_na_saiti": "31.03.2023",
+   "opys": "Редакція, підстава - 2849-IX",
+   "pidstava": [
+    "2849-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20231008",
+   "data": "08.10.2023",
+   "umovna": false,
+   "data_na_saiti": "08.10.2023",
+   "opys": "Редакція, підстава - 2614-IX",
+   "pidstava": [
+    "2614-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "30000101",
+   "data": null,
+   "umovna": true,
+   "data_na_saiti": "через шість місяців з дня скасування чи припинення воєнного стану",
+   "opys": "Редакція, підстава - 2973-IX",
+   "pidstava": [
+    "2973-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "30000102",
+   "data": null,
+   "umovna": true,
+   "data_na_saiti": "через один рік з дня припинення або скасування воєнного стану в Україні",
+   "opys": "Редакція, підстава - 3354-IX",
+   "pidstava": [
+    "3354-IX"
+   ],
+   "tekst": true
+  }
+ ],
+ "podii": [
+  {
+   "data": "09.05.2011",
+   "opys": "Набрання чинності Стан: Чинний"
+  }
+ ],
+ "bez_redaktsii": false
+}

@@ -1,0 +1,283 @@
+{
+ "nreg": "2704-19",
+ "nazva": "Про забезпечення функціонування української мови як державної",
+ "stan": "Чинний",
+ "rezhym": "povna",
+ "dzherelo": "https://zakon.rada.gov.ua/laws/show/2704-19",
+ "perevireno": "2026-11-21T20:47:47.711Z",
+ "redaktsii": [
+  {
+   "ed": "20190425",
+   "data": "25.04.2019",
+   "umovna": false,
+   "data_na_saiti": "25.04.2019",
+   "opys": "Прийняття Верховна Рада України; Закон № 2704-VIII",
+   "pidstava": [],
+   "tekst": true
+  },
+  {
+   "ed": "20200101",
+   "data": "01.01.2020",
+   "umovna": false,
+   "data_na_saiti": "01.01.2020",
+   "opys": "Редакція, підстава - 396-IX",
+   "pidstava": [
+    "396-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200318",
+   "data": "18.03.2020",
+   "umovna": false,
+   "data_na_saiti": "18.03.2020",
+   "opys": "Редакція, підстава - 531-IX",
+   "pidstava": [
+    "531-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200419",
+   "data": "19.04.2020",
+   "umovna": false,
+   "data_na_saiti": "19.04.2020",
+   "opys": "Редакція, підстава - 114-IX",
+   "pidstava": [
+    "114-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200911",
+   "data": "11.09.2020",
+   "umovna": false,
+   "data_na_saiti": "11.09.2020",
+   "opys": "Редакція, підстава - 113-IX",
+   "pidstava": [
+    "113-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20220101",
+   "data": "01.01.2022",
+   "umovna": false,
+   "data_na_saiti": "01.01.2022",
+   "opys": "Редакція, підстава - 1089-IX",
+   "pidstava": [
+    "1089-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20220507",
+   "data": "07.05.2022",
+   "umovna": false,
+   "data_na_saiti": "07.05.2022",
+   "opys": "Редакція, підстава - 2229-IX",
+   "pidstava": [
+    "2229-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20221223",
+   "data": "23.12.2022",
+   "umovna": false,
+   "data_na_saiti": "23.12.2022",
+   "opys": "Редакція, підстава - 2846-IX",
+   "pidstava": [
+    "2846-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230205",
+   "data": "05.02.2023",
+   "umovna": false,
+   "data_na_saiti": "05.02.2023",
+   "opys": "Редакція, підстава - 2869-IX",
+   "pidstava": [
+    "2869-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230331",
+   "data": "31.03.2023",
+   "umovna": false,
+   "data_na_saiti": "31.03.2023",
+   "opys": "Редакція, підстава - 2849-IX",
+   "pidstava": [
+    "2849-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230525",
+   "data": "25.05.2023",
+   "umovna": false,
+   "data_na_saiti": "25.05.2023",
+   "opys": "Редакція, підстава - 2722-IX",
+   "pidstava": [
+    "2722-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230625",
+   "data": "25.06.2023",
+   "umovna": false,
+   "data_na_saiti": "25.06.2023",
+   "opys": "Редакція, підстава - 2309-IX",
+   "pidstava": [
+    "2309-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20231027",
+   "data": "27.10.2023",
+   "umovna": false,
+   "data_na_saiti": "27.10.2023",
+   "opys": "Редакція, підстава - 2996-IX",
+   "pidstava": [
+    "2996-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20231210",
+   "data": "10.12.2023",
+   "umovna": false,
+   "data_na_saiti": "10.12.2023",
+   "opys": "Редакція, підстава - 3504-IX",
+   "pidstava": [
+    "3504-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20231231",
+   "data": "31.12.2023",
+   "umovna": false,
+   "data_na_saiti": "31.12.2023",
+   "opys": "Редакція, підстава - 2801-IX",
+   "pidstava": [
+    "2801-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20240627",
+   "data": "27.06.2024",
+   "umovna": false,
+   "data_na_saiti": "27.06.2024",
+   "opys": "Редакція, підстава - 3760-IX",
+   "pidstava": [
+    "3760-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20241115",
+   "data": "15.11.2024",
+   "umovna": false,
+   "data_na_saiti": "15.11.2024",
+   "opys": "Редакція, підстава - 4017-IX",
+   "pidstava": [
+    "4017-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20250101",
+   "data": "01.01.2025",
+   "umovna": false,
+   "data_na_saiti": "01.01.2025",
+   "opys": "Редакція, підстава - 3788-IX",
+   "pidstava": [
+    "3788-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20250828",
+   "data": "28.08.2025",
+   "umovna": false,
+   "data_na_saiti": "28.08.2025",
+   "opys": "Редакція, підстава - 4196-IX",
+   "pidstava": [
+    "4196-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20250912",
+   "data": "12.09.2025",
+   "umovna": false,
+   "data_na_saiti": "12.09.2025",
+   "opys": "Редакція, підстава - 4574-IX",
+   "pidstava": [
+    "4574-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20260116",
+   "data": "16.01.2026",
+   "umovna": false,
+   "data_na_saiti": "16.01.2026",
+   "opys": "Редакція, підстава - 4502-IX",
+   "pidstava": [
+    "4502-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20260627",
+   "data": "27.06.2026",
+   "umovna": false,
+   "data_na_saiti": "27.06.2026",
+   "opys": "Редакція, підстава - 3760-IX",
+   "pidstava": [
+    "3760-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "30000101",
+   "data": null,
+   "umovna": true,
+   "data_na_saiti": "з дня припинення чи скасування воєнного стану",
+   "opys": "Редакція, підстава - 3153-IX",
+   "pidstava": [
+    "3153-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "30000102",
+   "data": null,
+   "umovna": true,
+   "data_na_saiti": "не раніше ніж через шість місяців з дня припинення або скасування воєнного стану",
+   "opys": "Редакція, підстава - 3077-IX",
+   "pidstava": [
+    "3077-IX"
+   ],
+   "tekst": true
+  }
+ ],
+ "podii": [
+  {
+   "data": "16.07.2019",
+   "opys": "Набрання чинності Стан: Чинний"
+  },
+  {
+   "data": "14.07.2021",
+   "opys": "Визнання конституційним, підстава - v001p710-21"
+  }
+ ],
+ "bez_redaktsii": false
+}

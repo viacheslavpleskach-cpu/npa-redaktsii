@@ -1,0 +1,181 @@
+{
+ "nreg": "5076-17",
+ "nazva": "Про адвокатуру та адвокатську діяльність",
+ "stan": "Чинний",
+ "rezhym": "povna",
+ "dzherelo": "https://zakon.rada.gov.ua/laws/show/5076-17",
+ "perevireno": "2026-11-21T20:17:07.657Z",
+ "redaktsii": [
+  {
+   "ed": "20120705",
+   "data": "05.07.2012",
+   "umovna": false,
+   "data_na_saiti": "05.07.2012",
+   "opys": "Прийняття Верховна Рада України; Закон № 5076-VI",
+   "pidstava": [],
+   "tekst": true
+  },
+  {
+   "ed": "20150206",
+   "data": "06.02.2015",
+   "umovna": false,
+   "data_na_saiti": "06.02.2015",
+   "opys": "Редакція, підстава - 1702-VII",
+   "pidstava": [
+    "1702-VII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20161005",
+   "data": "05.10.2016",
+   "umovna": false,
+   "data_na_saiti": "05.10.2016",
+   "opys": "Редакція, підстава - 1404-VIII",
+   "pidstava": [
+    "1404-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20170101",
+   "data": "01.01.2017",
+   "umovna": false,
+   "data_na_saiti": "01.01.2017",
+   "opys": "Редакція, підстава - 1791-VIII",
+   "pidstava": [
+    "1791-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20170105",
+   "data": "05.01.2017",
+   "umovna": false,
+   "data_na_saiti": "05.01.2017",
+   "opys": "Редакція, підстава - 1798-VIII",
+   "pidstava": [
+    "1798-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200101",
+   "data": "01.01.2020",
+   "umovna": false,
+   "data_na_saiti": "01.01.2020",
+   "opys": "Редакція, підстава - 198-IX, 2671-VIII",
+   "pidstava": [
+    "198-IX",
+    "2671-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200320",
+   "data": "20.03.2020",
+   "umovna": false,
+   "data_na_saiti": "20.03.2020",
+   "opys": "Редакція, підстава - 524-IX",
+   "pidstava": [
+    "524-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20200703",
+   "data": "03.07.2020",
+   "umovna": false,
+   "data_na_saiti": "03.07.2020",
+   "opys": "Редакція, підстава - 720-IX",
+   "pidstava": [
+    "720-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20210716",
+   "data": "16.07.2021",
+   "umovna": false,
+   "data_na_saiti": "16.07.2021",
+   "opys": "Редакція, підстава - 2704-VIII",
+   "pidstava": [
+    "2704-VIII"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20221229",
+   "data": "29.12.2022",
+   "umovna": false,
+   "data_na_saiti": "29.12.2022",
+   "opys": "Редакція, підстава - 2571-IX",
+   "pidstava": [
+    "2571-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230331",
+   "data": "31.03.2023",
+   "umovna": false,
+   "data_na_saiti": "31.03.2023",
+   "opys": "Редакція, підстава - 2849-IX",
+   "pidstava": [
+    "2849-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230428",
+   "data": "28.04.2023",
+   "umovna": false,
+   "data_na_saiti": "28.04.2023",
+   "opys": "Редакція, підстава - 2970-IX",
+   "pidstava": [
+    "2970-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20230803",
+   "data": "03.08.2023",
+   "umovna": false,
+   "data_na_saiti": "03.08.2023",
+   "opys": "Редакція, підстава - 3022-IX",
+   "pidstava": [
+    "3022-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20241115",
+   "data": "15.11.2024",
+   "umovna": false,
+   "data_na_saiti": "15.11.2024",
+   "opys": "Редакція, підстава - 4017-IX",
+   "pidstava": [
+    "4017-IX"
+   ],
+   "tekst": true
+  },
+  {
+   "ed": "20250901",
+   "data": "01.09.2025",
+   "umovna": false,
+   "data_na_saiti": "01.09.2025",
+   "opys": "Редакція, підстава - 3606-IX",
+   "pidstava": [
+    "3606-IX"
+   ],
+   "tekst": true
+  }
+ ],
+ "podii": [
+  {
+   "data": "15.08.2012",
+   "opys": "Набрання чинності Стан: Чинний"
+  }
+ ],
+ "bez_redaktsii": false
+}
