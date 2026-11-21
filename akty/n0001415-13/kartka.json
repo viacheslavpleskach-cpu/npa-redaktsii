@@ -2,9 +2,9 @@
  "nreg": "n0001415-13",
  "nazva": "Кодекс суддівської етики",
  "stan": "",
- "rezhym": "odyn",
+ "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/rada/show/n0001415-13",
- "perevireno": "2026-11-21T21:32:18.808Z",
+ "perevireno": "2026-11-21T22:36:51.170Z",
  "redaktsii": [
   {
    "ed": "20130222",
@@ -13,7 +13,7 @@
    "data_na_saiti": "22.02.2013",
    "opys": "Прийняття З'їзд суддів України; Рішення",
    "pidstava": [],
-   "tekst": false,
+   "tekst": true,
    "bez_posylannia": false
   },
   {
