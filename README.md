@@ -52,7 +52,7 @@ python3 skrypty/npa.py poshuk КПК "розумні строки" --na 01.03.20
 | `skrypty/npa.py` | інструмент для роботи з архівом |
 | `skrypty/sync_api_v4_1.py` | синхронізація архіву через API data.rada.gov.ua: `probe`, `sync`, `verify`, `anomaly`, `status` |
 | `skrypty/patch_npa_v4_1.py` | патч `npa.py` v4.1 (уже застосовано; `--check`, `--revert`) |
-| `skrypty/zbir.js` | збирання карток і редакцій у браузері (сайт доступний лише з України); резервний спосіб |
+| `skrypty/zbir.js` | попередній спосіб: браузерне збирання сторінок сайту; для оновлення не використовується |
 | `skrypty/import.py` | розкладання зібраного `zbir.js` в архів і перевірки |
 | `skrypty/onovlennia.py` | попередній спосіб щотижневого оновлення (через `zbir.js`); замінено `sync_api_v4_1.py` |
 | `skrypty/novi_akty.py` | акти, згадані в нових висновках, яких немає в архіві (пропозиції) |
