@@ -37,8 +37,9 @@ COPY = BASE / "kopiia_v417"
 OUT = BASE / "out_v41" / "v417"
 NREG = "2343-12"
 OWNER_REPO = "viacheslavpleskach-cpu/npa-redaktsii"
-RAW = f"https://raw.githubusercontent.com/{OWNER_REPO}/main/"
-API = f"https://api.github.com/repos/{OWNER_REPO}/contents/"
+RAW_ROOT = f"https://raw.githubusercontent.com/{OWNER_REPO}/"
+API = f"https://api.github.com/repos/{OWNER_REPO}/"
+REF = "main"   # замінюється на SHA останнього commit (raw-кеш GitHub по гілці оновлюється із затримкою)
 ENV = dict(os.environ, PYTHONIOENCODING="utf-8", PYTHONUTF8="1")
 STEPS = []
 
@@ -54,26 +55,29 @@ def get(url: str) -> bytes:
 
 def fetch_dir(rel: str) -> None:
     """Завантажує всі файли теки репозиторію (через GitHub contents API) у COPY/rel."""
-    items = json.loads(get(API + rel + "?ref=main"))
+    items = json.loads(get(API + "contents/" + rel + "?ref=" + REF))
     for it in items:
         if it["type"] == "dir":
             fetch_dir(it["path"])
         elif it["type"] == "file":
             dst = COPY / it["path"]
             dst.parent.mkdir(parents=True, exist_ok=True)
-            dst.write_bytes(get(RAW + it["path"]))
+            dst.write_bytes(get(RAW_ROOT + REF + "/" + it["path"]))
 
 
 def make_copy(info) -> None:
+    global REF
+    REF = json.loads(get(API + "commits/main"))["sha"]
+    info["commit"] = REF
     shutil.rmtree(COPY, ignore_errors=True)
     COPY.mkdir(parents=True)
     print(f"Створюю робочу копію {COPY} з GitHub (лише {NREG}, скрипти й тести)…")
     for rel in ("perelik_aktiv.csv", "README.md"):
-        (COPY / rel).write_bytes(get(RAW + rel))
+        (COPY / rel).write_bytes(get(RAW_ROOT + REF + "/" + rel))
     for rel in ("skrypty", "tests", f"akty/{NREG}"):
         fetch_dir(rel)
     (COPY / "dani").mkdir(exist_ok=True)
-    info["copied_from"] = f"GitHub {OWNER_REPO}@main: perelik, skrypty, tests, akty/{NREG}"
+    info["copied_from"] = f"GitHub {OWNER_REPO}@{REF[:7]}: perelik, skrypty, tests, akty/{NREG}"
     info["texts_2343_12"] = len(list((COPY / "akty" / NREG / "red").glob("*.txt")))
 
 
