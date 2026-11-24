@@ -18,13 +18,11 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "verified",
+   "text_status": "legacy_unverified",
    "bez_posylannia": false,
    "source": "api",
    "snapshot_only": false,
-   "sha256": "94cbd50ab1927d178bb36e0ad99b27cfbd2cdf8d37bda3ded9057ddbb860f100",
-   "document_date": "20120413",
-   "text_source": "txt-api"
+   "api_text_issue": "TXT API втрачає верхні індекси в посиланнях («2581» замість «258-1»); залишено текст браузерного імпорту (24.11.2026)"
   },
   {
    "ed": "20120815",
@@ -42,13 +40,11 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "verified",
+   "text_status": "legacy_unverified",
    "bez_posylannia": false,
    "source": "api",
    "snapshot_only": false,
-   "sha256": "4736c0249744207361d85aab6aa5d4b4e241b40272400645d17682c99876c155",
-   "document_date": "20120815",
-   "text_source": "txt-api"
+   "api_text_issue": "TXT API втрачає верхні індекси в посиланнях («2581» замість «258-1»); залишено текст браузерного імпорту (24.11.2026)"
   },
   {
    "ed": "20130811",
@@ -66,13 +62,11 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "verified",
+   "text_status": "legacy_unverified",
    "bez_posylannia": false,
    "source": "api",
    "snapshot_only": false,
-   "sha256": "96650e4c7103a1bc1f2cbc2cd66b63bca496907139380538199f2fd1ac829e41",
-   "document_date": "20130811",
-   "text_source": "txt-api"
+   "api_text_issue": "TXT API втрачає верхні індекси в посиланнях («2581» замість «258-1»); залишено текст браузерного імпорту (24.11.2026)"
   },
   {
    "ed": "20131215",
@@ -90,13 +84,11 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "verified",
+   "text_status": "legacy_unverified",
    "bez_posylannia": false,
    "source": "api",
    "snapshot_only": false,
-   "sha256": "2a8e4f0a51fd029efb4c575686452f200f7deb7b7b320867f5000e326a626907",
-   "document_date": "20131215",
-   "text_source": "txt-api"
+   "api_text_issue": "TXT API втрачає верхні індекси в посиланнях («2581» замість «258-1»); залишено текст браузерного імпорту (24.11.2026)"
   },
   {
    "ed": "20140122",
@@ -182,13 +174,11 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "verified",
+   "text_status": "legacy_unverified",
    "bez_posylannia": false,
    "source": "api",
    "snapshot_only": false,
-   "sha256": "e95d472884250b99a26886c5bdfd121f68562e4a7b41522944060a4ac4a1b9b4",
-   "document_date": "20140302",
-   "text_source": "txt-api"
+   "api_text_issue": "TXT API містить главу 41-1 «Заочне кримінальне провадження», якої немає в цій редакції на сайті (звірено 24.11.2026), і втрачає верхні індекси; залишено текст браузерного імпорту (24.11.2026)"
   },
   {
    "ed": "20140427",
@@ -3168,8 +3158,8 @@
    "invalid_unique": 0
   },
   "texts": {
-   "verified": 61,
-   "legacy_unverified": 73,
+   "verified": 56,
+   "legacy_unverified": 78,
    "corrupt": 0,
    "date_mismatch": 0,
    "missing": 0,
