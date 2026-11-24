@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/rada/show/v0814750-19",
- "perevireno": "2026-11-21T21:32:24.723Z",
+ "perevireno": "2026-11-24T16:58:16+00:00",
  "redaktsii": [
   {
    "ed": "20190820",
@@ -141,5 +141,11 @@
    "opys": "Набрання чинності Стан: Чинний"
   }
  ],
- "bez_redaktsii": false
+ "bez_redaktsii": false,
+ "ruchna_perevirka": {
+  "data": "2026-11-24T16:58:16+00:00",
+  "sposib": "звірка картки zakon.rada.gov.ua/rada/card/v0814750-19 у браузері власника (Chrome)",
+  "rezultat": "нових редакцій немає; остання на сайті: 15.07.2024",
+  "chomu_vruchnu": "акт не обслуговується API data.rada.gov.ua"
+ }
 }

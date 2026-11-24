@@ -4,8 +4,14 @@
  "stan": "",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/rada/show/v0028750-23",
- "perevireno": "2026-11-21T20:39:19.274Z",
+ "perevireno": "2026-11-24T16:58:16+00:00",
  "redaktsii": [],
  "podii": [],
- "bez_redaktsii": true
+ "bez_redaktsii": true,
+ "ruchna_perevirka": {
+  "data": "2026-11-24T16:58:16+00:00",
+  "sposib": "звірка картки zakon.rada.gov.ua/rada/card/v0028750-23 у браузері власника (Chrome)",
+  "rezultat": "нових редакцій немає; остання на сайті: — (змін немає)",
+  "chomu_vruchnu": "акт не обслуговується API data.rada.gov.ua"
+ }
 }

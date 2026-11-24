@@ -4,7 +4,7 @@
  "stan": "",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/rada/show/v1200910-18",
- "perevireno": "2026-11-21T21:34:04.755Z",
+ "perevireno": "2026-11-24T16:58:16+00:00",
  "redaktsii": [
   {
    "ed": "20180419",
@@ -148,5 +148,11 @@
   }
  ],
  "podii": [],
- "bez_redaktsii": false
+ "bez_redaktsii": false,
+ "ruchna_perevirka": {
+  "data": "2026-11-24T16:58:16+00:00",
+  "sposib": "звірка картки zakon.rada.gov.ua/rada/card/v1200910-18 у браузері власника (Chrome)",
+  "rezultat": "нових редакцій немає; остання на сайті: 03.09.2026",
+  "chomu_vruchnu": "акт не обслуговується API data.rada.gov.ua"
+ }
 }

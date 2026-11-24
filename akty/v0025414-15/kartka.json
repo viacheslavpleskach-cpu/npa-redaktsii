@@ -4,7 +4,7 @@
  "stan": "Втратив чинність",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/rada/show/v0025414-15",
- "perevireno": "2026-11-21T21:33:16.057Z",
+ "perevireno": "2026-11-24T16:58:16+00:00",
  "redaktsii": [
   {
    "ed": "20150402",
@@ -57,5 +57,11 @@
    "opys": "Втрата чинності, підстава - vr007414-25 Стан: Втратив чинність поточна редакція, 139 кб відкрито зараз"
   }
  ],
- "bez_redaktsii": false
+ "bez_redaktsii": false,
+ "ruchna_perevirka": {
+  "data": "2026-11-24T16:58:16+00:00",
+  "sposib": "звірка картки zakon.rada.gov.ua/rada/card/v0025414-15 у браузері власника (Chrome)",
+  "rezultat": "нових редакцій немає; остання на сайті: 02.11.2023",
+  "chomu_vruchnu": "акт не обслуговується API data.rada.gov.ua"
+ }
 }
