@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/2704-19",
- "perevireno": "2026-11-21T21:35:36.675Z",
+ "perevireno": "2026-11-24T16:22:08+00:00",
  "redaktsii": [
   {
    "ed": "20190425",
@@ -12,9 +12,16 @@
    "umovna": false,
    "data_na_saiti": "25.04.2019",
    "opys": "Прийняття Верховна Рада України; Закон № 2704-VIII",
+   "podid": "4",
    "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20200101",
@@ -22,11 +29,20 @@
    "umovna": false,
    "data_na_saiti": "01.01.2020",
    "opys": "Редакція, підстава - 396-IX",
+   "podid": "0",
    "pidstava": [
     "396-IX"
    ],
+   "pidstava_nreg": [
+    "396-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20200318",
@@ -34,11 +50,20 @@
    "umovna": false,
    "data_na_saiti": "18.03.2020",
    "opys": "Редакція, підстава - 531-IX",
+   "podid": "0",
    "pidstava": [
     "531-IX"
    ],
+   "pidstava_nreg": [
+    "531-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20200419",
@@ -46,11 +71,20 @@
    "umovna": false,
    "data_na_saiti": "19.04.2020",
    "opys": "Редакція, підстава - 114-IX",
+   "podid": "0",
    "pidstava": [
     "114-IX"
    ],
+   "pidstava_nreg": [
+    "114-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20200911",
@@ -58,11 +92,20 @@
    "umovna": false,
    "data_na_saiti": "11.09.2020",
    "opys": "Редакція, підстава - 113-IX",
+   "podid": "0",
    "pidstava": [
     "113-IX"
    ],
+   "pidstava_nreg": [
+    "113-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20220101",
@@ -70,11 +113,20 @@
    "umovna": false,
    "data_na_saiti": "01.01.2022",
    "opys": "Редакція, підстава - 1089-IX",
+   "podid": "0",
    "pidstava": [
     "1089-IX"
    ],
+   "pidstava_nreg": [
+    "1089-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20220507",
@@ -82,11 +134,20 @@
    "umovna": false,
    "data_na_saiti": "07.05.2022",
    "opys": "Редакція, підстава - 2229-IX",
+   "podid": "0",
    "pidstava": [
     "2229-IX"
    ],
+   "pidstava_nreg": [
+    "2229-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20221223",
@@ -94,11 +155,20 @@
    "umovna": false,
    "data_na_saiti": "23.12.2022",
    "opys": "Редакція, підстава - 2846-IX",
+   "podid": "0",
    "pidstava": [
     "2846-IX"
    ],
+   "pidstava_nreg": [
+    "2846-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20230205",
@@ -106,11 +176,20 @@
    "umovna": false,
    "data_na_saiti": "05.02.2023",
    "opys": "Редакція, підстава - 2869-IX",
+   "podid": "0",
    "pidstava": [
     "2869-IX"
    ],
+   "pidstava_nreg": [
+    "2869-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20230331",
@@ -118,11 +197,20 @@
    "umovna": false,
    "data_na_saiti": "31.03.2023",
    "opys": "Редакція, підстава - 2849-IX",
+   "podid": "0",
    "pidstava": [
     "2849-IX"
    ],
+   "pidstava_nreg": [
+    "2849-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20230525",
@@ -130,11 +218,20 @@
    "umovna": false,
    "data_na_saiti": "25.05.2023",
    "opys": "Редакція, підстава - 2722-IX",
+   "podid": "0",
    "pidstava": [
     "2722-IX"
    ],
+   "pidstava_nreg": [
+    "2722-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20230625",
@@ -142,11 +239,20 @@
    "umovna": false,
    "data_na_saiti": "25.06.2023",
    "opys": "Редакція, підстава - 2309-IX",
+   "podid": "0",
    "pidstava": [
     "2309-IX"
    ],
+   "pidstava_nreg": [
+    "2309-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20231027",
@@ -154,11 +260,20 @@
    "umovna": false,
    "data_na_saiti": "27.10.2023",
    "opys": "Редакція, підстава - 2996-IX",
+   "podid": "0",
    "pidstava": [
     "2996-IX"
    ],
+   "pidstava_nreg": [
+    "2996-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20231210",
@@ -166,11 +281,20 @@
    "umovna": false,
    "data_na_saiti": "10.12.2023",
    "opys": "Редакція, підстава - 3504-IX",
+   "podid": "0",
    "pidstava": [
     "3504-IX"
    ],
+   "pidstava_nreg": [
+    "3504-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20231231",
@@ -178,11 +302,20 @@
    "umovna": false,
    "data_na_saiti": "31.12.2023",
    "opys": "Редакція, підстава - 2801-IX",
+   "podid": "0",
    "pidstava": [
     "2801-IX"
    ],
+   "pidstava_nreg": [
+    "2801-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20240627",
@@ -190,11 +323,20 @@
    "umovna": false,
    "data_na_saiti": "27.06.2024",
    "opys": "Редакція, підстава - 3760-IX",
+   "podid": "0",
    "pidstava": [
     "3760-IX"
    ],
+   "pidstava_nreg": [
+    "3760-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20241115",
@@ -202,11 +344,20 @@
    "umovna": false,
    "data_na_saiti": "15.11.2024",
    "opys": "Редакція, підстава - 4017-IX",
+   "podid": "0",
    "pidstava": [
     "4017-IX"
    ],
+   "pidstava_nreg": [
+    "4017-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20250101",
@@ -214,11 +365,20 @@
    "umovna": false,
    "data_na_saiti": "01.01.2025",
    "opys": "Редакція, підстава - 3788-IX",
+   "podid": "0",
    "pidstava": [
     "3788-IX"
    ],
+   "pidstava_nreg": [
+    "3788-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20250828",
@@ -226,11 +386,20 @@
    "umovna": false,
    "data_na_saiti": "28.08.2025",
    "opys": "Редакція, підстава - 4196-IX",
+   "podid": "0",
    "pidstava": [
     "4196-IX"
    ],
+   "pidstava_nreg": [
+    "4196-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20250912",
@@ -238,11 +407,20 @@
    "umovna": false,
    "data_na_saiti": "12.09.2025",
    "opys": "Редакція, підстава - 4574-IX",
+   "podid": "0",
    "pidstava": [
     "4574-IX"
    ],
+   "pidstava_nreg": [
+    "4574-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20260116",
@@ -250,11 +428,20 @@
    "umovna": false,
    "data_na_saiti": "16.01.2026",
    "opys": "Редакція, підстава - 4502-IX",
+   "podid": "0",
    "pidstava": [
     "4502-IX"
    ],
+   "pidstava_nreg": [
+    "4502-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20260627",
@@ -262,11 +449,20 @@
    "umovna": false,
    "data_na_saiti": "27.06.2026",
    "opys": "Редакція, підстава - 3760-IX",
+   "podid": "0",
    "pidstava": [
     "3760-IX"
    ],
+   "pidstava_nreg": [
+    "3760-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20261013",
@@ -274,11 +470,20 @@
    "umovna": false,
    "data_na_saiti": "13.10.2026",
    "opys": "Редакція, підстава - 5008-IX",
+   "podid": "0",
    "pidstava": [
     "5008-IX"
    ],
+   "pidstava_nreg": [
+    "5008-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": true
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "30000101",
@@ -286,11 +491,20 @@
    "umovna": true,
    "data_na_saiti": "з дня припинення чи скасування воєнного стану",
    "opys": "Редакція, підстава - 3153-IX",
+   "podid": "0",
    "pidstava": [
     "3153-IX"
    ],
+   "pidstava_nreg": [
+    "3153-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "з дня припинення чи скасування воєнного стану",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "30000102",
@@ -298,14 +512,31 @@
    "umovna": true,
    "data_na_saiti": "не раніше ніж через шість місяців з дня припинення або скасування воєнного стану",
    "opys": "Редакція, підстава - 3077-IX",
+   "podid": "0",
    "pidstava": [
     "3077-IX"
    ],
+   "pidstava_nreg": [
+    "3077-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "не раніше ніж через шість місяців з дня припинення або скасування воєнного стану",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   }
  ],
  "podii": [
+  {
+   "data": "25.04.2019",
+   "opys": "Прийняття",
+   "podid": "4",
+   "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": []
+  },
   {
    "data": "16.07.2019",
    "opys": "Набрання чинності Стан: Чинний"
@@ -315,5 +546,45 @@
    "opys": "Визнання конституційним, підстава - v001p710-21"
   }
  ],
- "bez_redaktsii": false
+ "bez_redaktsii": false,
+ "api": {
+  "datred": "20261013",
+  "edcnt": 25,
+  "orgdat": "20190425",
+  "orgnum": "2704-VIII",
+  "poddat": "20261013",
+  "status_id": "5",
+  "pidstava_nreg": [
+   "5008-20"
+  ],
+  "source": "json-card",
+  "history_complete": true,
+  "history_reason": "знайдено 25 з edcnt=25",
+  "edition_catalog_complete": true,
+  "unresolved_edition_ids": [],
+  "invalid_source_records": [],
+  "resolved_edition_ids": [],
+  "separate_edition_ids": [],
+  "counts": {
+   "edcnt": 25,
+   "json_valid_dates": 25,
+   "doc_update_added": [],
+   "datred": "20261013",
+   "editions_total": 25,
+   "invalid_unique": 0
+  },
+  "texts": {
+   "verified": 0,
+   "legacy_unverified": 23,
+   "corrupt": 0,
+   "date_mismatch": 0,
+   "missing": 0,
+   "expected": 23
+  },
+  "all_texts_verified": false,
+  "doc_update_modified": "2026-10-13T16:55:05",
+  "sync_version": "4.1.7",
+  "checked_at": "2026-11-24T16:22:08+00:00",
+  "snapshot_only": false
+ }
 }

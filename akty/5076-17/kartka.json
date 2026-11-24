@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/5076-17",
- "perevireno": "2026-11-21T21:34:02.674Z",
+ "perevireno": "2026-11-24T16:19:37+00:00",
  "redaktsii": [
   {
    "ed": "20120705",
@@ -12,9 +12,16 @@
    "umovna": false,
    "data_na_saiti": "05.07.2012",
    "opys": "Прийняття Верховна Рада України; Закон № 5076-VI",
+   "podid": "4",
    "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150206",
@@ -22,11 +29,20 @@
    "umovna": false,
    "data_na_saiti": "06.02.2015",
    "opys": "Редакція, підстава - 1702-VII",
+   "podid": "0",
    "pidstava": [
     "1702-VII"
    ],
+   "pidstava_nreg": [
+    "1702-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20161005",
@@ -34,11 +50,20 @@
    "umovna": false,
    "data_na_saiti": "05.10.2016",
    "opys": "Редакція, підстава - 1404-VIII",
+   "podid": "0",
    "pidstava": [
     "1404-VIII"
    ],
+   "pidstava_nreg": [
+    "1404-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20170101",
@@ -46,11 +71,20 @@
    "umovna": false,
    "data_na_saiti": "01.01.2017",
    "opys": "Редакція, підстава - 1791-VIII",
+   "podid": "0",
    "pidstava": [
     "1791-VIII"
    ],
+   "pidstava_nreg": [
+    "1791-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20170105",
@@ -58,11 +92,20 @@
    "umovna": false,
    "data_na_saiti": "05.01.2017",
    "opys": "Редакція, підстава - 1798-VIII",
+   "podid": "0",
    "pidstava": [
     "1798-VIII"
    ],
+   "pidstava_nreg": [
+    "1798-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20200101",
@@ -70,12 +113,22 @@
    "umovna": false,
    "data_na_saiti": "01.01.2020",
    "opys": "Редакція, підстава - 198-IX, 2671-VIII",
+   "podid": "0",
    "pidstava": [
     "198-IX",
     "2671-VIII"
    ],
+   "pidstava_nreg": [
+    "198-20",
+    "2671-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20200320",
@@ -83,11 +136,20 @@
    "umovna": false,
    "data_na_saiti": "20.03.2020",
    "opys": "Редакція, підстава - 524-IX",
+   "podid": "0",
    "pidstava": [
     "524-IX"
    ],
+   "pidstava_nreg": [
+    "524-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20200703",
@@ -95,11 +157,20 @@
    "umovna": false,
    "data_na_saiti": "03.07.2020",
    "opys": "Редакція, підстава - 720-IX",
+   "podid": "0",
    "pidstava": [
     "720-IX"
    ],
+   "pidstava_nreg": [
+    "720-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20210716",
@@ -107,11 +178,20 @@
    "umovna": false,
    "data_na_saiti": "16.07.2021",
    "opys": "Редакція, підстава - 2704-VIII",
+   "podid": "0",
    "pidstava": [
     "2704-VIII"
    ],
+   "pidstava_nreg": [
+    "2704-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20221229",
@@ -119,11 +199,20 @@
    "umovna": false,
    "data_na_saiti": "29.12.2022",
    "opys": "Редакція, підстава - 2571-IX",
+   "podid": "0",
    "pidstava": [
     "2571-IX"
    ],
+   "pidstava_nreg": [
+    "2571-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20230331",
@@ -131,11 +220,20 @@
    "umovna": false,
    "data_na_saiti": "31.03.2023",
    "opys": "Редакція, підстава - 2849-IX",
+   "podid": "0",
    "pidstava": [
     "2849-IX"
    ],
+   "pidstava_nreg": [
+    "2849-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20230428",
@@ -143,11 +241,20 @@
    "umovna": false,
    "data_na_saiti": "28.04.2023",
    "opys": "Редакція, підстава - 2970-IX",
+   "podid": "0",
    "pidstava": [
     "2970-IX"
    ],
+   "pidstava_nreg": [
+    "2970-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20230803",
@@ -155,11 +262,20 @@
    "umovna": false,
    "data_na_saiti": "03.08.2023",
    "opys": "Редакція, підстава - 3022-IX",
+   "podid": "0",
    "pidstava": [
     "3022-IX"
    ],
+   "pidstava_nreg": [
+    "3022-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20241115",
@@ -167,11 +283,20 @@
    "umovna": false,
    "data_na_saiti": "15.11.2024",
    "opys": "Редакція, підстава - 4017-IX",
+   "podid": "0",
    "pidstava": [
     "4017-IX"
    ],
+   "pidstava_nreg": [
+    "4017-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20250901",
@@ -179,14 +304,55 @@
    "umovna": false,
    "data_na_saiti": "01.09.2025",
    "opys": "Редакція, підстава - 3606-IX",
+   "podid": "0",
    "pidstava": [
     "3606-IX"
    ],
+   "pidstava_nreg": [
+    "3606-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
+  },
+  {
+   "ed": "20250910",
+   "data": "10.09.2025",
+   "umovna": false,
+   "data_na_saiti": "10.09.2025",
+   "opys": "Визнання конституційними окремих положень, підстава - 4-р(II)/2025",
+   "podid": "25",
+   "pidstava": [
+    "4-р(II)/2025"
+   ],
+   "pidstava_nreg": [
+    "v004p710-25"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
+   "tekst": true,
+   "text_status": "verified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false,
+   "sha256": "912dd96841b42df9e150c62ca4eff425ea0aab5461ce70933830c4911f92e6a2",
+   "document_date": "20250910",
+   "text_source": "txt-api"
   }
  ],
  "podii": [
+  {
+   "data": "05.07.2012",
+   "opys": "Прийняття",
+   "podid": "4",
+   "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": []
+  },
   {
    "data": "15.08.2012",
    "opys": "Набрання чинності Стан: Чинний"
@@ -196,5 +362,45 @@
    "opys": "Визнання конституційними окремих положень, підстава - v004p710-25 поточна редакція, 167 кб відкрито зараз"
   }
  ],
- "bez_redaktsii": false
+ "bez_redaktsii": false,
+ "api": {
+  "datred": "20250910",
+  "edcnt": 16,
+  "orgdat": "20120705",
+  "orgnum": "5076-VI",
+  "poddat": "20250910",
+  "status_id": "5",
+  "pidstava_nreg": [
+   "v004p710-25"
+  ],
+  "source": "json-card",
+  "history_complete": true,
+  "history_reason": "знайдено 16 з edcnt=16",
+  "edition_catalog_complete": true,
+  "unresolved_edition_ids": [],
+  "invalid_source_records": [],
+  "resolved_edition_ids": [],
+  "separate_edition_ids": [],
+  "counts": {
+   "edcnt": 16,
+   "json_valid_dates": 16,
+   "doc_update_added": [],
+   "datred": "20250910",
+   "editions_total": 16,
+   "invalid_unique": 0
+  },
+  "texts": {
+   "verified": 1,
+   "legacy_unverified": 15,
+   "corrupt": 0,
+   "date_mismatch": 0,
+   "missing": 0,
+   "expected": 16
+  },
+  "all_texts_verified": false,
+  "doc_update_modified": "2026-02-15T13:05:09",
+  "sync_version": "4.1.7",
+  "checked_at": "2026-11-24T16:19:37+00:00",
+  "snapshot_only": false
+ }
 }

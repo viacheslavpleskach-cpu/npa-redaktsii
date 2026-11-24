@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/3477-15",
- "perevireno": "2026-11-21T21:35:59.677Z",
+ "perevireno": "2026-11-24T16:23:32+00:00",
  "redaktsii": [
   {
    "ed": "20060223",
@@ -12,9 +12,16 @@
    "umovna": false,
    "data_na_saiti": "23.02.2006",
    "opys": "Прийняття Верховна Рада України; Закон № 3477-IV",
+   "podid": "4",
    "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110413",
@@ -22,11 +29,20 @@
    "umovna": false,
    "data_na_saiti": "13.04.2011",
    "opys": "Редакція, підстава - 3135-VI",
+   "podid": "0",
    "pidstava": [
     "3135-VI"
    ],
+   "pidstava_nreg": [
+    "3135-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20121202",
@@ -34,11 +50,20 @@
    "umovna": false,
    "data_na_saiti": "02.12.2012",
    "opys": "Редакція, підстава - 5463-VI",
+   "podid": "0",
    "pidstava": [
     "5463-VI"
    ],
+   "pidstava_nreg": [
+    "5463-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": true
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "30000101",
@@ -46,18 +71,75 @@
    "umovna": true,
    "data_na_saiti": "через 30 днів із дня опублікування ДСА України повідомлення про початок функціонування Єдиного державного реєстру виконавчих документів у газеті \"Голос України\"",
    "opys": "Редакція, підстава - 2147а-VIII",
+   "podid": "0",
    "pidstava": [
     "2147а-VIII"
    ],
+   "pidstava_nreg": [
+    "2147а-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "через 30 днів із дня опублікування ДСА України повідомлення про початок функціонування Єдиного державного реєстру виконавчих документів у газеті \"Голос України\"",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   }
  ],
  "podii": [
+  {
+   "data": "23.02.2006",
+   "opys": "Прийняття",
+   "podid": "4",
+   "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": []
+  },
   {
    "data": "30.03.2006",
    "opys": "Набрання чинності Стан: Чинний"
   }
  ],
- "bez_redaktsii": false
+ "bez_redaktsii": false,
+ "api": {
+  "datred": "20121202",
+  "edcnt": 4,
+  "orgdat": "20060223",
+  "orgnum": "3477-IV",
+  "poddat": "20121202",
+  "status_id": "5",
+  "pidstava_nreg": [
+   "5463-17"
+  ],
+  "source": "json-card",
+  "history_complete": true,
+  "history_reason": "знайдено 4 з edcnt=4",
+  "edition_catalog_complete": true,
+  "unresolved_edition_ids": [],
+  "invalid_source_records": [],
+  "resolved_edition_ids": [],
+  "separate_edition_ids": [],
+  "counts": {
+   "edcnt": 4,
+   "json_valid_dates": 4,
+   "doc_update_added": [],
+   "datred": "20121202",
+   "editions_total": 4,
+   "invalid_unique": 0
+  },
+  "texts": {
+   "verified": 0,
+   "legacy_unverified": 3,
+   "corrupt": 0,
+   "date_mismatch": 0,
+   "missing": 0,
+   "expected": 3
+  },
+  "all_texts_verified": false,
+  "doc_update_modified": "2025-05-30T11:25:06",
+  "sync_version": "4.1.7",
+  "checked_at": "2026-11-24T16:23:32+00:00",
+  "snapshot_only": false
+ }
 }

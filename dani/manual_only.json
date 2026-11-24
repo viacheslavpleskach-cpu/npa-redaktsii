@@ -1,0 +1,65 @@
+{
+ "opys": "Акти поза JSON/TXT API data.rada.gov.ua. Статус встановлено фактичною відповіддю API (HTTP 302/404 або картка без даних), а не відсутністю в doc-update. Оновлюються вручну власником архіву; автоматичне сканування zakon.rada.gov.ua заборонене robots.txt і не виконується.",
+ "akty": {
+  "n0001415-13": {
+   "nazva": "Кодекс суддівської етики",
+   "reason": "HTTP 302 → /laws/show/n0001415-13",
+   "http": [
+    "https://data.rada.gov.ua/laws/card/n0001415-13.json: HTTP 404",
+    "https://data.rada.gov.ua/rada/card/n0001415-13.json: HTTP 302 → /laws/show/n0001415-13"
+   ],
+   "checked_at": "2026-11-24T16:17:52+00:00",
+   "dzherelo": "https://zakon.rada.gov.ua/rada/show/n0001415-13"
+  },
+  "v0025414-15": {
+   "nazva": "Положення про автоматизовану систему документообігу суду (рішення РСУ від 02.04.2015 № 25)",
+   "reason": "HTTP 302 → /laws/show/v0025414-15",
+   "http": [
+    "https://data.rada.gov.ua/laws/card/v0025414-15.json: HTTP 404",
+    "https://data.rada.gov.ua/rada/card/v0025414-15.json: HTTP 302 → /laws/show/v0025414-15"
+   ],
+   "checked_at": "2026-11-24T16:18:43+00:00",
+   "dzherelo": "https://zakon.rada.gov.ua/rada/show/v0025414-15"
+  },
+  "v0028750-23": {
+   "nazva": "Порядок надсилання судових повісток, повідомлень і викликів учасникам судового процесу в електронній формі (наказ ДСА від 23.01.2023 № 28)",
+   "reason": "HTTP 302 → /laws/show/v0028750-23",
+   "http": [
+    "https://data.rada.gov.ua/laws/card/v0028750-23.json: HTTP 404",
+    "https://data.rada.gov.ua/rada/card/v0028750-23.json: HTTP 302 → /laws/show/v0028750-23"
+   ],
+   "checked_at": "2026-11-24T16:21:43+00:00",
+   "dzherelo": "https://zakon.rada.gov.ua/rada/show/v0028750-23"
+  },
+  "v0814750-19": {
+   "nazva": "Інструкція з діловодства в місцевих та апеляційних судах України (наказ ДСА від 20.08.2019 № 814)",
+   "reason": "HTTP 302 → /laws/show/v0814750-19",
+   "http": [
+    "https://data.rada.gov.ua/laws/card/v0814750-19.json: HTTP 404",
+    "https://data.rada.gov.ua/rada/card/v0814750-19.json: HTTP 302 → /laws/show/v0814750-19"
+   ],
+   "checked_at": "2026-11-24T16:18:05+00:00",
+   "dzherelo": "https://zakon.rada.gov.ua/rada/show/v0814750-19"
+  },
+  "v1200910-18": {
+   "nazva": "Порядок ведення Єдиного державного реєстру судових рішень (рішення ВРП від 19.04.2018 № 1200/0/15-18)",
+   "reason": "HTTP 302 → /laws/show/v1200910-18",
+   "http": [
+    "https://data.rada.gov.ua/laws/card/v1200910-18.json: HTTP 404",
+    "https://data.rada.gov.ua/rada/card/v1200910-18.json: HTTP 302 → /laws/show/v1200910-18"
+   ],
+   "checked_at": "2026-11-24T16:20:00+00:00",
+   "dzherelo": "https://zakon.rada.gov.ua/rada/show/v1200910-18"
+  },
+  "v1845910-21": {
+   "nazva": "Положення про порядок функціонування окремих підсистем (модулів) ЄСІТС (рішення ВРП від 17.08.2021 № 1845/0/15-21)",
+   "reason": "HTTP 302 → /laws/show/v1845910-21",
+   "http": [
+    "https://data.rada.gov.ua/laws/card/v1845910-21.json: HTTP 404",
+    "https://data.rada.gov.ua/rada/card/v1845910-21.json: HTTP 302 → /laws/show/v1845910-21"
+   ],
+   "checked_at": "2026-11-24T16:18:57+00:00",
+   "dzherelo": "https://zakon.rada.gov.ua/rada/show/v1845910-21"
+  }
+ }
+}

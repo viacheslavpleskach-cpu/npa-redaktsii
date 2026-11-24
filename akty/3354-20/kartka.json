@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/3354-20",
- "perevireno": "2026-11-21T21:35:56.682Z",
+ "perevireno": "2026-11-24T16:23:23+00:00",
  "redaktsii": [
   {
    "ed": "20230824",
@@ -12,9 +12,16 @@
    "umovna": false,
    "data_na_saiti": "24.08.2023",
    "opys": "Прийняття Верховна Рада України; Закон № 3354-IX",
+   "podid": "4",
    "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20240918",
@@ -22,11 +29,20 @@
    "umovna": false,
    "data_na_saiti": "18.09.2024",
    "opys": "Редакція, підстава - 3915-IX",
+   "podid": "0",
    "pidstava": [
     "3915-IX"
    ],
+   "pidstava_nreg": [
+    "3915-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20250419",
@@ -34,18 +50,75 @@
    "umovna": false,
    "data_na_saiti": "19.04.2025",
    "opys": "Редакція, підстава - 3624-IX",
+   "podid": "0",
    "pidstava": [
     "3624-IX"
    ],
+   "pidstava_nreg": [
+    "3624-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": true
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   }
  ],
  "podii": [
+  {
+   "data": "24.08.2023",
+   "opys": "Прийняття",
+   "podid": "4",
+   "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": []
+  },
   {
    "data": "20.09.2023",
    "opys": "Набрання чинності Стан: Чинний"
   }
  ],
- "bez_redaktsii": false
+ "bez_redaktsii": false,
+ "api": {
+  "datred": "20250419",
+  "edcnt": 3,
+  "orgdat": "20230824",
+  "orgnum": "3354-IX",
+  "poddat": "20250419",
+  "status_id": "5",
+  "pidstava_nreg": [
+   "3624-20"
+  ],
+  "source": "json-card",
+  "history_complete": true,
+  "history_reason": "знайдено 3 з edcnt=3",
+  "edition_catalog_complete": true,
+  "unresolved_edition_ids": [],
+  "invalid_source_records": [],
+  "resolved_edition_ids": [],
+  "separate_edition_ids": [],
+  "counts": {
+   "edcnt": 3,
+   "json_valid_dates": 3,
+   "doc_update_added": [],
+   "datred": "20250419",
+   "editions_total": 3,
+   "invalid_unique": 0
+  },
+  "texts": {
+   "verified": 0,
+   "legacy_unverified": 3,
+   "corrupt": 0,
+   "date_mismatch": 0,
+   "missing": 0,
+   "expected": 3
+  },
+  "all_texts_verified": false,
+  "doc_update_modified": "2025-05-28T16:45:05",
+  "sync_version": "4.1.7",
+  "checked_at": "2026-11-24T16:23:23+00:00",
+  "snapshot_only": false
+ }
 }

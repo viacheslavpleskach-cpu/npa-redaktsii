@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/254к/96-вр",
- "perevireno": "2026-11-21T21:31:21.388Z",
+ "perevireno": "2026-11-24T16:14:45+00:00",
  "redaktsii": [
   {
    "ed": "19960628",
@@ -12,9 +12,16 @@
    "umovna": false,
    "data_na_saiti": "28.06.1996",
    "opys": "Прийняття Верховна Рада України; Конституція України № 254к/96-ВР",
+   "podid": "4",
    "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20060101",
@@ -22,11 +29,20 @@
    "umovna": false,
    "data_na_saiti": "01.01.2006",
    "opys": "Редакція, підстава - 2222-IV",
+   "podid": "0",
    "pidstava": [
     "2222-IV"
    ],
+   "pidstava_nreg": [
+    "2222-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20100930",
@@ -34,11 +50,20 @@
    "umovna": false,
    "data_na_saiti": "30.09.2010",
    "opys": "Редакція, підстава - v020p710-10",
+   "podid": "0",
    "pidstava": [
     "v020p710-10"
    ],
+   "pidstava_nreg": [
+    "v020p710-10"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110204",
@@ -46,11 +71,20 @@
    "umovna": false,
    "data_na_saiti": "04.02.2011",
    "opys": "Редакція, підстава - 2952-VI",
+   "podid": "0",
    "pidstava": [
     "2952-VI"
    ],
+   "pidstava_nreg": [
+    "2952-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20131006",
@@ -58,11 +92,20 @@
    "umovna": false,
    "data_na_saiti": "06.10.2013",
    "opys": "Редакція, підстава - 586-VII",
+   "podid": "0",
    "pidstava": [
     "586-VII"
    ],
+   "pidstava_nreg": [
+    "586-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20140222",
@@ -70,9 +113,16 @@
    "umovna": false,
    "data_na_saiti": "22.02.2014",
    "opys": "Редакція",
+   "podid": "0",
    "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20140302",
@@ -80,11 +130,20 @@
    "umovna": false,
    "data_na_saiti": "02.03.2014",
    "opys": "Редакція, підстава - 742-VII",
+   "podid": "0",
    "pidstava": [
     "742-VII"
    ],
+   "pidstava_nreg": [
+    "742-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20160930",
@@ -92,11 +151,20 @@
    "umovna": false,
    "data_na_saiti": "30.09.2016",
    "opys": "Редакція, підстава - 1401-VIII",
+   "podid": "0",
    "pidstava": [
     "1401-VIII"
    ],
+   "pidstava_nreg": [
+    "1401-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20190221",
@@ -104,11 +172,20 @@
    "umovna": false,
    "data_na_saiti": "21.02.2019",
    "opys": "Редакція, підстава - 2680-VIII",
+   "podid": "0",
    "pidstava": [
     "2680-VIII"
    ],
+   "pidstava_nreg": [
+    "2680-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20200101",
@@ -116,14 +193,39 @@
    "umovna": false,
    "data_na_saiti": "01.01.2020",
    "opys": "Редакція, підстава - 27-IX",
+   "podid": "0",
    "pidstava": [
     "27-IX"
    ],
+   "pidstava_nreg": [
+    "27-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": true
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   }
  ],
  "podii": [
+  {
+   "data": "28.06.1996",
+   "opys": "Набрання чинності",
+   "podid": "1",
+   "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": []
+  },
+  {
+   "data": "28.06.1996",
+   "opys": "Прийняття",
+   "podid": "4",
+   "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": []
+  },
   {
    "data": "13.05.1997",
    "opys": "Тлумачення, підстава - v001p710-97"
@@ -385,5 +487,45 @@
    "opys": "Тлумачення, підстава - v011p710-19"
   }
  ],
- "bez_redaktsii": false
+ "bez_redaktsii": false,
+ "api": {
+  "datred": "20200101",
+  "edcnt": 10,
+  "orgdat": "19960628",
+  "orgnum": "254к/96-ВР",
+  "poddat": "20200101",
+  "status_id": "5",
+  "pidstava_nreg": [
+   "27-20"
+  ],
+  "source": "json-card",
+  "history_complete": true,
+  "history_reason": "знайдено 10 з edcnt=10",
+  "edition_catalog_complete": true,
+  "unresolved_edition_ids": [],
+  "invalid_source_records": [],
+  "resolved_edition_ids": [],
+  "separate_edition_ids": [],
+  "counts": {
+   "edcnt": 10,
+   "json_valid_dates": 10,
+   "doc_update_added": [],
+   "datred": "20200101",
+   "editions_total": 10,
+   "invalid_unique": 0
+  },
+  "texts": {
+   "verified": 0,
+   "legacy_unverified": 10,
+   "corrupt": 0,
+   "date_mismatch": 0,
+   "missing": 0,
+   "expected": 10
+  },
+  "all_texts_verified": false,
+  "doc_update_modified": "2026-02-13T23:50:09",
+  "sync_version": "4.1.7",
+  "checked_at": "2026-11-24T16:14:45+00:00",
+  "snapshot_only": false
+ }
 }

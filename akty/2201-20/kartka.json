@@ -4,8 +4,29 @@
  "stan": "Чинний",
  "rezhym": "odyn",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/2201-20",
- "perevireno": "2026-11-21T21:35:51.681Z",
- "redaktsii": [],
+ "perevireno": "2026-11-24T16:22:50+00:00",
+ "redaktsii": [
+  {
+   "ed": "20220414",
+   "data": "14.04.2022",
+   "umovna": false,
+   "data_na_saiti": "14.04.2022",
+   "opys": "Прийняття",
+   "podid": "4",
+   "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": [],
+   "comment": "",
+   "tekst": true,
+   "text_status": "verified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false,
+   "sha256": "9eafc264f32e83681a65206c736a5f6028b4575ea49d3493c6393915edfc4b47",
+   "document_date": "20220414",
+   "text_source": "txt-api"
+  }
+ ],
  "podii": [
   {
    "data": "14.04.2022",
@@ -16,5 +37,43 @@
    "opys": "Набрання чинності Стан: Чинний"
   }
  ],
- "bez_redaktsii": true
+ "bez_redaktsii": false,
+ "api": {
+  "datred": "20220414",
+  "edcnt": 1,
+  "orgdat": "20220414",
+  "orgnum": "2201-IX",
+  "poddat": "20220414",
+  "status_id": "5",
+  "pidstava_nreg": [],
+  "source": "json-card",
+  "history_complete": false,
+  "history_reason": "режим «odyn»: зберігається не вся історія редакцій",
+  "edition_catalog_complete": true,
+  "unresolved_edition_ids": [],
+  "invalid_source_records": [],
+  "resolved_edition_ids": [],
+  "separate_edition_ids": [],
+  "counts": {
+   "edcnt": 1,
+   "json_valid_dates": 1,
+   "doc_update_added": [],
+   "datred": "20220414",
+   "editions_total": 1,
+   "invalid_unique": 0
+  },
+  "texts": {
+   "verified": 1,
+   "legacy_unverified": 0,
+   "corrupt": 0,
+   "date_mismatch": 0,
+   "missing": 0,
+   "expected": 1
+  },
+  "all_texts_verified": true,
+  "doc_update_modified": "2024-03-19T16:50:06",
+  "sync_version": "4.1.7",
+  "checked_at": "2026-11-24T16:22:50+00:00",
+  "snapshot_only": false
+ }
 }

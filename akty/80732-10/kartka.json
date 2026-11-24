@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/80732-10",
- "perevireno": "2026-11-21T21:32:04.692Z",
+ "perevireno": "2026-11-24T16:16:46+00:00",
  "redaktsii": [
   {
    "ed": "19961001",
@@ -12,11 +12,20 @@
    "umovna": false,
    "data_na_saiti": "01.10.1996",
    "opys": "Редакція, підстава - 386/96-ВР",
+   "podid": "0",
    "pidstava": [
     "386/96-ВР"
    ],
+   "pidstava_nreg": [
+    "386/96-вр"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19961023",
@@ -24,11 +33,20 @@
    "umovna": false,
    "data_na_saiti": "23.10.1996",
    "opys": "Редакція, підстава - 398/96-ВР",
+   "podid": "0",
    "pidstava": [
     "398/96-ВР"
    ],
+   "pidstava_nreg": [
+    "398/96-вр"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19961126",
@@ -36,11 +54,20 @@
    "umovna": false,
    "data_na_saiti": "26.11.1996",
    "opys": "Редакція, підстава - 489/96-ВР",
+   "podid": "0",
    "pidstava": [
     "489/96-ВР"
    ],
+   "pidstava_nreg": [
+    "489/96-вр"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19961229",
@@ -48,11 +75,20 @@
    "umovna": false,
    "data_na_saiti": "29.12.1996",
    "opys": "Редакція, підстава - 497/96-ВР",
+   "podid": "0",
    "pidstava": [
     "497/96-ВР"
    ],
+   "pidstava_nreg": [
+    "497/96-вр"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19970211",
@@ -60,11 +96,20 @@
    "umovna": false,
    "data_na_saiti": "11.02.1997",
    "opys": "Редакція, підстава - 23/97-ВР",
+   "podid": "0",
    "pidstava": [
     "23/97-ВР"
    ],
+   "pidstava_nreg": [
+    "23/97-вр"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19970318",
@@ -72,11 +117,20 @@
    "umovna": false,
    "data_na_saiti": "18.03.1997",
    "opys": "Редакція, підстава - 55/97-ВР",
+   "podid": "0",
    "pidstava": [
     "55/97-ВР"
    ],
+   "pidstava_nreg": [
+    "55/97-вр"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19970620",
@@ -84,11 +138,20 @@
    "umovna": false,
    "data_na_saiti": "20.06.1997",
    "opys": "Редакція, підстава - 308/97-ВР",
+   "podid": "0",
    "pidstava": [
     "308/97-ВР"
    ],
+   "pidstava_nreg": [
+    "308/97-вр"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19971119",
@@ -96,11 +159,20 @@
    "umovna": false,
    "data_na_saiti": "19.11.1997",
    "opys": "Редакція, підстава - 651/97-ВР",
+   "podid": "0",
    "pidstava": [
     "651/97-ВР"
    ],
+   "pidstava_nreg": [
+    "651/97-вр"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19971216",
@@ -108,11 +180,20 @@
    "umovna": false,
    "data_na_saiti": "16.12.1997",
    "opys": "Редакція, підстава - 666/97-ВР",
+   "podid": "0",
    "pidstava": [
     "666/97-ВР"
    ],
+   "pidstava_nreg": [
+    "666/97-вр"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19980225",
@@ -120,11 +201,20 @@
    "umovna": false,
    "data_na_saiti": "25.02.1998",
    "opys": "Редакція, підстава - 73/98-ВР",
+   "podid": "0",
    "pidstava": [
     "73/98-ВР"
    ],
+   "pidstava_nreg": [
+    "73/98-вр"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19980428",
@@ -132,11 +222,20 @@
    "umovna": false,
    "data_na_saiti": "28.04.1998",
    "opys": "Редакція, підстава - 210/98-ВР",
+   "podid": "0",
    "pidstava": [
     "210/98-ВР"
    ],
+   "pidstava_nreg": [
+    "210/98-вр"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19990119",
@@ -144,11 +243,20 @@
    "umovna": false,
    "data_na_saiti": "19.01.1999",
    "opys": "Редакція, підстава - 352-XIV",
+   "podid": "0",
    "pidstava": [
     "352-XIV"
    ],
+   "pidstava_nreg": [
+    "352-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19990310",
@@ -156,11 +264,20 @@
    "umovna": false,
    "data_na_saiti": "10.03.1999",
    "opys": "Редакція, підстава - 444-XIV",
+   "podid": "0",
    "pidstava": [
     "444-XIV"
    ],
+   "pidstava_nreg": [
+    "444-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19990324",
@@ -168,11 +285,20 @@
    "umovna": false,
    "data_na_saiti": "24.03.1999",
    "opys": "Редакція, підстава - 557-XIV",
+   "podid": "0",
    "pidstava": [
     "557-XIV"
    ],
+   "pidstava_nreg": [
+    "557-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19990702",
@@ -180,11 +306,20 @@
    "umovna": false,
    "data_na_saiti": "02.07.1999",
    "opys": "Редакція, підстава - 812-XIV",
+   "podid": "0",
    "pidstava": [
     "812-XIV"
    ],
+   "pidstava_nreg": [
+    "812-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19990708",
@@ -192,11 +327,20 @@
    "umovna": false,
    "data_na_saiti": "08.07.1999",
    "opys": "Редакція, підстава - 863-XIV",
+   "podid": "0",
    "pidstava": [
     "863-XIV"
    ],
+   "pidstava_nreg": [
+    "863-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19990804",
@@ -204,11 +348,20 @@
    "umovna": false,
    "data_na_saiti": "04.08.1999",
    "opys": "Редакція, підстава - 898-XIV",
+   "podid": "0",
    "pidstava": [
     "898-XIV"
    ],
+   "pidstava_nreg": [
+    "898-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19990827",
@@ -216,11 +369,20 @@
    "umovna": false,
    "data_na_saiti": "27.08.1999",
    "opys": "Редакція, підстава - 998-XIV",
+   "podid": "0",
    "pidstava": [
     "998-XIV"
    ],
+   "pidstava_nreg": [
+    "998-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19991007",
@@ -228,11 +390,20 @@
    "umovna": false,
    "data_na_saiti": "07.10.1999",
    "opys": "Редакція, підстава - 1040-XIV",
+   "podid": "0",
    "pidstava": [
     "1040-XIV"
    ],
+   "pidstava_nreg": [
+    "1040-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19991019",
@@ -240,11 +411,20 @@
    "umovna": false,
    "data_na_saiti": "19.10.1999",
    "opys": "Редакція, підстава - 1080-XIV",
+   "podid": "0",
    "pidstava": [
     "1080-XIV"
    ],
+   "pidstava_nreg": [
+    "1080-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19991030",
@@ -252,11 +432,20 @@
    "umovna": false,
    "data_na_saiti": "30.10.1999",
    "opys": "Редакція, підстава - 1142-XIV",
+   "podid": "0",
    "pidstava": [
     "1142-XIV"
    ],
+   "pidstava_nreg": [
+    "1142-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19991207",
@@ -264,11 +453,20 @@
    "umovna": false,
    "data_na_saiti": "07.12.1999",
    "opys": "Редакція, підстава - 1228-XIV",
+   "podid": "0",
    "pidstava": [
     "1228-XIV"
    ],
+   "pidstava_nreg": [
+    "1228-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20000118",
@@ -276,11 +474,20 @@
    "umovna": false,
    "data_na_saiti": "18.01.2000",
    "opys": "Редакція, підстава - 1288-XIV",
+   "podid": "0",
    "pidstava": [
     "1288-XIV"
    ],
+   "pidstava_nreg": [
+    "1288-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20000119",
@@ -288,11 +495,20 @@
    "umovna": false,
    "data_na_saiti": "19.01.2000",
    "opys": "Редакція, підстава - 1342-XIV",
+   "podid": "0",
    "pidstava": [
     "1342-XIV"
    ],
+   "pidstava_nreg": [
+    "1342-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20000201",
@@ -300,11 +516,20 @@
    "umovna": false,
    "data_na_saiti": "01.02.2000",
    "opys": "Редакція, підстава - 1368-XIV",
+   "podid": "0",
    "pidstava": [
     "1368-XIV"
    ],
+   "pidstava_nreg": [
+    "1368-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20000225",
@@ -312,11 +537,20 @@
    "umovna": false,
    "data_na_saiti": "25.02.2000",
    "opys": "Редакція, підстава - 1381-XIV",
+   "podid": "0",
    "pidstava": [
     "1381-XIV"
    ],
+   "pidstava_nreg": [
+    "1381-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20000420",
@@ -324,12 +558,22 @@
    "umovna": false,
    "data_na_saiti": "20.04.2000",
    "opys": "Редакція, підстава - 1580-III, 1685-III",
+   "podid": "0",
    "pidstava": [
     "1580-III",
     "1685-III"
    ],
+   "pidstava_nreg": [
+    "1580-14",
+    "1685-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20000609",
@@ -337,11 +581,20 @@
    "umovna": false,
    "data_na_saiti": "09.06.2000",
    "opys": "Редакція, підстава - 1744-III",
+   "podid": "0",
    "pidstava": [
     "1744-III"
    ],
+   "pidstava_nreg": [
+    "1744-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20000823",
@@ -349,11 +602,20 @@
    "umovna": false,
    "data_na_saiti": "23.08.2000",
    "opys": "Редакція, підстава - 1929-III",
+   "podid": "0",
    "pidstava": [
     "1929-III"
    ],
+   "pidstava_nreg": [
+    "1929-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20000921",
@@ -361,12 +623,22 @@
    "umovna": false,
    "data_na_saiti": "21.09.2000",
    "opys": "Редакція, підстава - 1969-III, 1986-III",
+   "podid": "0",
    "pidstava": [
     "1969-III",
     "1986-III"
    ],
+   "pidstava_nreg": [
+    "1969-14",
+    "1986-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20001005",
@@ -374,11 +646,20 @@
    "umovna": false,
    "data_na_saiti": "05.10.2000",
    "opys": "Редакція, підстава - 2029-III",
+   "podid": "0",
    "pidstava": [
     "2029-III"
    ],
+   "pidstava_nreg": [
+    "2029-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20001019",
@@ -386,11 +667,20 @@
    "umovna": false,
    "data_na_saiti": "19.10.2000",
    "opys": "Редакція, підстава - 2056-III",
+   "podid": "0",
    "pidstava": [
     "2056-III"
    ],
+   "pidstava_nreg": [
+    "2056-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20001219",
@@ -398,11 +688,20 @@
    "umovna": false,
    "data_na_saiti": "19.12.2000",
    "opys": "Редакція, підстава - 2114-III",
+   "podid": "0",
    "pidstava": [
     "2114-III"
    ],
+   "pidstava_nreg": [
+    "2114-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20010211",
@@ -410,11 +709,20 @@
    "umovna": false,
    "data_na_saiti": "11.02.2001",
    "opys": "Редакція, підстава - 2171-III",
+   "podid": "0",
    "pidstava": [
     "2171-III"
    ],
+   "pidstava_nreg": [
+    "2171-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20010220",
@@ -422,11 +730,20 @@
    "umovna": false,
    "data_na_saiti": "20.02.2001",
    "opys": "Редакція, підстава - 2247-III",
+   "podid": "0",
    "pidstava": [
     "2247-III"
    ],
+   "pidstava_nreg": [
+    "2247-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20010505",
@@ -434,11 +751,20 @@
    "umovna": false,
    "data_na_saiti": "05.05.2001",
    "opys": "Редакція, підстава - 2350-III",
+   "podid": "0",
    "pidstava": [
     "2350-III"
    ],
+   "pidstava_nreg": [
+    "2350-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20010517",
@@ -446,11 +772,20 @@
    "umovna": false,
    "data_na_saiti": "17.05.2001",
    "opys": "Редакція, підстава - 2415-III",
+   "podid": "0",
    "pidstava": [
     "2415-III"
    ],
+   "pidstava_nreg": [
+    "2415-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20010524",
@@ -458,11 +793,20 @@
    "umovna": false,
    "data_na_saiti": "24.05.2001",
    "opys": "Редакція, підстава - 2443-III",
+   "podid": "0",
    "pidstava": [
     "2443-III"
    ],
+   "pidstava_nreg": [
+    "2443-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20010711",
@@ -470,11 +814,20 @@
    "umovna": false,
    "data_na_saiti": "11.07.2001",
    "opys": "Редакція, підстава - 2550-III",
+   "podid": "0",
    "pidstava": [
     "2550-III"
    ],
+   "pidstava_nreg": [
+    "2550-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20010913",
@@ -482,11 +835,20 @@
    "umovna": false,
    "data_na_saiti": "13.09.2001",
    "opys": "Редакція, підстава - 2686-III",
+   "podid": "0",
    "pidstava": [
     "2686-III"
    ],
+   "pidstava_nreg": [
+    "2686-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20011016",
@@ -494,11 +856,20 @@
    "umovna": false,
    "data_na_saiti": "16.10.2001",
    "opys": "Редакція, підстава - 2703-III",
+   "podid": "0",
    "pidstava": [
     "2703-III"
    ],
+   "pidstava_nreg": [
+    "2703-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20011031",
@@ -506,11 +877,20 @@
    "umovna": false,
    "data_na_saiti": "31.10.2001",
    "opys": "Редакція, підстава - 2747-III",
+   "podid": "0",
    "pidstava": [
     "2747-III"
    ],
+   "pidstava_nreg": [
+    "2747-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20011214",
@@ -518,11 +898,20 @@
    "umovna": false,
    "data_na_saiti": "14.12.2001",
    "opys": "Редакція, підстава - 2787-III",
+   "podid": "0",
    "pidstava": [
     "2787-III"
    ],
+   "pidstava_nreg": [
+    "2787-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20020116",
@@ -530,11 +919,20 @@
    "umovna": false,
    "data_na_saiti": "16.01.2002",
    "opys": "Редакція, підстава - 2888-III",
+   "podid": "0",
    "pidstava": [
     "2888-III"
    ],
+   "pidstava_nreg": [
+    "2888-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20020117",
@@ -542,11 +940,20 @@
    "umovna": false,
    "data_na_saiti": "17.01.2002",
    "opys": "Редакція, підстава - 2953-III",
+   "podid": "0",
    "pidstava": [
     "2953-III"
    ],
+   "pidstava_nreg": [
+    "2953-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20020307",
@@ -554,11 +961,20 @@
    "umovna": false,
    "data_na_saiti": "07.03.2002",
    "opys": "Редакція, підстава - 3048-III",
+   "podid": "0",
    "pidstava": [
     "3048-III"
    ],
+   "pidstava_nreg": [
+    "3048-14"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20021128",
@@ -566,11 +982,20 @@
    "umovna": false,
    "data_na_saiti": "28.11.2002",
    "opys": "Редакція, підстава - 254-IV",
+   "podid": "0",
    "pidstava": [
     "254-IV"
    ],
+   "pidstava_nreg": [
+    "254-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20030129",
@@ -578,11 +1003,20 @@
    "umovna": false,
    "data_na_saiti": "29.01.2003",
    "opys": "Редакція, підстава - 394-IV",
+   "podid": "0",
    "pidstava": [
     "394-IV"
    ],
+   "pidstava_nreg": [
+    "394-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20030211",
@@ -590,11 +1024,20 @@
    "umovna": false,
    "data_na_saiti": "11.02.2003",
    "opys": "Редакція, підстава - 429-IV",
+   "podid": "0",
    "pidstava": [
     "429-IV"
    ],
+   "pidstava_nreg": [
+    "429-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20030312",
@@ -602,11 +1045,20 @@
    "umovna": false,
    "data_na_saiti": "12.03.2003",
    "opys": "Редакція, підстава - 552-IV",
+   "podid": "0",
    "pidstava": [
     "552-IV"
    ],
+   "pidstava_nreg": [
+    "552-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20030322",
@@ -614,11 +1066,20 @@
    "umovna": false,
    "data_na_saiti": "22.03.2003",
    "opys": "Редакція, підстава - 548-IV",
+   "podid": "0",
    "pidstava": [
     "548-IV"
    ],
+   "pidstava_nreg": [
+    "548-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20030425",
@@ -626,11 +1087,20 @@
    "umovna": false,
    "data_na_saiti": "25.04.2003",
    "opys": "Редакція, підстава - 666-IV",
+   "podid": "0",
    "pidstava": [
     "666-IV"
    ],
+   "pidstava_nreg": [
+    "666-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20030506",
@@ -638,11 +1108,20 @@
    "umovna": false,
    "data_na_saiti": "06.05.2003",
    "opys": "Редакція, підстава - 676-IV",
+   "podid": "0",
    "pidstava": [
     "676-IV"
    ],
+   "pidstava_nreg": [
+    "676-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20030605",
@@ -650,12 +1129,22 @@
    "umovna": false,
    "data_na_saiti": "05.06.2003",
    "opys": "Редакція, підстава - 743-IV, 749-IV",
+   "podid": "0",
    "pidstava": [
     "743-IV",
     "749-IV"
    ],
+   "pidstava_nreg": [
+    "743-15",
+    "749-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20030607",
@@ -663,11 +1152,20 @@
    "umovna": false,
    "data_na_saiti": "07.06.2003",
    "opys": "Редакція, підстава - 759-IV",
+   "podid": "0",
    "pidstava": [
     "759-IV"
    ],
+   "pidstava_nreg": [
+    "759-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20030611",
@@ -675,12 +1173,22 @@
    "umovna": false,
    "data_na_saiti": "11.06.2003",
    "opys": "Редакція, підстава - 249-IV, 762-IV",
+   "podid": "0",
    "pidstava": [
     "249-IV",
     "762-IV"
    ],
+   "pidstava_nreg": [
+    "249-15",
+    "762-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20030620",
@@ -688,11 +1196,20 @@
    "umovna": false,
    "data_na_saiti": "20.06.2003",
    "opys": "Редакція, підстава - 860-IV",
+   "podid": "0",
    "pidstava": [
     "860-IV"
    ],
+   "pidstava_nreg": [
+    "860-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20030801",
@@ -700,11 +1217,20 @@
    "umovna": false,
    "data_na_saiti": "01.08.2003",
    "opys": "Редакція, підстава - 662-IV",
+   "podid": "0",
    "pidstava": [
     "662-IV"
    ],
+   "pidstava_nreg": [
+    "662-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20030806",
@@ -712,11 +1238,20 @@
    "umovna": false,
    "data_na_saiti": "06.08.2003",
    "opys": "Редакція, підстава - 1107-IV",
+   "podid": "0",
    "pidstava": [
     "1107-IV"
    ],
+   "pidstava_nreg": [
+    "1107-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20030809",
@@ -724,11 +1259,20 @@
    "umovna": false,
    "data_na_saiti": "09.08.2003",
    "opys": "Редакція, підстава - 1128-IV",
+   "podid": "0",
    "pidstava": [
     "1128-IV"
    ],
+   "pidstava_nreg": [
+    "1128-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20030812",
@@ -736,11 +1280,20 @@
    "umovna": false,
    "data_na_saiti": "12.08.2003",
    "opys": "Редакція, підстава - 1122-IV",
+   "podid": "0",
    "pidstava": [
     "1122-IV"
    ],
+   "pidstava_nreg": [
+    "1122-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20031002",
@@ -748,11 +1301,20 @@
    "umovna": false,
    "data_na_saiti": "02.10.2003",
    "opys": "Редакція, підстава - 1155-IV",
+   "podid": "0",
    "pidstava": [
     "1155-IV"
    ],
+   "pidstava_nreg": [
+    "1155-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20031119",
@@ -760,11 +1322,20 @@
    "umovna": false,
    "data_na_saiti": "19.11.2003",
    "opys": "Редакція, підстава - 1098-IV",
+   "podid": "0",
    "pidstava": [
     "1098-IV"
    ],
+   "pidstava_nreg": [
+    "1098-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20031209",
@@ -772,11 +1343,20 @@
    "umovna": false,
    "data_na_saiti": "09.12.2003",
    "opys": "Редакція, підстава - 1254-IV",
+   "podid": "0",
    "pidstava": [
     "1254-IV"
    ],
+   "pidstava_nreg": [
+    "1254-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20031223",
@@ -784,12 +1364,22 @@
    "umovna": false,
    "data_na_saiti": "23.12.2003",
    "opys": "Редакція, підстава - 1280-IV, 1299-IV",
+   "podid": "0",
    "pidstava": [
     "1280-IV",
     "1299-IV"
    ],
+   "pidstava_nreg": [
+    "1280-15",
+    "1299-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20040108",
@@ -797,11 +1387,20 @@
    "umovna": false,
    "data_na_saiti": "08.01.2004",
    "opys": "Редакція, підстава - 1377-IV",
+   "podid": "0",
    "pidstava": [
     "1377-IV"
    ],
+   "pidstava_nreg": [
+    "1377-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20040302",
@@ -809,11 +1408,20 @@
    "umovna": false,
    "data_na_saiti": "02.03.2004",
    "opys": "Редакція, підстава - 1410-IV",
+   "podid": "0",
    "pidstava": [
     "1410-IV"
    ],
+   "pidstava_nreg": [
+    "1410-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20040607",
@@ -821,11 +1429,20 @@
    "umovna": false,
    "data_na_saiti": "07.06.2004",
    "opys": "Редакція, підстава - 1284-IV",
+   "podid": "0",
    "pidstava": [
     "1284-IV"
    ],
+   "pidstava_nreg": [
+    "1284-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20040608",
@@ -833,11 +1450,20 @@
    "umovna": false,
    "data_na_saiti": "08.06.2004",
    "opys": "Редакція, підстава - 1725-IV",
+   "podid": "0",
    "pidstava": [
     "1725-IV"
    ],
+   "pidstava_nreg": [
+    "1725-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20040609",
@@ -845,12 +1471,22 @@
    "umovna": false,
    "data_na_saiti": "09.06.2004",
    "opys": "Редакція, підстава - 1703-IV, 1723-IV",
+   "podid": "0",
    "pidstava": [
     "1703-IV",
     "1723-IV"
    ],
+   "pidstava_nreg": [
+    "1703-15",
+    "1723-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20040626",
@@ -858,11 +1494,20 @@
    "umovna": false,
    "data_na_saiti": "26.06.2004",
    "opys": "Редакція, підстава - 1745-IV",
+   "podid": "0",
    "pidstava": [
     "1745-IV"
    ],
+   "pidstava_nreg": [
+    "1745-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20040708",
@@ -870,11 +1515,20 @@
    "umovna": false,
    "data_na_saiti": "08.07.2004",
    "opys": "Редакція, підстава - 1805-IV",
+   "podid": "0",
    "pidstava": [
     "1805-IV"
    ],
+   "pidstava_nreg": [
+    "1805-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20040803",
@@ -882,11 +1536,20 @@
    "umovna": false,
    "data_na_saiti": "03.08.2004",
    "opys": "Редакція, підстава - 1876-IV",
+   "podid": "0",
    "pidstava": [
     "1876-IV"
    ],
+   "pidstava_nreg": [
+    "1876-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20041214",
@@ -894,11 +1557,20 @@
    "umovna": false,
    "data_na_saiti": "14.12.2004",
    "opys": "Редакція, підстава - 2197-IV",
+   "podid": "0",
    "pidstava": [
     "2197-IV"
    ],
+   "pidstava_nreg": [
+    "2197-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20050111",
@@ -906,11 +1578,20 @@
    "umovna": false,
    "data_na_saiti": "11.01.2005",
    "opys": "Редакція, підстава - 2188-IV",
+   "podid": "0",
    "pidstava": [
     "2188-IV"
    ],
+   "pidstava_nreg": [
+    "2188-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20050113",
@@ -918,11 +1599,20 @@
    "umovna": false,
    "data_na_saiti": "13.01.2005",
    "opys": "Редакція, підстава - 2247-IV",
+   "podid": "0",
    "pidstava": [
     "2247-IV"
    ],
+   "pidstava_nreg": [
+    "2247-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20050216",
@@ -930,11 +1620,20 @@
    "umovna": false,
    "data_na_saiti": "16.02.2005",
    "opys": "Редакція, підстава - 2322-IV",
+   "podid": "0",
    "pidstava": [
     "2322-IV"
    ],
+   "pidstava_nreg": [
+    "2322-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20050622",
@@ -942,11 +1641,20 @@
    "umovna": false,
    "data_na_saiti": "22.06.2005",
    "opys": "Редакція, підстава - 2600-IV",
+   "podid": "0",
    "pidstava": [
     "2600-IV"
    ],
+   "pidstava_nreg": [
+    "2600-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20050630",
@@ -954,12 +1662,22 @@
    "umovna": false,
    "data_na_saiti": "30.06.2005",
    "opys": "Редакція, підстава - 2598-IV, 2635-IV",
+   "podid": "0",
    "pidstava": [
     "2598-IV",
     "2635-IV"
    ],
+   "pidstava_nreg": [
+    "2598-15",
+    "2635-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20051025",
@@ -967,11 +1685,20 @@
    "umovna": false,
    "data_na_saiti": "25.10.2005",
    "opys": "Редакція, підстава - 2899-IV",
+   "podid": "0",
    "pidstava": [
     "2899-IV"
    ],
+   "pidstava_nreg": [
+    "2899-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20051213",
@@ -979,11 +1706,20 @@
    "umovna": false,
    "data_na_saiti": "13.12.2005",
    "opys": "Редакція, підстава - 3108-IV",
+   "podid": "0",
    "pidstava": [
     "3108-IV"
    ],
+   "pidstava_nreg": [
+    "3108-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20060105",
@@ -991,11 +1727,20 @@
    "umovna": false,
    "data_na_saiti": "05.01.2006",
    "opys": "Редакція, підстава - 2806-IV",
+   "podid": "0",
    "pidstava": [
     "2806-IV"
    ],
+   "pidstava_nreg": [
+    "2806-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20060107",
@@ -1003,11 +1748,20 @@
    "umovna": false,
    "data_na_saiti": "07.01.2006",
    "opys": "Редакція, підстава - 3078-IV",
+   "podid": "0",
    "pidstava": [
     "3078-IV"
    ],
+   "pidstava_nreg": [
+    "3078-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20060114",
@@ -1015,11 +1769,20 @@
    "umovna": false,
    "data_na_saiti": "14.01.2006",
    "opys": "Редакція, підстава - 3201-IV",
+   "podid": "0",
    "pidstava": [
     "3201-IV"
    ],
+   "pidstava_nreg": [
+    "3201-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20060210",
@@ -1027,11 +1790,20 @@
    "umovna": false,
    "data_na_saiti": "10.02.2006",
    "opys": "Редакція, підстава - 3349-IV",
+   "podid": "0",
    "pidstava": [
     "3349-IV"
    ],
+   "pidstava_nreg": [
+    "3349-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20060302",
@@ -1039,11 +1811,20 @@
    "umovna": false,
    "data_na_saiti": "02.03.2006",
    "opys": "Редакція, підстава - 3336-IV",
+   "podid": "0",
    "pidstava": [
     "3336-IV"
    ],
+   "pidstava_nreg": [
+    "3336-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20060325",
@@ -1051,11 +1832,20 @@
    "umovna": false,
    "data_na_saiti": "25.03.2006",
    "opys": "Редакція, підстава - 3504-IV",
+   "podid": "0",
    "pidstava": [
     "3504-IV"
    ],
+   "pidstava_nreg": [
+    "3504-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20070101",
@@ -1063,11 +1853,20 @@
    "umovna": false,
    "data_na_saiti": "01.01.2007",
    "opys": "Редакція, підстава - 3475-IV",
+   "podid": "0",
    "pidstava": [
     "3475-IV"
    ],
+   "pidstava_nreg": [
+    "3475-15"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20070112",
@@ -1075,11 +1874,20 @@
    "umovna": false,
    "data_na_saiti": "12.01.2007",
    "opys": "Редакція, підстава - 435-V",
+   "podid": "0",
    "pidstava": [
     "435-V"
    ],
+   "pidstava_nreg": [
+    "435-16"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20070117",
@@ -1087,11 +1895,20 @@
    "umovna": false,
    "data_na_saiti": "17.01.2007",
    "opys": "Редакція, підстава - 534-V",
+   "podid": "0",
    "pidstava": [
     "534-V"
    ],
+   "pidstava_nreg": [
+    "534-16"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20070120",
@@ -1099,11 +1916,20 @@
    "umovna": false,
    "data_na_saiti": "20.01.2007",
    "opys": "Редакція, підстава - 577-V",
+   "podid": "0",
    "pidstava": [
     "577-V"
    ],
+   "pidstava_nreg": [
+    "577-16"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20070228",
@@ -1111,11 +1937,20 @@
    "umovna": false,
    "data_na_saiti": "28.02.2007",
    "opys": "Редакція, підстава - 622-V",
+   "podid": "0",
    "pidstava": [
     "622-V"
    ],
+   "pidstava_nreg": [
+    "622-16"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20070311",
@@ -1123,11 +1958,20 @@
    "umovna": false,
    "data_na_saiti": "11.03.2007",
    "opys": "Редакція, підстава - 424-V",
+   "podid": "0",
    "pidstava": [
     "424-V"
    ],
+   "pidstava_nreg": [
+    "424-16"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20070316",
@@ -1135,11 +1979,20 @@
    "umovna": false,
    "data_na_saiti": "16.03.2007",
    "opys": "Редакція, підстава - 695-V",
+   "podid": "0",
    "pidstava": [
     "695-V"
    ],
+   "pidstava_nreg": [
+    "695-16"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20070331",
@@ -1147,11 +2000,20 @@
    "umovna": false,
    "data_na_saiti": "31.03.2007",
    "opys": "Редакція, підстава - 736-V",
+   "podid": "0",
    "pidstava": [
     "736-V"
    ],
+   "pidstava_nreg": [
+    "736-16"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20070614",
@@ -1159,11 +2021,20 @@
    "umovna": false,
    "data_na_saiti": "14.06.2007",
    "opys": "Редакція, підстава - 956-V",
+   "podid": "0",
    "pidstava": [
     "956-V"
    ],
+   "pidstava_nreg": [
+    "956-16"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20070619",
@@ -1171,11 +2042,20 @@
    "umovna": false,
    "data_na_saiti": "19.06.2007",
    "opys": "Редакція, підстава - 1033-V",
+   "podid": "0",
    "pidstava": [
     "1033-V"
    ],
+   "pidstava_nreg": [
+    "1033-16"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20070620",
@@ -1183,11 +2063,20 @@
    "umovna": false,
    "data_na_saiti": "20.06.2007",
    "opys": "Редакція, підстава - 1014-V",
+   "podid": "0",
    "pidstava": [
     "1014-V"
    ],
+   "pidstava_nreg": [
+    "1014-16"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20080101",
@@ -1195,11 +2084,20 @@
    "umovna": false,
    "data_na_saiti": "01.01.2008",
    "opys": "Редакція, підстава - 1026-V",
+   "podid": "0",
    "pidstava": [
     "1026-V"
    ],
+   "pidstava_nreg": [
+    "1026-16"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20080507",
@@ -1207,11 +2105,20 @@
    "umovna": false,
    "data_na_saiti": "07.05.2008",
    "opys": "Редакція, підстава - 271-VI",
+   "podid": "0",
    "pidstava": [
     "271-VI"
    ],
+   "pidstava_nreg": [
+    "271-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20081116",
@@ -1219,11 +2126,20 @@
    "umovna": false,
    "data_na_saiti": "16.11.2008",
    "opys": "Редакція, підстава - 586-VI",
+   "podid": "0",
    "pidstava": [
     "586-VI"
    ],
+   "pidstava_nreg": [
+    "586-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20090101",
@@ -1231,11 +2147,20 @@
    "umovna": false,
    "data_na_saiti": "01.01.2009",
    "opys": "Редакція, підстава - 599-VI",
+   "podid": "0",
    "pidstava": [
     "599-VI"
    ],
+   "pidstava_nreg": [
+    "599-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20090114",
@@ -1243,11 +2168,20 @@
    "umovna": false,
    "data_na_saiti": "14.01.2009",
    "opys": "Редакція, підстава - 801-VI",
+   "podid": "0",
    "pidstava": [
     "801-VI"
    ],
+   "pidstava_nreg": [
+    "801-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20090204",
@@ -1255,11 +2189,20 @@
    "umovna": false,
    "data_na_saiti": "04.02.2009",
    "opys": "Редакція, підстава - 885-VI",
+   "podid": "0",
    "pidstava": [
     "885-VI"
    ],
+   "pidstava_nreg": [
+    "885-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20090311",
@@ -1267,11 +2210,20 @@
    "umovna": false,
    "data_na_saiti": "11.03.2009",
    "opys": "Редакція, підстава - 1027-VI",
+   "podid": "0",
    "pidstava": [
     "1027-VI"
    ],
+   "pidstava_nreg": [
+    "1027-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20090312",
@@ -1279,11 +2231,20 @@
    "umovna": false,
    "data_na_saiti": "12.03.2009",
    "opys": "Редакція, підстава - 692-VI",
+   "podid": "0",
    "pidstava": [
     "692-VI"
    ],
+   "pidstava_nreg": [
+    "692-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20090430",
@@ -1291,11 +2252,20 @@
    "umovna": false,
    "data_na_saiti": "30.04.2009",
    "opys": "Редакція, підстава - 1180-VI",
+   "podid": "0",
    "pidstava": [
     "1180-VI"
    ],
+   "pidstava_nreg": [
+    "1180-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20090611",
@@ -1303,11 +2273,20 @@
    "umovna": false,
    "data_na_saiti": "11.06.2009",
    "opys": "Редакція, підстава - 1254-VI",
+   "podid": "0",
    "pidstava": [
     "1254-VI"
    ],
+   "pidstava_nreg": [
+    "1254-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20090613",
@@ -1315,11 +2294,20 @@
    "umovna": false,
    "data_na_saiti": "13.06.2009",
    "opys": "Редакція, підстава - 1386-VI",
+   "podid": "0",
    "pidstava": [
     "1386-VI"
    ],
+   "pidstava_nreg": [
+    "1386-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20090619",
@@ -1327,11 +2315,20 @@
    "umovna": false,
    "data_na_saiti": "19.06.2009",
    "opys": "Редакція, підстава - 1393-VI",
+   "podid": "0",
    "pidstava": [
     "1393-VI"
    ],
+   "pidstava_nreg": [
+    "1393-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20090625",
@@ -1339,11 +2336,20 @@
    "umovna": false,
    "data_na_saiti": "25.06.2009",
    "opys": "Редакція, підстава - 1435-VI",
+   "podid": "0",
    "pidstava": [
     "1435-VI"
    ],
+   "pidstava_nreg": [
+    "1435-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20090711",
@@ -1351,11 +2357,20 @@
    "umovna": false,
    "data_na_saiti": "11.07.2009",
    "opys": "Редакція, підстава - 1512-VI",
+   "podid": "0",
    "pidstava": [
     "1512-VI"
    ],
+   "pidstava_nreg": [
+    "1512-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20091208",
@@ -1363,11 +2378,20 @@
    "umovna": false,
    "data_na_saiti": "08.12.2009",
    "opys": "Редакція, підстава - 1708-VI",
+   "podid": "0",
    "pidstava": [
     "1708-VI"
    ],
+   "pidstava_nreg": [
+    "1708-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20100216",
@@ -1375,12 +2399,22 @@
    "umovna": false,
    "data_na_saiti": "16.02.2010",
    "opys": "Редакція, підстава - 1825-VI, 1827-VI",
+   "podid": "0",
    "pidstava": [
     "1825-VI",
     "1827-VI"
    ],
+   "pidstava_nreg": [
+    "1825-17",
+    "1827-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20100515",
@@ -1388,11 +2422,20 @@
    "umovna": false,
    "data_na_saiti": "15.05.2010",
    "opys": "Редакція, підстава - 2181-VI",
+   "podid": "0",
    "pidstava": [
     "2181-VI"
    ],
+   "pidstava_nreg": [
+    "2181-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20100630",
@@ -1400,11 +2443,20 @@
    "umovna": false,
    "data_na_saiti": "30.06.2010",
    "opys": "Редакція, підстава - 2299-VI",
+   "podid": "0",
    "pidstava": [
     "2299-VI"
    ],
+   "pidstava_nreg": [
+    "2299-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20100707",
@@ -1412,11 +2464,20 @@
    "umovna": false,
    "data_na_saiti": "07.07.2010",
    "opys": "Редакція, підстава - 2339-VI",
+   "podid": "0",
    "pidstava": [
     "2339-VI"
    ],
+   "pidstava_nreg": [
+    "2339-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20100722",
@@ -1424,11 +2485,20 @@
    "umovna": false,
    "data_na_saiti": "22.07.2010",
    "opys": "Редакція, підстава - 2479-VI",
+   "podid": "0",
    "pidstava": [
     "2479-VI"
    ],
+   "pidstava_nreg": [
+    "2479-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20100723",
@@ -1436,11 +2506,20 @@
    "umovna": false,
    "data_na_saiti": "23.07.2010",
    "opys": "Редакція, підстава - 2374-VI",
+   "podid": "0",
    "pidstava": [
     "2374-VI"
    ],
+   "pidstava_nreg": [
+    "2374-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20100727",
@@ -1448,11 +2527,20 @@
    "umovna": false,
    "data_na_saiti": "27.07.2010",
    "opys": "Редакція, підстава - 2430-VI",
+   "podid": "0",
    "pidstava": [
     "2430-VI"
    ],
+   "pidstava_nreg": [
+    "2430-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20100803",
@@ -1460,11 +2548,20 @@
    "umovna": false,
    "data_na_saiti": "03.08.2010",
    "opys": "Редакція, підстава - 2453-VI",
+   "podid": "0",
    "pidstava": [
     "2453-VI"
    ],
+   "pidstava_nreg": [
+    "2453-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20100820",
@@ -1472,11 +2569,20 @@
    "umovna": false,
    "data_na_saiti": "20.08.2010",
    "opys": "Редакція, підстава - 2258-VI",
+   "podid": "0",
    "pidstava": [
     "2258-VI"
    ],
+   "pidstava_nreg": [
+    "2258-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20101012",
@@ -1484,11 +2590,20 @@
    "umovna": false,
    "data_na_saiti": "12.10.2010",
    "opys": "Редакція, підстава - 2518-VI",
+   "podid": "0",
    "pidstava": [
     "2518-VI"
    ],
+   "pidstava_nreg": [
+    "2518-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20101016",
@@ -1496,11 +2611,20 @@
    "umovna": false,
    "data_na_saiti": "16.10.2010",
    "opys": "Редакція, підстава - 2558-VI",
+   "podid": "0",
    "pidstava": [
     "2558-VI"
    ],
+   "pidstava_nreg": [
+    "2558-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110101",
@@ -1508,13 +2632,24 @@
    "umovna": false,
    "data_na_saiti": "01.01.2011",
    "opys": "Редакція, підстава - 1508-VI, 2464-VI, 2511-VI",
+   "podid": "0",
    "pidstava": [
     "1508-VI",
     "2464-VI",
     "2511-VI"
    ],
+   "pidstava_nreg": [
+    "1508-17",
+    "2464-17",
+    "2511-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110105",
@@ -1522,11 +2657,20 @@
    "umovna": false,
    "data_na_saiti": "05.01.2011",
    "opys": "Редакція, підстава - 2808-VI",
+   "podid": "0",
    "pidstava": [
     "2808-VI"
    ],
+   "pidstava_nreg": [
+    "2808-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110106",
@@ -1534,11 +2678,20 @@
    "umovna": false,
    "data_na_saiti": "06.01.2011",
    "opys": "Редакція, підстава - 2742-VI",
+   "podid": "0",
    "pidstava": [
     "2742-VI"
    ],
+   "pidstava_nreg": [
+    "2742-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110205",
@@ -1546,11 +2699,20 @@
    "umovna": false,
    "data_na_saiti": "05.02.2011",
    "opys": "Редакція, підстава - 2947-VI",
+   "podid": "0",
    "pidstava": [
     "2947-VI"
    ],
+   "pidstava_nreg": [
+    "2947-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110308",
@@ -1558,11 +2720,20 @@
    "umovna": false,
    "data_na_saiti": "08.03.2011",
    "opys": "Редакція, підстава - 2677-VI",
+   "podid": "0",
    "pidstava": [
     "2677-VI"
    ],
+   "pidstava_nreg": [
+    "2677-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110413",
@@ -1570,11 +2741,20 @@
    "umovna": false,
    "data_na_saiti": "13.04.2011",
    "opys": "Редакція, підстава - 3161-VI",
+   "podid": "0",
    "pidstava": [
     "3161-VI"
    ],
+   "pidstava_nreg": [
+    "3161-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110415",
@@ -1582,11 +2762,20 @@
    "umovna": false,
    "data_na_saiti": "15.04.2011",
    "opys": "Редакція, підстава - 3163-VI",
+   "podid": "0",
    "pidstava": [
     "3163-VI"
    ],
+   "pidstava_nreg": [
+    "3163-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110701",
@@ -1594,11 +2783,20 @@
    "umovna": false,
    "data_na_saiti": "01.07.2011",
    "opys": "Редакція, підстава - 3207-VI",
+   "podid": "0",
    "pidstava": [
     "3207-VI"
    ],
+   "pidstava_nreg": [
+    "3207-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110705",
@@ -1606,11 +2804,20 @@
    "umovna": false,
    "data_na_saiti": "05.07.2011",
    "opys": "Редакція, підстава - 2735-VI",
+   "podid": "0",
    "pidstava": [
     "2735-VI"
    ],
+   "pidstava_nreg": [
+    "2735-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110714",
@@ -1618,11 +2825,20 @@
    "umovna": false,
    "data_na_saiti": "14.07.2011",
    "opys": "Редакція, підстава - 3530-VI",
+   "podid": "0",
    "pidstava": [
     "3530-VI"
    ],
+   "pidstava_nreg": [
+    "3530-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110717",
@@ -1630,11 +2846,20 @@
    "umovna": false,
    "data_na_saiti": "17.07.2011",
    "opys": "Редакція, підстава - 3521-VI",
+   "podid": "0",
    "pidstava": [
     "3521-VI"
    ],
+   "pidstava_nreg": [
+    "3521-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110805",
@@ -1642,11 +2867,20 @@
    "umovna": false,
    "data_na_saiti": "05.08.2011",
    "opys": "Редакція, підстава - 3532-VI",
+   "podid": "0",
    "pidstava": [
     "3532-VI"
    ],
+   "pidstava_nreg": [
+    "3532-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110807",
@@ -1654,11 +2888,20 @@
    "umovna": false,
    "data_na_saiti": "07.08.2011",
    "opys": "Редакція, підстава - 3610-VI",
+   "podid": "0",
    "pidstava": [
     "3610-VI"
    ],
+   "pidstava_nreg": [
+    "3610-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110813",
@@ -1666,11 +2909,20 @@
    "umovna": false,
    "data_na_saiti": "13.08.2011",
    "opys": "Редакція, підстава - 3565-VI",
+   "podid": "0",
    "pidstava": [
     "3565-VI"
    ],
+   "pidstava_nreg": [
+    "3565-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110916",
@@ -1678,11 +2930,20 @@
    "umovna": false,
    "data_na_saiti": "16.09.2011",
    "opys": "Редакція, підстава - 3393-VI",
+   "podid": "0",
    "pidstava": [
     "3393-VI"
    ],
+   "pidstava_nreg": [
+    "3393-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20110918",
@@ -1690,11 +2951,20 @@
    "umovna": false,
    "data_na_saiti": "18.09.2011",
    "opys": "Редакція, підстава - 3045-VI",
+   "podid": "0",
    "pidstava": [
     "3045-VI"
    ],
+   "pidstava_nreg": [
+    "3045-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20111101",
@@ -1702,11 +2972,20 @@
    "umovna": false,
    "data_na_saiti": "01.11.2011",
    "opys": "Редакція, підстава - 3718-VI",
+   "podid": "0",
    "pidstava": [
     "3718-VI"
    ],
+   "pidstava_nreg": [
+    "3718-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20111109",
@@ -1714,11 +2993,20 @@
    "umovna": false,
    "data_na_saiti": "09.11.2011",
    "opys": "Редакція, підстава - 3830-VI",
+   "podid": "0",
    "pidstava": [
     "3830-VI"
    ],
+   "pidstava_nreg": [
+    "3830-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20111125",
@@ -1726,11 +3014,20 @@
    "umovna": false,
    "data_na_saiti": "25.11.2011",
    "opys": "Редакція, підстава - 3261-VI",
+   "podid": "0",
    "pidstava": [
     "3261-VI"
    ],
+   "pidstava_nreg": [
+    "3261-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20111218",
@@ -1738,11 +3035,20 @@
    "umovna": false,
    "data_na_saiti": "18.12.2011",
    "opys": "Редакція, підстава - 3384-VI",
+   "podid": "0",
    "pidstava": [
     "3384-VI"
    ],
+   "pidstava_nreg": [
+    "3384-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20120105",
@@ -1750,11 +3056,20 @@
    "umovna": false,
    "data_na_saiti": "05.01.2012",
    "opys": "Редакція, підстава - 3720-VI",
+   "podid": "0",
    "pidstava": [
     "3720-VI"
    ],
+   "pidstava_nreg": [
+    "3720-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20120117",
@@ -1762,11 +3077,20 @@
    "umovna": false,
    "data_na_saiti": "17.01.2012",
    "opys": "Редакція, підстава - 4025-VI",
+   "podid": "0",
    "pidstava": [
     "4025-VI"
    ],
+   "pidstava_nreg": [
+    "4025-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20120119",
@@ -1774,11 +3098,20 @@
    "umovna": false,
    "data_na_saiti": "19.01.2012",
    "opys": "Редакція, підстава - 4220-VI",
+   "podid": "0",
    "pidstava": [
     "4220-VI"
    ],
+   "pidstava_nreg": [
+    "4220-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20120205",
@@ -1786,11 +3119,20 @@
    "umovna": false,
    "data_na_saiti": "05.02.2012",
    "opys": "Редакція, підстава - 4319-VI",
+   "podid": "0",
    "pidstava": [
     "4319-VI"
    ],
+   "pidstava_nreg": [
+    "4319-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20120321",
@@ -1798,11 +3140,20 @@
    "umovna": false,
    "data_na_saiti": "21.03.2012",
    "opys": "Редакція, підстава - 4444-VI",
+   "podid": "0",
    "pidstava": [
     "4444-VI"
    ],
+   "pidstava_nreg": [
+    "4444-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20120406",
@@ -1810,11 +3161,20 @@
    "umovna": false,
    "data_na_saiti": "06.04.2012",
    "opys": "Редакція, підстава - 4082-VI",
+   "podid": "0",
    "pidstava": [
     "4082-VI"
    ],
+   "pidstava_nreg": [
+    "4082-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20120419",
@@ -1822,11 +3182,20 @@
    "umovna": false,
    "data_na_saiti": "19.04.2012",
    "opys": "Редакція, підстава - 4565-VI",
+   "podid": "0",
    "pidstava": [
     "4565-VI"
    ],
+   "pidstava_nreg": [
+    "4565-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20120615",
@@ -1834,11 +3203,20 @@
    "umovna": false,
    "data_na_saiti": "15.06.2012",
    "opys": "Редакція, підстава - 4837-VI",
+   "podid": "0",
    "pidstava": [
     "4837-VI"
    ],
+   "pidstava_nreg": [
+    "4837-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20120617",
@@ -1846,11 +3224,20 @@
    "umovna": false,
    "data_na_saiti": "17.06.2012",
    "opys": "Редакція, підстава - 4847-VI",
+   "podid": "0",
    "pidstava": [
     "4847-VI"
    ],
+   "pidstava_nreg": [
+    "4847-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20120701",
@@ -1858,11 +3245,20 @@
    "umovna": false,
    "data_na_saiti": "01.07.2012",
    "opys": "Редакція, підстава - 3454-VI",
+   "podid": "0",
    "pidstava": [
     "3454-VI"
    ],
+   "pidstava_nreg": [
+    "3454-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20120705",
@@ -1870,11 +3266,20 @@
    "umovna": false,
    "data_na_saiti": "05.07.2012",
    "opys": "Редакція, підстава - 4950-VI",
+   "podid": "0",
    "pidstava": [
     "4950-VI"
    ],
+   "pidstava_nreg": [
+    "4950-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20120802",
@@ -1882,11 +3287,20 @@
    "umovna": false,
    "data_na_saiti": "02.08.2012",
    "opys": "Редакція, підстава - 5065-VI",
+   "podid": "0",
    "pidstava": [
     "5065-VI"
    ],
+   "pidstava_nreg": [
+    "5065-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20120803",
@@ -1894,11 +3308,20 @@
    "umovna": false,
    "data_na_saiti": "03.08.2012",
    "opys": "Редакція, підстава - 5007-VI",
+   "podid": "0",
    "pidstava": [
     "5007-VI"
    ],
+   "pidstava_nreg": [
+    "5007-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20120815",
@@ -1906,11 +3329,20 @@
    "umovna": false,
    "data_na_saiti": "15.08.2012",
    "opys": "Редакція, підстава - 5076-VI",
+   "podid": "0",
    "pidstava": [
     "5076-VI"
    ],
+   "pidstava_nreg": [
+    "5076-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20120916",
@@ -1918,11 +3350,20 @@
    "umovna": false,
    "data_na_saiti": "16.09.2012",
    "opys": "Редакція, підстава - 3778-VI",
+   "podid": "0",
    "pidstava": [
     "3778-VI"
    ],
+   "pidstava_nreg": [
+    "3778-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20120921",
@@ -1930,11 +3371,20 @@
    "umovna": false,
    "data_na_saiti": "21.09.2012",
    "opys": "Редакція, підстава - 4452-VI",
+   "podid": "0",
    "pidstava": [
     "4452-VI"
    ],
+   "pidstava_nreg": [
+    "4452-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20121013",
@@ -1942,11 +3392,20 @@
    "umovna": false,
    "data_na_saiti": "13.10.2012",
    "opys": "Редакція, підстава - 5289-VI",
+   "podid": "0",
    "pidstava": [
     "5289-VI"
    ],
+   "pidstava_nreg": [
+    "5289-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20121018",
@@ -1954,11 +3413,20 @@
    "umovna": false,
    "data_na_saiti": "18.10.2012",
    "opys": "Редакція, підстава - 5284-VI",
+   "podid": "0",
    "pidstava": [
     "5284-VI"
    ],
+   "pidstava_nreg": [
+    "5284-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20121104",
@@ -1966,12 +3434,22 @@
    "umovna": false,
    "data_na_saiti": "04.11.2012",
    "opys": "Редакція, підстава - 5316-VI, 5411-VI",
+   "podid": "0",
    "pidstava": [
     "5316-VI",
     "5411-VI"
    ],
+   "pidstava_nreg": [
+    "5316-17",
+    "5411-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20121118",
@@ -1979,12 +3457,22 @@
    "umovna": false,
    "data_na_saiti": "18.11.2012",
    "opys": "Редакція, підстава - 5456-VI, 5459-VI",
+   "podid": "0",
    "pidstava": [
     "5456-VI",
     "5459-VI"
    ],
+   "pidstava_nreg": [
+    "5456-17",
+    "5459-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20121119",
@@ -1992,11 +3480,20 @@
    "umovna": false,
    "data_na_saiti": "19.11.2012",
    "opys": "Редакція, підстава - 4652-VI",
+   "podid": "0",
    "pidstava": [
     "4652-VI"
    ],
+   "pidstava_nreg": [
+    "4652-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20121201",
@@ -2004,11 +3501,20 @@
    "umovna": false,
    "data_na_saiti": "01.12.2012",
    "opys": "Редакція, підстава - 5288-VI",
+   "podid": "0",
    "pidstava": [
     "5288-VI"
    ],
+   "pidstava_nreg": [
+    "5288-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20121202",
@@ -2016,11 +3522,20 @@
    "umovna": false,
    "data_na_saiti": "02.12.2012",
    "opys": "Редакція, підстава - 5463-VI",
+   "podid": "0",
    "pidstava": [
     "5463-VI"
    ],
+   "pidstava_nreg": [
+    "5463-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20121205",
@@ -2028,11 +3543,20 @@
    "umovna": false,
    "data_na_saiti": "05.12.2012",
    "opys": "Редакція, підстава - 5460-VI",
+   "podid": "0",
    "pidstava": [
     "5460-VI"
    ],
+   "pidstava_nreg": [
+    "5460-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20121209",
@@ -2040,11 +3564,20 @@
    "umovna": false,
    "data_na_saiti": "09.12.2012",
    "opys": "Редакція, підстава - 5462-VI",
+   "podid": "0",
    "pidstava": [
     "5462-VI"
    ],
+   "pidstava_nreg": [
+    "5462-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20121212",
@@ -2052,11 +3585,20 @@
    "umovna": false,
    "data_na_saiti": "12.12.2012",
    "opys": "Редакція, підстава - 5461-VI",
+   "podid": "0",
    "pidstava": [
     "5461-VI"
    ],
+   "pidstava_nreg": [
+    "5461-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20130101",
@@ -2064,14 +3606,26 @@
    "umovna": false,
    "data_na_saiti": "01.01.2013",
    "opys": "Редакція, підстава - 3460-VI, 3613-VI, 5178-VI, 5518-VI",
+   "podid": "0",
    "pidstava": [
     "3460-VI",
     "3613-VI",
     "5178-VI",
     "5518-VI"
    ],
+   "pidstava_nreg": [
+    "3460-17",
+    "3613-17",
+    "5178-17",
+    "5518-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20130105",
@@ -2079,12 +3633,22 @@
    "umovna": false,
    "data_na_saiti": "05.01.2013",
    "opys": "Редакція, підстава - 5496-VI, 5502-VI",
+   "podid": "0",
    "pidstava": [
     "5496-VI",
     "5502-VI"
    ],
+   "pidstava_nreg": [
+    "5496-17",
+    "5502-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20130518",
@@ -2092,11 +3656,20 @@
    "umovna": false,
    "data_na_saiti": "18.05.2013",
    "opys": "Редакція, підстава - 221-VII",
+   "podid": "0",
    "pidstava": [
     "221-VII"
    ],
+   "pidstava_nreg": [
+    "221-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20130608",
@@ -2104,11 +3677,20 @@
    "umovna": false,
    "data_na_saiti": "08.06.2013",
    "opys": "Редакція, підстава - 243-VII",
+   "podid": "0",
    "pidstava": [
     "243-VII"
    ],
+   "pidstava_nreg": [
+    "243-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20130613",
@@ -2116,11 +3698,20 @@
    "umovna": false,
    "data_na_saiti": "13.06.2013",
    "opys": "Редакція, підстава - 4709-VI",
+   "podid": "0",
    "pidstava": [
     "4709-VI"
    ],
+   "pidstava_nreg": [
+    "4709-17"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20130811",
@@ -2128,11 +3719,20 @@
    "umovna": false,
    "data_na_saiti": "11.08.2013",
    "opys": "Редакція, підстава - 406-VII",
+   "podid": "0",
    "pidstava": [
     "406-VII"
    ],
+   "pidstava_nreg": [
+    "406-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20131023",
@@ -2140,11 +3740,20 @@
    "umovna": false,
    "data_na_saiti": "23.10.2013",
    "opys": "Редакція, підстава - 590-VII",
+   "podid": "0",
    "pidstava": [
     "590-VII"
    ],
+   "pidstava_nreg": [
+    "590-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20131116",
@@ -2152,11 +3761,20 @@
    "umovna": false,
    "data_na_saiti": "16.11.2013",
    "opys": "Редакція, підстава - 656-VII",
+   "podid": "0",
    "pidstava": [
     "656-VII"
    ],
+   "pidstava_nreg": [
+    "656-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20140101",
@@ -2164,12 +3782,22 @@
    "umovna": false,
    "data_na_saiti": "01.01.2014",
    "opys": "Редакція, підстава - 5404-VI, 383-VII",
+   "podid": "0",
    "pidstava": [
     "5404-VI",
     "383-VII"
    ],
+   "pidstava_nreg": [
+    "5404-17",
+    "383-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20140122",
@@ -2177,11 +3805,20 @@
    "umovna": false,
    "data_na_saiti": "22.01.2014",
    "opys": "Редакція, підстава - 721-VII",
+   "podid": "0",
    "pidstava": [
     "721-VII"
    ],
+   "pidstava_nreg": [
+    "721-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20140201",
@@ -2189,11 +3826,20 @@
    "umovna": false,
    "data_na_saiti": "01.02.2014",
    "opys": "Редакція, підстава - 709-VII",
+   "podid": "0",
    "pidstava": [
     "709-VII"
    ],
+   "pidstava_nreg": [
+    "709-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20140202",
@@ -2201,11 +3847,20 @@
    "umovna": false,
    "data_na_saiti": "02.02.2014",
    "opys": "Редакція, підстава - 732-VII",
+   "podid": "0",
    "pidstava": [
     "732-VII"
    ],
+   "pidstava_nreg": [
+    "732-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20140302",
@@ -2213,11 +3868,20 @@
    "umovna": false,
    "data_na_saiti": "02.03.2014",
    "opys": "Редакція, підстава - 767-VII",
+   "podid": "0",
    "pidstava": [
     "767-VII"
    ],
+   "pidstava_nreg": [
+    "767-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20140427",
@@ -2225,11 +3889,20 @@
    "umovna": false,
    "data_na_saiti": "27.04.2014",
    "opys": "Редакція, підстава - 1207-VII",
+   "podid": "0",
    "pidstava": [
     "1207-VII"
    ],
+   "pidstava_nreg": [
+    "1207-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20140604",
@@ -2237,11 +3910,20 @@
    "umovna": false,
    "data_na_saiti": "04.06.2014",
    "opys": "Редакція, підстава - 1261-VII",
+   "podid": "0",
    "pidstava": [
     "1261-VII"
    ],
+   "pidstava_nreg": [
+    "1261-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20140608",
@@ -2249,11 +3931,20 @@
    "umovna": false,
    "data_na_saiti": "08.06.2014",
    "opys": "Редакція, підстава - 1275-VII",
+   "podid": "0",
    "pidstava": [
     "1275-VII"
    ],
+   "pidstava_nreg": [
+    "1275-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20140622",
@@ -2261,11 +3952,20 @@
    "umovna": false,
    "data_na_saiti": "22.06.2014",
    "opys": "Редакція, підстава - 1283-VII",
+   "podid": "0",
    "pidstava": [
     "1283-VII"
    ],
+   "pidstava_nreg": [
+    "1283-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20140707",
@@ -2273,11 +3973,20 @@
    "umovna": false,
    "data_na_saiti": "07.07.2014",
    "opys": "Редакція, підстава - 1258-VII",
+   "podid": "0",
    "pidstava": [
     "1258-VII"
    ],
+   "pidstava_nreg": [
+    "1258-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20140817",
@@ -2285,11 +3994,20 @@
    "umovna": false,
    "data_na_saiti": "17.08.2014",
    "opys": "Редакція, підстава - 1600-VII",
+   "podid": "0",
    "pidstava": [
     "1600-VII"
    ],
+   "pidstava_nreg": [
+    "1600-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20141026",
@@ -2297,11 +4015,20 @@
    "umovna": false,
    "data_na_saiti": "26.10.2014",
    "opys": "Редакція, підстава - 1697-VII",
+   "podid": "0",
    "pidstava": [
     "1697-VII"
    ],
+   "pidstava_nreg": [
+    "1697-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20141125",
@@ -2309,11 +4036,20 @@
    "umovna": false,
    "data_na_saiti": "25.11.2014",
    "opys": "Редакція, підстава - 1701-VII",
+   "podid": "0",
    "pidstava": [
     "1701-VII"
    ],
+   "pidstava_nreg": [
+    "1701-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150101",
@@ -2321,12 +4057,22 @@
    "umovna": false,
    "data_na_saiti": "01.01.2015",
    "opys": "Редакція, підстава - 1648-VII, 77-VIII",
+   "podid": "0",
    "pidstava": [
     "1648-VII",
     "77-VIII"
    ],
+   "pidstava_nreg": [
+    "1648-18",
+    "77-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150304",
@@ -2334,11 +4080,20 @@
    "umovna": false,
    "data_na_saiti": "04.03.2015",
    "opys": "Редакція, підстава - 198-VIII",
+   "podid": "0",
    "pidstava": [
     "198-VIII"
    ],
+   "pidstava_nreg": [
+    "198-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150305",
@@ -2346,12 +4101,22 @@
    "umovna": false,
    "data_na_saiti": "05.03.2015",
    "opys": "Редакція, підстава - 158-VIII, 187-VIII",
+   "podid": "0",
    "pidstava": [
     "158-VIII",
     "187-VIII"
    ],
+   "pidstava_nreg": [
+    "158-19",
+    "187-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150328",
@@ -2359,11 +4124,20 @@
    "umovna": false,
    "data_na_saiti": "28.03.2015",
    "opys": "Редакція, підстава - 192-VIII",
+   "podid": "0",
    "pidstava": [
     "192-VIII"
    ],
+   "pidstava_nreg": [
+    "192-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150401",
@@ -2371,11 +4145,20 @@
    "umovna": false,
    "data_na_saiti": "01.04.2015",
    "opys": "Редакція, підстава - 77-VIII",
+   "podid": "0",
    "pidstava": [
     "77-VIII"
    ],
+   "pidstava_nreg": [
+    "77-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150410",
@@ -2383,11 +4166,20 @@
    "umovna": false,
    "data_na_saiti": "10.04.2015",
    "opys": "Редакція, підстава - 193-VIII",
+   "podid": "0",
    "pidstava": [
     "193-VIII"
    ],
+   "pidstava_nreg": [
+    "193-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150426",
@@ -2395,12 +4187,22 @@
    "umovna": false,
    "data_na_saiti": "26.04.2015",
    "opys": "Редакція, підстава - 1700-VII, 198-VIII",
+   "podid": "0",
    "pidstava": [
     "1700-VII",
     "198-VIII"
    ],
+   "pidstava_nreg": [
+    "1700-18",
+    "198-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150509",
@@ -2408,11 +4210,20 @@
    "umovna": false,
    "data_na_saiti": "09.05.2015",
    "opys": "Редакція, підстава - 322-VIII",
+   "podid": "0",
    "pidstava": [
     "322-VIII"
    ],
+   "pidstava_nreg": [
+    "322-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150628",
@@ -2420,11 +4231,20 @@
    "umovna": false,
    "data_na_saiti": "28.06.2015",
    "opys": "Редакція, підстава - 222-VIII",
+   "podid": "0",
    "pidstava": [
     "222-VIII"
    ],
+   "pidstava_nreg": [
+    "222-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150808",
@@ -2432,11 +4252,20 @@
    "umovna": false,
    "data_na_saiti": "08.08.2015",
    "opys": "Редакція, підстава - 596-VIII",
+   "podid": "0",
    "pidstava": [
     "596-VIII"
    ],
+   "pidstava_nreg": [
+    "596-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150809",
@@ -2444,11 +4273,20 @@
    "umovna": false,
    "data_na_saiti": "09.08.2015",
    "opys": "Редакція, підстава - 576-VIII",
+   "podid": "0",
    "pidstava": [
     "576-VIII"
    ],
+   "pidstava_nreg": [
+    "576-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150812",
@@ -2456,11 +4294,20 @@
    "umovna": false,
    "data_na_saiti": "12.08.2015",
    "opys": "Редакція, підстава - 629-VIII",
+   "podid": "0",
    "pidstava": [
     "629-VIII"
    ],
+   "pidstava_nreg": [
+    "629-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150822",
@@ -2468,11 +4315,20 @@
    "umovna": false,
    "data_na_saiti": "22.08.2015",
    "opys": "Редакція, підстава - 649-VIII",
+   "podid": "0",
    "pidstava": [
     "649-VIII"
    ],
+   "pidstava_nreg": [
+    "649-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150901",
@@ -2480,11 +4336,20 @@
    "umovna": false,
    "data_na_saiti": "01.09.2015",
    "opys": "Редакція, підстава - 320-VIII",
+   "podid": "0",
    "pidstava": [
     "320-VIII"
    ],
+   "pidstava_nreg": [
+    "320-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150920",
@@ -2492,11 +4357,20 @@
    "umovna": false,
    "data_na_saiti": "20.09.2015",
    "opys": "Редакція, підстава - 1602-VII",
+   "podid": "0",
    "pidstava": [
     "1602-VII"
    ],
+   "pidstava_nreg": [
+    "1602-18"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20150930",
@@ -2504,11 +4378,20 @@
    "umovna": false,
    "data_na_saiti": "30.09.2015",
    "opys": "Редакція, підстава - 530-VIII",
+   "podid": "0",
    "pidstava": [
     "530-VIII"
    ],
+   "pidstava_nreg": [
+    "530-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20151006",
@@ -2516,11 +4399,20 @@
    "umovna": false,
    "data_na_saiti": "06.10.2015",
    "opys": "Редакція, підстава - 597-VIII",
+   "podid": "0",
    "pidstava": [
     "597-VIII"
    ],
+   "pidstava_nreg": [
+    "597-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20151126",
@@ -2528,12 +4420,22 @@
    "umovna": false,
    "data_na_saiti": "26.11.2015",
    "opys": "Редакція, підстава - 734-VIII, 731-VIII",
+   "podid": "0",
    "pidstava": [
     "734-VIII",
     "731-VIII"
    ],
+   "pidstava_nreg": [
+    "734-19",
+    "731-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20151228",
@@ -2541,11 +4443,20 @@
    "umovna": false,
    "data_na_saiti": "28.12.2015",
    "opys": "Редакція, підстава - 901-VIII",
+   "podid": "0",
    "pidstava": [
     "901-VIII"
    ],
+   "pidstava_nreg": [
+    "901-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20160101",
@@ -2553,12 +4464,22 @@
    "umovna": false,
    "data_na_saiti": "01.01.2016",
    "opys": "Редакція, підстава - 1314-VII, 834-VIII",
+   "podid": "0",
    "pidstava": [
     "1314-VII",
     "834-VIII"
    ],
+   "pidstava_nreg": [
+    "1314-18",
+    "834-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20160210",
@@ -2566,11 +4487,20 @@
    "umovna": false,
    "data_na_saiti": "10.02.2016",
    "opys": "Редакція, підстава - 124-VIII",
+   "podid": "0",
    "pidstava": [
     "124-VIII"
    ],
+   "pidstava_nreg": [
+    "124-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20160401",
@@ -2578,11 +4508,20 @@
    "umovna": false,
    "data_na_saiti": "01.04.2016",
    "opys": "Редакція, підстава - 922-VIII",
+   "podid": "0",
    "pidstava": [
     "922-VIII"
    ],
+   "pidstava_nreg": [
+    "922-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20160404",
@@ -2590,11 +4529,20 @@
    "umovna": false,
    "data_na_saiti": "04.04.2016",
    "opys": "Редакція, підстава - 888-VIII",
+   "podid": "0",
    "pidstava": [
     "888-VIII"
    ],
+   "pidstava_nreg": [
+    "888-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20160611",
@@ -2602,11 +4550,20 @@
    "umovna": false,
    "data_na_saiti": "11.06.2016",
    "opys": "Редакція, підстава - 772-VIII",
+   "podid": "0",
    "pidstava": [
     "772-VIII"
    ],
+   "pidstava_nreg": [
+    "772-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20160618",
@@ -2614,11 +4571,20 @@
    "umovna": false,
    "data_na_saiti": "18.06.2016",
    "opys": "Редакція, підстава - 1379-VIII",
+   "podid": "0",
    "pidstava": [
     "1379-VIII"
    ],
+   "pidstava_nreg": [
+    "1379-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20161005",
@@ -2626,11 +4592,20 @@
    "umovna": false,
    "data_na_saiti": "05.10.2016",
    "opys": "Редакція, підстава - 1404-VIII",
+   "podid": "0",
    "pidstava": [
     "1404-VIII"
    ],
+   "pidstava_nreg": [
+    "1404-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20161102",
@@ -2638,11 +4613,20 @@
    "umovna": false,
    "data_na_saiti": "02.11.2016",
    "opys": "Редакція, підстава - 1666-VIII",
+   "podid": "0",
    "pidstava": [
     "1666-VIII"
    ],
+   "pidstava_nreg": [
+    "1666-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20161126",
@@ -2650,11 +4634,20 @@
    "umovna": false,
    "data_na_saiti": "26.11.2016",
    "opys": "Редакція, підстава - 1540-VIII",
+   "podid": "0",
    "pidstava": [
     "1540-VIII"
    ],
+   "pidstava_nreg": [
+    "1540-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20161130",
@@ -2662,12 +4655,22 @@
    "umovna": false,
    "data_na_saiti": "30.11.2016",
    "opys": "Редакція, підстава - 1723-VIII, 1727-VIII",
+   "podid": "0",
    "pidstava": [
     "1723-VIII",
     "1727-VIII"
    ],
+   "pidstava_nreg": [
+    "1723-19",
+    "1727-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20161204",
@@ -2675,11 +4678,20 @@
    "umovna": false,
    "data_na_saiti": "04.12.2016",
    "opys": "Редакція, підстава - 1742-VIII",
+   "podid": "0",
    "pidstava": [
     "1742-VIII"
    ],
+   "pidstava_nreg": [
+    "1742-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20170101",
@@ -2687,11 +4699,20 @@
    "umovna": false,
    "data_na_saiti": "01.01.2017",
    "opys": "Редакція, підстава - 1774-VIII",
+   "podid": "0",
    "pidstava": [
     "1774-VIII"
    ],
+   "pidstava_nreg": [
+    "1774-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20170105",
@@ -2699,11 +4720,20 @@
    "umovna": false,
    "data_na_saiti": "05.01.2017",
    "opys": "Редакція, підстава - 1798-VIII",
+   "podid": "0",
    "pidstava": [
     "1798-VIII"
    ],
+   "pidstava_nreg": [
+    "1798-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20170416",
@@ -2711,11 +4741,20 @@
    "umovna": false,
    "data_na_saiti": "16.04.2017",
    "opys": "Редакція, підстава - 1952-VIII",
+   "podid": "0",
    "pidstava": [
     "1952-VIII"
    ],
+   "pidstava_nreg": [
+    "1952-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20170426",
@@ -2723,11 +4762,20 @@
    "umovna": false,
    "data_na_saiti": "26.04.2017",
    "opys": "Редакція, підстава - 1977-VIII",
+   "podid": "0",
    "pidstava": [
     "1977-VIII"
    ],
+   "pidstava_nreg": [
+    "1977-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20170507",
@@ -2735,11 +4783,20 @@
    "umovna": false,
    "data_na_saiti": "07.05.2017",
    "opys": "Редакція, підстава - 1812-VIII",
+   "podid": "0",
    "pidstava": [
     "1812-VIII"
    ],
+   "pidstava_nreg": [
+    "1812-19"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": true
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   }
  ],
  "podii": [
@@ -2750,22 +4807,6 @@
   {
    "data": "01.06.1985",
    "opys": "Введення в дію, підстава - 8074-X Стан: Чинний"
-  },
-  {
-   "data": "03.02.2000",
-   "opys": "Редакція, підстава - 1379-XIV текст відсутній"
-  },
-  {
-   "data": "23.03.2000",
-   "opys": "Редакція, підстава - 1587-III текст відсутній"
-  },
-  {
-   "data": "16.11.2000",
-   "opys": "Редакція, підстава - v013p710-00 текст відсутній"
-  },
-  {
-   "data": "05.04.2001",
-   "opys": "Редакція, підстава - 2360-III, 2372-III, 2362-III, 2359-III, 2342-III текст відсутній"
   },
   {
    "data": "03.02.2009",
@@ -2780,6 +4821,20 @@
    "opys": "Визнання неконституційними окремих положень, підстава - v010p710-11"
   },
   {
+   "data": "11.10.2011",
+   "opys": "Визнання конституційними окремих положень, підстава - v010p710-11",
+   "podid": "25",
+   "pidstava": [
+    "v010p710-11"
+   ],
+   "pidstava_nreg": [
+    "v010p710-11"
+   ],
+   "basis_unresolved": [
+    "v010p710-11"
+   ]
+  },
+  {
    "data": "31.03.2015",
    "opys": "Тлумачення, підстава - v002p710-15"
   },
@@ -2788,5 +4843,45 @@
    "opys": "Тлумачення, підстава - v005p710-15"
   }
  ],
- "bez_redaktsii": false
+ "bez_redaktsii": false,
+ "api": {
+  "datred": "20170507",
+  "edcnt": 226,
+  "orgdat": "19841207",
+  "orgnum": "8073-X",
+  "poddat": "20170507",
+  "status_id": "5",
+  "pidstava_nreg": [
+   "1812-19"
+  ],
+  "source": "json-card",
+  "history_complete": true,
+  "history_reason": "знайдено 226 з edcnt=226",
+  "edition_catalog_complete": true,
+  "unresolved_edition_ids": [],
+  "invalid_source_records": [],
+  "resolved_edition_ids": [],
+  "separate_edition_ids": [],
+  "counts": {
+   "edcnt": 226,
+   "json_valid_dates": 226,
+   "doc_update_added": [],
+   "datred": "20170507",
+   "editions_total": 226,
+   "invalid_unique": 0
+  },
+  "texts": {
+   "verified": 0,
+   "legacy_unverified": 226,
+   "corrupt": 0,
+   "date_mismatch": 0,
+   "missing": 0,
+   "expected": 226
+  },
+  "all_texts_verified": false,
+  "doc_update_modified": "2026-02-15T10:15:36",
+  "sync_version": "4.1.7",
+  "checked_at": "2026-11-24T16:16:46+00:00",
+  "snapshot_only": false
+ }
 }

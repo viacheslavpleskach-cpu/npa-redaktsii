@@ -4,13 +4,72 @@
  "stan": "",
  "rezhym": "odyn",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/995_j67",
- "perevireno": "2026-11-21T21:33:58.678Z",
- "redaktsii": [],
+ "perevireno": "2026-11-24T16:19:05+00:00",
+ "redaktsii": [
+  {
+   "ed": "20060519",
+   "data": "19.05.2006",
+   "umovna": false,
+   "data_na_saiti": "19.05.2006",
+   "opys": "Прийняття",
+   "podid": "4",
+   "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": [],
+   "comment": "",
+   "tekst": true,
+   "text_status": "verified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false,
+   "sha256": "01f193008233f3ee18b504ac16ae6c67df0bb91181f57bbcc107f282fb377549",
+   "document_date": "20060519",
+   "text_source": "txt-api"
+  }
+ ],
  "podii": [
   {
    "data": "19.05.2006",
    "opys": "Прийняття ООН; Принципи"
   }
  ],
- "bez_redaktsii": true
+ "bez_redaktsii": false,
+ "api": {
+  "datred": "20060519",
+  "edcnt": 1,
+  "orgdat": "20060519",
+  "orgnum": "",
+  "poddat": "20060519",
+  "status_id": "0",
+  "pidstava_nreg": [],
+  "source": "json-card",
+  "history_complete": false,
+  "history_reason": "режим «odyn»: зберігається не вся історія редакцій",
+  "edition_catalog_complete": true,
+  "unresolved_edition_ids": [],
+  "invalid_source_records": [],
+  "resolved_edition_ids": [],
+  "separate_edition_ids": [],
+  "counts": {
+   "edcnt": 1,
+   "json_valid_dates": 1,
+   "doc_update_added": [],
+   "datred": "20060519",
+   "editions_total": 1,
+   "invalid_unique": 0
+  },
+  "texts": {
+   "verified": 1,
+   "legacy_unverified": 0,
+   "corrupt": 0,
+   "date_mismatch": 0,
+   "missing": 0,
+   "expected": 1
+  },
+  "all_texts_verified": true,
+  "doc_update_modified": "2018-06-07T17:20:06",
+  "sync_version": "4.1.7",
+  "checked_at": "2026-11-24T16:19:05+00:00",
+  "snapshot_only": false
+ }
 }

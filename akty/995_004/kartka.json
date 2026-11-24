@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/995_004",
- "perevireno": "2026-11-21T21:31:56.688Z",
+ "perevireno": "2026-11-24T16:16:20+00:00",
  "redaktsii": [
   {
    "ed": "19900101",
@@ -12,9 +12,16 @@
    "umovna": false,
    "data_na_saiti": "01.01.1990",
    "opys": "Редакція",
+   "podid": "0",
    "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "19940511",
@@ -22,9 +29,16 @@
    "umovna": false,
    "data_na_saiti": "11.05.1994",
    "opys": "Редакція",
+   "podid": "0",
    "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20001104",
@@ -32,11 +46,20 @@
    "umovna": false,
    "data_na_saiti": "04.11.2000",
    "opys": "Редакція, підстава - 994_537",
+   "podid": "0",
    "pidstava": [
     "994_537"
    ],
+   "pidstava_nreg": [
+    "994_537"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20020503",
@@ -44,11 +67,20 @@
    "umovna": false,
    "data_na_saiti": "03.05.2002",
    "opys": "Редакція, підстава - 994_180",
+   "podid": "0",
    "pidstava": [
     "994_180"
    ],
+   "pidstava_nreg": [
+    "994_180"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20090527",
@@ -56,11 +88,20 @@
    "umovna": false,
    "data_na_saiti": "27.05.2009",
    "opys": "Редакція, підстава - 994_939",
+   "podid": "0",
    "pidstava": [
     "994_939"
    ],
+   "pidstava_nreg": [
+    "994_939"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20100601",
@@ -68,11 +109,20 @@
    "umovna": false,
    "data_na_saiti": "01.06.2010",
    "opys": "Редакція, підстава - 994_527",
+   "podid": "0",
    "pidstava": [
     "994_527"
    ],
+   "pidstava_nreg": [
+    "994_527"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20130624",
@@ -80,11 +130,20 @@
    "umovna": false,
    "data_na_saiti": "24.06.2013",
    "opys": "Редакція, підстава - 994_001-13",
+   "podid": "0",
    "pidstava": [
     "994_001-13"
    ],
+   "pidstava_nreg": [
+    "994_001-13"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20131002",
@@ -92,11 +151,20 @@
    "umovna": false,
    "data_na_saiti": "02.10.2013",
    "opys": "Редакція, підстава - 994_002-13",
+   "podid": "0",
    "pidstava": [
     "994_002-13"
    ],
+   "pidstava_nreg": [
+    "994_002-13"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20210801",
@@ -104,9 +172,16 @@
    "umovna": false,
    "data_na_saiti": "01.08.2021",
    "opys": "Редакція",
+   "podid": "0",
    "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": true
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   }
  ],
  "podii": [
@@ -123,5 +198,43 @@
    "opys": "Набрання чинності для України міжнародного договору, підстава - n0001697-06"
   }
  ],
- "bez_redaktsii": false
+ "bez_redaktsii": false,
+ "api": {
+  "datred": "20210801",
+  "edcnt": 9,
+  "orgdat": "19501104",
+  "orgnum": "",
+  "poddat": "20210801",
+  "status_id": "5",
+  "pidstava_nreg": [],
+  "source": "json-card",
+  "history_complete": true,
+  "history_reason": "знайдено 9 з edcnt=9",
+  "edition_catalog_complete": true,
+  "unresolved_edition_ids": [],
+  "invalid_source_records": [],
+  "resolved_edition_ids": [],
+  "separate_edition_ids": [],
+  "counts": {
+   "edcnt": 9,
+   "json_valid_dates": 9,
+   "doc_update_added": [],
+   "datred": "20210801",
+   "editions_total": 9,
+   "invalid_unique": 0
+  },
+  "texts": {
+   "verified": 0,
+   "legacy_unverified": 9,
+   "corrupt": 0,
+   "date_mismatch": 0,
+   "missing": 0,
+   "expected": 9
+  },
+  "all_texts_verified": false,
+  "doc_update_modified": "2022-02-24T13:05:06",
+  "sync_version": "4.1.7",
+  "checked_at": "2026-11-24T16:16:20+00:00",
+  "snapshot_only": false
+ }
 }

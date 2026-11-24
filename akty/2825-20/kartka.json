@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/2825-20",
- "perevireno": "2026-11-21T21:34:47.686Z",
+ "perevireno": "2026-11-24T16:20:26+00:00",
  "redaktsii": [
   {
    "ed": "20221213",
@@ -12,9 +12,16 @@
    "umovna": false,
    "data_na_saiti": "13.12.2022",
    "opys": "Прийняття Верховна Рада України; Закон № 2825-IX",
+   "podid": "4",
    "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": false
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   },
   {
    "ed": "20240926",
@@ -22,18 +29,75 @@
    "umovna": false,
    "data_na_saiti": "26.09.2024",
    "opys": "Редакція, підстава - 3863-IX",
+   "podid": "0",
    "pidstava": [
     "3863-IX"
    ],
+   "pidstava_nreg": [
+    "3863-20"
+   ],
+   "basis_unresolved": [],
+   "comment": "",
    "tekst": true,
-   "bez_posylannia": true
+   "text_status": "legacy_unverified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false
   }
  ],
  "podii": [
+  {
+   "data": "13.12.2022",
+   "opys": "Прийняття",
+   "podid": "4",
+   "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": []
+  },
   {
    "data": "15.12.2022",
    "opys": "Набрання чинності Стан: Чинний"
   }
  ],
- "bez_redaktsii": false
+ "bez_redaktsii": false,
+ "api": {
+  "datred": "20240926",
+  "edcnt": 2,
+  "orgdat": "20221213",
+  "orgnum": "2825-IX",
+  "poddat": "20240926",
+  "status_id": "5",
+  "pidstava_nreg": [
+   "3863-20"
+  ],
+  "source": "json-card",
+  "history_complete": true,
+  "history_reason": "знайдено 2 з edcnt=2",
+  "edition_catalog_complete": true,
+  "unresolved_edition_ids": [],
+  "invalid_source_records": [],
+  "resolved_edition_ids": [],
+  "separate_edition_ids": [],
+  "counts": {
+   "edcnt": 2,
+   "json_valid_dates": 2,
+   "doc_update_added": [],
+   "datred": "20240926",
+   "editions_total": 2,
+   "invalid_unique": 0
+  },
+  "texts": {
+   "verified": 0,
+   "legacy_unverified": 2,
+   "corrupt": 0,
+   "date_mismatch": 0,
+   "missing": 0,
+   "expected": 2
+  },
+  "all_texts_verified": false,
+  "doc_update_modified": "2024-09-26T16:50:07",
+  "sync_version": "4.1.7",
+  "checked_at": "2026-11-24T16:20:26+00:00",
+  "snapshot_only": false
+ }
 }

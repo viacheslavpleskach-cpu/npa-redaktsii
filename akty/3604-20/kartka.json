@@ -4,8 +4,29 @@
  "stan": "Чинний",
  "rezhym": "odyn",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/3604-20",
- "perevireno": "2026-11-21T21:36:12.689Z",
- "redaktsii": [],
+ "perevireno": "2026-11-24T16:24:19+00:00",
+ "redaktsii": [
+  {
+   "ed": "20240223",
+   "data": "23.02.2024",
+   "umovna": false,
+   "data_na_saiti": "23.02.2024",
+   "opys": "Прийняття",
+   "podid": "4",
+   "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": [],
+   "comment": "",
+   "tekst": true,
+   "text_status": "verified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false,
+   "sha256": "ca51616b1296439a17070530c65eb60e067a597e7bb105bff17a64cf87ca85d5",
+   "document_date": "20240223",
+   "text_source": "txt-api"
+  }
+ ],
  "podii": [
   {
    "data": "23.02.2024",
@@ -16,5 +37,43 @@
    "opys": "Набрання чинності Стан: Чинний"
   }
  ],
- "bez_redaktsii": true
+ "bez_redaktsii": false,
+ "api": {
+  "datred": "20240223",
+  "edcnt": 1,
+  "orgdat": "20240223",
+  "orgnum": "3604-IX",
+  "poddat": "20240223",
+  "status_id": "5",
+  "pidstava_nreg": [],
+  "source": "json-card",
+  "history_complete": false,
+  "history_reason": "режим «odyn»: зберігається не вся історія редакцій",
+  "edition_catalog_complete": true,
+  "unresolved_edition_ids": [],
+  "invalid_source_records": [],
+  "resolved_edition_ids": [],
+  "separate_edition_ids": [],
+  "counts": {
+   "edcnt": 1,
+   "json_valid_dates": 1,
+   "doc_update_added": [],
+   "datred": "20240223",
+   "editions_total": 1,
+   "invalid_unique": 0
+  },
+  "texts": {
+   "verified": 1,
+   "legacy_unverified": 0,
+   "corrupt": 0,
+   "date_mismatch": 0,
+   "missing": 0,
+   "expected": 1
+  },
+  "all_texts_verified": true,
+  "doc_update_modified": "2025-05-02T15:35:05",
+  "sync_version": "4.1.7",
+  "checked_at": "2026-11-24T16:24:19+00:00",
+  "snapshot_only": false
+ }
 }

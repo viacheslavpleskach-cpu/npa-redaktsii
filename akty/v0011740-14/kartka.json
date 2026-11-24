@@ -4,13 +4,72 @@
  "stan": "",
  "rezhym": "odyn",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/v0011740-14",
- "perevireno": "2026-11-21T21:36:12.704Z",
- "redaktsii": [],
+ "perevireno": "2026-11-24T16:24:36+00:00",
+ "redaktsii": [
+  {
+   "ed": "20141017",
+   "data": "17.10.2014",
+   "umovna": false,
+   "data_na_saiti": "17.10.2014",
+   "opys": "Прийняття",
+   "podid": "4",
+   "pidstava": [],
+   "pidstava_nreg": [],
+   "basis_unresolved": [],
+   "comment": "",
+   "tekst": true,
+   "text_status": "verified",
+   "bez_posylannia": false,
+   "source": "api",
+   "snapshot_only": false,
+   "sha256": "593e5d4932991ae9b5dd3ba318bee3d3f96f2d0454f347c86c6939faef07bcbe",
+   "document_date": "20141017",
+   "text_source": "txt-api"
+  }
+ ],
  "podii": [
   {
    "data": "17.10.2014",
    "opys": "Прийняття Вищий спеціалізований суд; Постанова № 11"
   }
  ],
- "bez_redaktsii": true
+ "bez_redaktsii": false,
+ "api": {
+  "datred": "20141017",
+  "edcnt": 1,
+  "orgdat": "20141017",
+  "orgnum": "11",
+  "poddat": "20141017",
+  "status_id": "0",
+  "pidstava_nreg": [],
+  "source": "json-card",
+  "history_complete": false,
+  "history_reason": "режим «odyn»: зберігається не вся історія редакцій",
+  "edition_catalog_complete": true,
+  "unresolved_edition_ids": [],
+  "invalid_source_records": [],
+  "resolved_edition_ids": [],
+  "separate_edition_ids": [],
+  "counts": {
+   "edcnt": 1,
+   "json_valid_dates": 1,
+   "doc_update_added": [],
+   "datred": "20141017",
+   "editions_total": 1,
+   "invalid_unique": 0
+  },
+  "texts": {
+   "verified": 1,
+   "legacy_unverified": 0,
+   "corrupt": 0,
+   "date_mismatch": 0,
+   "missing": 0,
+   "expected": 1
+  },
+  "all_texts_verified": true,
+  "doc_update_modified": "2026-02-16T08:00:26",
+  "sync_version": "4.1.7",
+  "checked_at": "2026-11-24T16:24:36+00:00",
+  "snapshot_only": false
+ }
 }
