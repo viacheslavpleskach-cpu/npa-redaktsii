@@ -1,0 +1,266 @@
+Python 3.12.10
+Windows-11-10.0.26300-SP0
+test_missing_edition_is_incomplete (test_completeness.Test2343_12.test_missing_edition_is_incomplete) ... ok
+test_no_double_count_and_unresolved (test_completeness.Test2343_12.test_no_double_count_and_unresolved) ... ok
+test_no_edcnt (test_completeness.Test2343_12.test_no_edcnt) ... ok
+test_only_in_doc_update (test_completeness.Test2343_12.test_only_in_doc_update) ... ok
+test_resolved_documented (test_completeness.Test2343_12.test_resolved_documented) ... ok
+test_chynna_and_odyn_never_complete (test_completeness.TestModesInCard.test_chynna_and_odyn_never_complete) ... ok
+test_povna_complete (test_completeness.TestModesInCard.test_povna_complete) ... ok
+test_snapshot_without_history (test_completeness.TestModesInCard.test_snapshot_without_history) ... ok
+test_304_uses_cache_without_rewrite (test_http.TestHTTP.test_304_uses_cache_without_rewrite) ... ok
+test_403_429_stop_all (test_http.TestHTTP.test_403_429_stop_all) ... ok
+test_conditional_exact_only (test_http.TestHTTP.test_conditional_exact_only) ... ok
+test_content_length_over_budget_not_read (test_http.TestHTTP.test_content_length_over_budget_not_read) ... ok
+test_correct_date_accepted_wrong_rejected (test_http.TestHTTP.test_correct_date_accepted_wrong_rejected) ... ok
+test_interrupted_stream_leaves_no_file (test_http.TestHTTP.test_interrupted_stream_leaves_no_file) ... ok
+test_missing_or_bad_documentdate (test_http.TestHTTP.test_missing_or_bad_documentdate) ... ok
+test_podia_refresh_conditional (test_http.TestHTTP.test_podia_refresh_conditional) ... ok
+test_redirect_is_manual_and_no_html (test_http.TestHTTP.test_redirect_is_manual_and_no_html) ... ok
+test_unknown_length_stream_stops (test_http.TestHTTP.test_unknown_length_stream_stops) ... ok
+test_user_agent_and_injected_pause (test_http.TestHTTP.test_user_agent_and_injected_pause) ... ok
+test_all_good_passes (test_live_checker.TestLiveChecker.test_all_good_passes) ... ok
+test_each_violation_fails (test_live_checker.TestLiveChecker.test_each_violation_fails) ... ok
+test_incomplete_scenario_fails (test_live_checker.TestLiveChecker.test_incomplete_scenario_fails)
+v4.1.6 (аудит v4.1.5): неповний сценарій не може дати успіх. ... ok
+test_missing_files (test_live_checker.TestLiveChecker.test_missing_files) ... ok
+test_out_json_does_not_overwrite_run_checks (test_live_checker.TestLiveChecker.test_out_json_does_not_overwrite_run_checks) ... ok
+test_wrong_version_fails (test_live_checker.TestLiveChecker.test_wrong_version_fails) ... ok
+test_apostrophe_only_diff (test_npa_patch.TestNpaPatch.test_apostrophe_only_diff) ... ok
+test_complete_history_unchanged_output (test_npa_patch.TestNpaPatch.test_complete_history_unchanged_output) ... ok
+test_conditional_label (test_npa_patch.TestNpaPatch.test_conditional_label) ... ok
+test_idempotent_and_revert (test_npa_patch.TestNpaPatch.test_idempotent_and_revert) ... ok
+test_odyn_snapshot (test_npa_patch.TestNpaPatch.test_odyn_snapshot) ... ok
+test_perevirka_date (test_npa_patch.TestNpaPatch.test_perevirka_date) ... ok
+test_unresolved_history_warning (test_npa_patch.TestNpaPatch.test_unresolved_history_warning) ... ok
+test_invalid_reason (test_parsers.TestDates.test_invalid_reason) ... ok
+test_parse_modified (test_parsers.TestDates.test_parse_modified) ... ok
+test_parse_yyyymmdd (test_parsers.TestDates.test_parse_yyyymmdd) ... ok
+test_valid_edition_id (test_parsers.TestDates.test_valid_edition_id) ... ok
+test_cp1251_and_utf8 (test_parsers.TestDocUpdate.test_cp1251_and_utf8) ... ok
+test_empty_raises (test_parsers.TestDocUpdate.test_empty_raises) ... ok
+test_header_row_and_unknown_modified (test_parsers.TestDocUpdate.test_header_row_and_unknown_modified) ... ok
+test_real_format_multi_rows_and_max_modified (test_parsers.TestDocUpdate.test_real_format_multi_rows_and_max_modified) ... ok
+test_fields (test_parsers.TestJsonCard.test_fields) ... ok
+test_empty_unknown_dup (test_parsers.TestPodia.test_empty_unknown_dup) ... ok
+test_parse_podia (test_parsers.TestPodia.test_parse_podia) ... ok
+test_desc_noise_removed (test_status_events_basis.TestBasis.test_desc_noise_removed) ... ok
+test_enrich_keeps_old_and_desc (test_status_events_basis.TestBasis.test_enrich_keeps_old_and_desc) ... ok
+test_no_heuristic_roman (test_status_events_basis.TestBasis.test_no_heuristic_roman) ... ok
+test_orgnum_and_nvlas (test_status_events_basis.TestBasis.test_orgnum_and_nvlas) ... ok
+test_idempotent (test_status_events_basis.TestEvents.test_idempotent) ... ok
+test_no_edition_events_and_keep_legal (test_status_events_basis.TestEvents.test_no_edition_events_and_keep_legal) ... ok
+test_podia_label_change_updates_without_duplicate (test_status_events_basis.TestEvents.test_podia_label_change_updates_without_duplicate) ... ok
+test_absent_keeps_old (test_status_events_basis.TestStatus.test_absent_keeps_old) ... ok
+test_explicit_zero_clears (test_status_events_basis.TestStatus.test_explicit_zero_clears) ... ok
+test_in_normalized_card (test_status_events_basis.TestStatus.test_in_normalized_card) ... ok
+test_known_and_unknown (test_status_events_basis.TestStatus.test_known_and_unknown) ... ok
+test_null_keeps_old_with_warning (test_status_events_basis.TestStatus.test_null_keeps_old_with_warning) ... ok
+test_existing_corrupt_not_hidden (test_sync_integration.TestSyncFlow.test_existing_corrupt_not_hidden) ... ok
+test_full_flow (test_sync_integration.TestSyncFlow.test_full_flow) ... doc-update: 2 документів, 4 рядків, 0 некоректних ed, 0 нерозібраних modified; Last-Modified файла=не надано; кеш=ні.
+  зразки modified: 2026-11-20 09:00:00 | 2026-11-20 09:00:00 | 2026-11-19 09:00:00
+a-1: ok — Тестовий акт a-1 [картка: json-card; каталог повний; тексти: 2 перевірено, 0 legacy, 0 проблемних, 0 відсутніх з 2]
+  записано/до запису: akty\a-1\red\20200101.txt, akty\a-1\red\20210101.txt
+
+Підсумок:
+  нових/планових файлів: 2
+  вже наявних файлів: 0
+  текстів, які не вдалося зберегти: 0
+  інформаційних повідомлень: 0
+  справжніх помилок: 0
+  документів, які потребують ручної перевірки: 0
+  HTTP-запитів: 5; завантажено 0.00 MiB (після декомпресії; може відрізнятися від обліку сервера); 304: 0; з кешу: 0; перервано: 0; невдалих: 0
+  використано локального бюджету за добу: 0.00 / 150 MiB
+doc-update: 2 документів, 4 рядків, 0 некоректних ed, 0 нерозібраних modified; Last-Modified файла=не надано; кеш=ні.
+  зразки modified: 2026-11-20 09:00:00 | 2026-11-20 09:00:00 | 2026-11-19 09:00:00
+a-1: ok — Тестовий акт a-1 [картка: json-card; каталог повний; тексти: 1 перевірено, 0 legacy, 1 проблемних, 0 відсутніх з 2]
+  [ІНФО] 20200101: наявний текст corrupt (SHA-256 тіла не збігається із записаним у шапці); не перезаписано — перевірте verify і відновіть через verify --repair
+
+Підсумок:
+  нових/планових файлів: 0
+  вже наявних файлів: 2
+  текстів, які не вдалося зберегти: 0
+  інформаційних повідомлень: 1
+  справжніх помилок: 0
+  документів, які потребують ручної перевірки: 0
+  HTTP-запитів: 2; завантажено 0.00 MiB (після декомпресії; може відрізнятися від обліку сервера); 304: 0; з кешу: 1; перервано: 0; невдалих: 0
+  використано локального бюджету за добу: 0.00 / 150 MiB
+doc-update: 2 документів, 4 рядків, 0 некоректних ed, 0 нерозібраних modified; Last-Modified файла=не надано; кеш=ні.
+  зразки modified: 2026-11-20 09:00:00 | 2026-11-20 09:00:00 | 2026-11-19 09:00:00
+a-1: ok — Тестовий акт a-1 [картка: json-card; каталог повний; тексти: 2 перевірено, 0 legacy, 0 проблемних, 0 відсутніх з 2]
+  записано/до запису: akty\a-1\red\20200101.txt, akty\a-1\red\20210101.txt
+c-1: ok — Тестовий акт c-1 [картка: json-card; каталог повний; тексти: 1 перевірено, 0 legacy, 0 проблемних, 0 відсутніх з 1]
+  записано/до запису: akty\c-1\red\20220101.txt
+n0001415-13: ОНОВЛЮВАТИ ВРУЧНУ — n0001415-13: акт не обслуговується JSON API (HTTP 302 → https://zakon.rada.gov.ua/laws/show/n0001415-13). Оновлювати вручну: HTML-сторінки zakon.rada.gov.ua закриті для програм (robots.txt).
+
+Підсумок:
+  нових/планових файлів: 3
+  вже наявних файлів: 0
+  текстів, які не вдалося зберегти: 0
+  інформаційних повідомлень: 0
+  справжніх помилок: 0
+  документів, які потребують ручної перевірки: 1 (n0001415-13)
+  HTTP-запитів: 9; завантажено 0.00 MiB (після декомпресії; може відрізнятися від обліку сервера); 304: 0; з кешу: 0; перервано: 0; невдалих: 0
+  використано локального бюджету за добу: 0.00 / 150 MiB
+doc-update: 2 документів, 4 рядків, 0 некоректних ed, 0 нерозібраних modified; Last-Modified файла=не надано; кеш=ні.
+  зразки modified: 2026-11-20 09:00:00 | 2026-11-20 09:00:00 | 2026-11-19 09:00:00
+a-1: ok — Тестовий акт a-1 [картка: json-card; каталог повний; тексти: 2 перевірено, 0 legacy, 0 проблемних, 0 відсутніх з 2]
+c-1: ok — Тестовий акт c-1 [картка: json-card; каталог повний; тексти: 1 перевірено, 0 legacy, 0 проблемних, 0 відсутніх з 1]
+n0001415-13: ОНОВЛЮВАТИ ВРУЧНУ — n0001415-13: акт не обслуговується JSON API (HTTP 302 → https://zakon.rada.gov.ua/laws/show/n0001415-13). Оновлювати вручну: HTML-сторінки zakon.rada.gov.ua закриті для програм (robots.txt).
+
+Підсумок:
+  нових/планових файлів: 0
+  вже наявних файлів: 3
+  текстів, які не вдалося зберегти: 0
+  інформаційних повідомлень: 0
+  справжніх помилок: 0
+  документів, які потребують ручної перевірки: 1 (n0001415-13)
+  HTTP-запитів: 5; завантажено 0.00 MiB (після декомпресії; може відрізнятися від обліку сервера); 304: 0; з кешу: 1; перервано: 0; невдалих: 0
+  використано локального бюджету за добу: 0.00 / 150 MiB
+doc-update: 2 документів, 4 рядків, 0 некоректних ed, 0 нерозібраних modified; Last-Modified файла=не надано; кеш=ні.
+  зразки modified: 2026-11-20 09:00:00 | 2026-11-20 09:00:00 | 2026-11-19 09:00:00
+n0001415-13: оновлювати вручну: HTTP 302 → https://zakon.rada.gov.ua/laws/show/n0001415-13 (перевірено 2026-11-24)
+Актів для перевірки: 0 із 3.
+Нових редакцій, змін карток і відсутніх текстів не виявлено.
+  HTTP-запитів: 1; завантажено 0.00 MiB (після декомпресії; може відрізнятися від обліку сервера); 304: 0; з кешу: 0; перервано: 0; невдалих: 0
+  використано локального бюджету за добу: 0.00 / 150 MiB
+doc-update: 2 документів, 4 рядків, 0 некоректних ed, 0 нерозібраних modified; Last-Modified файла=не надано; кеш=ні.
+  зразки modified: 2026-11-23 08:00:00 | 2026-11-23 08:00:00 | 2026-11-19 09:00:00
+a-1: перевірити — modified змінився: 2026-11-20T09:00:00 → 2026-11-23T08:00:00
+n0001415-13: оновлювати вручну: HTTP 302 → https://zakon.rada.gov.ua/laws/show/n0001415-13 (перевірено 2026-11-24)
+Актів для перевірки: 1 із 3.
+a-1: ok — Тестовий акт a-1 [картка: json-card; каталог повний; тексти: 2 перевірено, 0 legacy, 0 проблемних, 0 відсутніх з 2]
+
+Підсумок:
+  нових/планових файлів: 0
+  вже наявних файлів: 2
+  текстів, які не вдалося зберегти: 0
+  інформаційних повідомлень: 0
+  справжніх помилок: 0
+  документів, які потребують ручної перевірки: 0
+  HTTP-запитів: 2; завантажено 0.00 MiB (після декомпресії; може відрізнятися від обліку сервера); 304: 0; з кешу: 1; перервано: 0; невдалих: 0ok
+test_not_in_doc_update_is_not_manual (test_sync_integration.TestSyncFlow.test_not_in_doc_update_is_not_manual) ... ok
+test_unparsed_modified_falls_back_to_card (test_sync_integration.TestSyncFlow.test_unparsed_modified_falls_back_to_card) ... ok
+test_wrong_documentdate_writes_nothing (test_sync_integration.TestSyncFlow.test_wrong_documentdate_writes_nothing) ... ok
+test_crlf_checkout_still_verified (test_text_audit.TestClassify.test_crlf_checkout_still_verified) ... ok
+test_legacy (test_text_audit.TestClassify.test_legacy) ... ok
+test_missing_and_empty (test_text_audit.TestClassify.test_missing_and_empty) ... ok
+test_one_byte_changed_is_corrupt (test_text_audit.TestClassify.test_one_byte_changed_is_corrupt) ... ok
+test_verified (test_text_audit.TestClassify.test_verified) ... ok
+test_verify_changes_nothing (test_text_audit.TestClassify.test_verify_changes_nothing) ... ok
+test_wrong_documentdate (test_text_audit.TestClassify.test_wrong_documentdate) ... ok
+test_reference_302_inconclusive (test_v4_1_1_regressions.TestAnomalyReference.test_reference_302_inconclusive) ... ok
+test_reference_404_inconclusive (test_v4_1_1_regressions.TestAnomalyReference.test_reference_404_inconclusive) ... ok
+test_exact_edcnt_is_complete (test_v4_1_1_regressions.TestEdcntExact.test_exact_edcnt_is_complete) ... ok
+test_more_distinct_editions_than_edcnt_is_not_complete (test_v4_1_1_regressions.TestEdcntExact.test_more_distinct_editions_than_edcnt_is_not_complete) ... ok
+test_more_than_edcnt_via_doc_update_is_not_complete (test_v4_1_1_regressions.TestEdcntExact.test_more_than_edcnt_via_doc_update_is_not_complete) ... ok
+test_mixed_parsed_and_unparsed_modified_falls_back_to_card (test_v4_1_1_regressions.TestMixedModified.test_mixed_parsed_and_unparsed_modified_falls_back_to_card) ... ok
+test_missing_outside_expected_set_not_counted (test_v4_1_1_regressions.TestVerifyCodes.test_missing_outside_expected_set_not_counted) ... ok
+test_verify_repair_all_targets_fixed_returns_zero (test_v4_1_1_regressions.TestVerifyCodes.test_verify_repair_all_targets_fixed_returns_zero) ... ok
+test_verify_repair_budget_exceeded_returns_nonzero (test_v4_1_1_regressions.TestVerifyCodes.test_verify_repair_budget_exceeded_returns_nonzero) ... ok
+test_verify_repair_conditional_skipped_returns_nonzero (test_v4_1_1_regressions.TestVerifyCodes.test_verify_repair_conditional_skipped_returns_nonzero) ... ok
+test_verify_returns_nonzero_for_missing_expected_only (test_v4_1_1_regressions.TestVerifyCodes.test_verify_returns_nonzero_for_missing_expected_only) ... ok
+test_both_identical_html (test_v4_1_2_regressions.TestAnomalyHtml.test_both_identical_html) ... ok
+test_empty_bodies (test_v4_1_2_regressions.TestAnomalyHtml.test_empty_bodies) ... ok
+test_html_body_with_text_mime (test_v4_1_2_regressions.TestAnomalyHtml.test_html_body_with_text_mime) ... ok
+test_identical_real_txt_still_duplicate (test_v4_1_2_regressions.TestAnomalyHtml.test_identical_real_txt_still_duplicate) ... ok
+test_raw_html_reference_txt (test_v4_1_2_regressions.TestAnomalyHtml.test_raw_html_reference_txt) ... ok
+test_raw_txt_reference_html (test_v4_1_2_regressions.TestAnomalyHtml.test_raw_txt_reference_html) ... ok
+test_chynna_odyn_historical_missing_still_ok (test_v4_1_2_regressions.TestVerifyMissingCard.test_chynna_odyn_historical_missing_still_ok) ... ok
+test_json_report_lists_missing_card (test_v4_1_2_regressions.TestVerifyMissingCard.test_json_report_lists_missing_card) ... ok
+test_no_card_no_texts_nonzero (test_v4_1_2_regressions.TestVerifyMissingCard.test_no_card_no_texts_nonzero) ... ok
+test_no_card_with_stray_text_nonzero (test_v4_1_2_regressions.TestVerifyMissingCard.test_no_card_with_stray_text_nonzero) ... ok
+test_repair_without_card_no_targets_nonzero (test_v4_1_2_regressions.TestVerifyMissingCard.test_repair_without_card_no_targets_nonzero) ... ok
+test_repair_without_card_nonzero_and_no_changes (test_v4_1_2_regressions.TestVerifyMissingCard.test_repair_without_card_nonzero_and_no_changes) ... ok
+test_anomaly_never_duplicate_for_html (test_v4_1_3_html_edge.TestHtmlNeverBecomesEdition.test_anomaly_never_duplicate_for_html) ... ok
+test_fetch_verified_text_rejects_html (test_v4_1_3_html_edge.TestHtmlNeverBecomesEdition.test_fetch_verified_text_rejects_html) ... ok
+test_html_cases_detected (test_v4_1_3_html_edge.TestLooksLikeHtml.test_html_cases_detected) ... ok
+test_plain_text_not_detected (test_v4_1_3_html_edge.TestLooksLikeHtml.test_plain_text_not_detected) ... ok
+test_txt_response_problem_for_each_html_case (test_v4_1_3_html_edge.TestLooksLikeHtml.test_txt_response_problem_for_each_html_case) ... ok
+test_anomaly_never_duplicate_for_fragments (test_v4_1_4_html_fragments.TestShortFragments.test_anomaly_never_duplicate_for_fragments) ... ok
+test_fetch_verified_text_rejects_fragments (test_v4_1_4_html_fragments.TestShortFragments.test_fetch_verified_text_rejects_fragments) ... ok
+test_fragments_detected (test_v4_1_4_html_fragments.TestShortFragments.test_fragments_detected) ... ok
+test_legal_texts_not_detected (test_v4_1_4_html_fragments.TestShortFragments.test_legal_texts_not_detected) ... ok
+test_anomaly_cyrillic_vs_html_still_inconclusive (test_v4_1_6_unicode_e2e.TestUnicodeEndToEnd.test_anomaly_cyrillic_vs_html_still_inconclusive) ... ok
+test_anomaly_record_duplicate_for_identical_cyrillic_texts (test_v4_1_6_unicode_e2e.TestUnicodeEndToEnd.test_anomaly_record_duplicate_for_identical_cyrillic_texts) ... ok
+test_fetch_verified_text_accepts (test_v4_1_6_unicode_e2e.TestUnicodeEndToEnd.test_fetch_verified_text_accepts) ... ok
+test_sync_writes_verified_and_verify_clean (test_v4_1_6_unicode_e2e.TestUnicodeEndToEnd.test_sync_writes_verified_and_verify_clean) ... ok
+
+----------------------------------------------------------------------
+Ran 103 tests in 14.750s
+
+OK
+
+  використано локального бюджету за добу: 0.00 / 150 MiB
+doc-update: 2 документів, 4 рядків, 0 некоректних ed, 0 нерозібраних modified; Last-Modified файла=не надано; кеш=ні.
+  зразки modified: 2026-11-20 09:00:00 | 2026-11-20 09:00:00 | 2026-11-19 09:00:00
+n0001415-13: ok — Тестовий акт n0001415-13 [картка: json-card; каталог повний; тексти: 1 перевірено, 0 legacy, 0 проблемних, 0 відсутніх з 1]
+  записано/до запису: akty\n0001415-13\red\20240918.txt
+  [ІНФО] 20240918: короткий текст (16 символів); перевірте його окремо
+
+Підсумок:
+  нових/планових файлів: 1
+  вже наявних файлів: 0
+  текстів, які не вдалося зберегти: 0
+  інформаційних повідомлень: 1
+  справжніх помилок: 0
+  документів, які потребують ручної перевірки: 0
+  HTTP-запитів: 4; завантажено 0.00 MiB (після декомпресії; може відрізнятися від обліку сервера); 304: 0; з кешу: 0; перервано: 0; невдалих: 0
+  використано локального бюджету за добу: 0.00 / 150 MiB
+doc-update: 2 документів, 4 рядків, 0 некоректних ed, 0 нерозібраних modified; Last-Modified файла=не надано; кеш=ні.
+  зразки modified: 2026-11-20 09:00:00 | 2026-11-20 09:00:00 | 2026-11-19 09:00:00
+a-1: ok — Тестовий акт a-1 [картка: json-card; каталог повний; тексти: 2 перевірено, 0 legacy, 0 проблемних, 0 відсутніх з 2]
+  записано/до запису: akty\a-1\red\20200101.txt, akty\a-1\red\20210101.txt
+c-1: ok — Тестовий акт c-1 [картка: json-card; каталог повний; тексти: 1 перевірено, 0 legacy, 0 проблемних, 0 відсутніх з 1]
+  записано/до запису: akty\c-1\red\20220101.txt
+n0001415-13: ОНОВЛЮВАТИ ВРУЧНУ — n0001415-13: акт не обслуговується JSON API (HTTP 302 → https://zakon.rada.gov.ua/laws/show/n0001415-13). Оновлювати вручну: HTML-сторінки zakon.rada.gov.ua закриті для програм (robots.txt).
+
+Підсумок:
+  нових/планових файлів: 3
+  вже наявних файлів: 0
+  текстів, які не вдалося зберегти: 0
+  інформаційних повідомлень: 0
+  справжніх помилок: 0
+  документів, які потребують ручної перевірки: 1 (n0001415-13)
+  HTTP-запитів: 9; завантажено 0.00 MiB (після декомпресії; може відрізнятися від обліку сервера); 304: 0; з кешу: 0; перервано: 0; невдалих: 0
+  використано локального бюджету за добу: 0.00 / 150 MiB
+doc-update: 2 документів, 4 рядків, 0 некоректних ed, 2 нерозібраних modified; Last-Modified файла=не надано; кеш=ні.
+  зразки modified: ??? | ??? | 2026-11-19 09:00:00
+a-1: перевірити — modified у doc-update невідомого формату; перевіряю JSON-картку
+n0001415-13: перевірити — картки ще немає
+Актів для перевірки: 2 із 3.
+a-1: ok — Тестовий акт a-1 [картка: json-card; каталог повний; тексти: 2 перевірено, 0 legacy, 0 проблемних, 0 відсутніх з 2]
+n0001415-13: ОНОВЛЮВАТИ ВРУЧНУ — n0001415-13: акт не обслуговується JSON API (HTTP 302 → https://zakon.rada.gov.ua/laws/show/n0001415-13). Оновлювати вручну: HTML-сторінки zakon.rada.gov.ua закриті для програм (robots.txt).
+
+Підсумок:
+  нових/планових файлів: 0
+  вже наявних файлів: 2
+  текстів, які не вдалося зберегти: 0
+  інформаційних повідомлень: 0
+  справжніх помилок: 0
+  документів, які потребують ручної перевірки: 1 (n0001415-13)
+  HTTP-запитів: 4; завантажено 0.00 MiB (після декомпресії; може відрізнятися від обліку сервера); 304: 0; з кешу: 1; перервано: 0; невдалих: 0
+  використано локального бюджету за добу: 0.00 / 150 MiB
+doc-update: 2 документів, 4 рядків, 0 некоректних ed, 0 нерозібраних modified; Last-Modified файла=не надано; кеш=ні.
+  зразки modified: 2026-11-20 09:00:00 | 2026-11-20 09:00:00 | 2026-11-19 09:00:00
+a-1: частково — Тестовий акт a-1 [картка: json-card; каталог повний; тексти: 1 перевірено, 0 legacy, 0 проблемних, 1 відсутніх з 2]
+  записано/до запису: akty\a-1\red\20210101.txt
+  [ІНФО] 20200101: НЕ збережено — Сервер повернув редакцію від 01.01.2021, але було запитано/очікувалося 01.01.2020. Текст не збережено.
+
+Підсумок:
+  нових/планових файлів: 1
+  вже наявних файлів: 0
+  текстів, які не вдалося зберегти: 1
+  інформаційних повідомлень: 1
+  справжніх помилок: 1
+  документів, які потребують ручної перевірки: 0
+  HTTP-запитів: 5; завантажено 0.00 MiB (після декомпресії; може відрізнятися від обліку сервера); 304: 0; з кешу: 0; перервано: 0; невдалих: 0
+  використано локального бюджету за добу: 0.00 / 150 MiB
+a-1            povna  verified 1, legacy_unverified 1, corrupt 1, missing 1
+    20170101: missing — файла немає
+    20180101: corrupt — SHA-256 тіла не збігається із записаним у шапці
+
+Разом: verified 1, legacy_unverified 1, corrupt 1, date_mismatch 0, missing 1; актів без картки (missing_card): 0
+legacy_unverified — старі файли браузерного імпорту без SHA-256/DocumentDate: їх не видалено й не перезаписано; для цитування звіряти з офіційним джерелом за посиланням у шапці файла.
+Звіт: C:\Users\VF7C0~1.PLE\AppData\Local\Temp\npa41_daffsaza\out\v.json
+exit=0

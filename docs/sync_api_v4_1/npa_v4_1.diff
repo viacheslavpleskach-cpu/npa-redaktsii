@@ -1,0 +1,118 @@
+--- npa.py
++++ npa.py
+@@ -35,6 +35,27 @@
+     sys.exit(f'Не розпізнано дату: {s} (потрібно ДД.ММ.РРРР)')
+ 
+ 
++APOS = str.maketrans({"'": '’', 'ʼ': '’', '`': '’', '‘': '’'})  # patch v4.1 (sync_api_v4_1)
++
++
++def norm_apos(radky):
++    """Лише для порівняння: апострофи різних кодів вважаються однаковими."""
++    return [l.translate(APOS) for l in radky] if radky is not None else None
++
++
++def data_perevirky(k):
++    """Пізніша з дат: картка (perevireno) і dani/perevirka.json (sync --changed)."""
++    d = dt.date.fromisoformat(k['perevireno'][:10])
++    p = os.path.join(KORIN, 'dani', 'perevirka.json')
++    if os.path.exists(p):
++        try:
++            z = json.load(open(p, encoding='utf-8')).get(k['nreg'], {})
++            d = max(d, dt.date.fromisoformat(str(z.get('checked_at', ''))[:10]))
++        except (ValueError, OSError):
++            pass
++    return d
++
++
+ def ed2d(ed):
+     return None if ed.startswith('3000') or ed == 'bez_redaktsii' else dt.date(int(ed[:4]), int(ed[4:6]), int(ed[6:8]))
+ 
+@@ -114,7 +135,13 @@
+     if not k['redaktsii'] and k.get('bez_redaktsii'):
+         pop.append('документ на сайті не має переліку редакцій: в архіві один текст, без історії змін')
+         return {'ed': 'bez_redaktsii', 'data': None, 'opys': '', 'pidstava': [], 'tekst': True}, pop
++    api = k.get('api') or {}
++    znimok = k.get('rezhym') == 'odyn' or bool(api.get('snapshot_only'))
+     if not pered:
++        if znimok and realni:
++            pop.append(f'в архіві лише один знімок тексту від {ukr(ed2d(realni[0]["ed"]))} без історії редакцій; '
++                       f'редакції на {ukr(na)} в архіві немає — взяти з сайту')
++            return None, pop
+         pop.append(f'на {ukr(na)} акта ще не було: перша редакція від {ukr(ed2d(realni[0]["ed"])) if realni else "?"} '
+                    '(сайт у такому разі показує чинну редакцію — не використовувати її)')
+         return None, pop
+@@ -134,7 +161,18 @@
+     pizni = [x for x in realni if ed2d(x['ed']) > na]
+     if pizni and ed2d(pizni[0]['ed']) > dt.date.today():
+         pop.append(f'є редакція, що набирає чинності {ukr(ed2d(pizni[0]["ed"]))} (підстава {", ".join(pizni[0]["pidstava"])})')
+-    perev = dt.date.fromisoformat(k['perevireno'][:10])
++    if k.get('rezhym') == 'povna' and api and api.get('history_complete') is False:
++        pop.append('повноту історії редакцій не підтверджено'
++                   + (f": {api.get('history_reason')}" if api.get('history_reason') else '')
++                   + ' — між редакціями архіву може бути пропущена')
++    if znimok:
++        pop.append(f'режим «{k.get("rezhym")}»: в архіві один знімок тексту (від {ukr(ed2d(r["ed"]))}); '
++                   f'що саме він діяв на {ukr(na)}, архівом не підтверджено')
++    elif k.get('rezhym') == 'chynna':
++        pop.append('режим «chynna»: в архіві зберігається лише чинний текст, не вся історія редакцій')
++    if r.get('text_status') in ('corrupt', 'date_mismatch'):
++        pop.append(f'текст цієї редакції не пройшов перевірку цілісності ({r["text_status"]}) — звірити із сайтом')
++    perev = data_perevirky(k)
+     if na > perev:
+         pop.append(f'архів перевірено станом на {ukr(perev)}; зміни після цієї дати можуть бути не враховані')
+     return r, pop
+@@ -171,7 +209,12 @@
+     if r['ed'] != 'bez_redaktsii':
+         s.append(f"Редакція від {ukr(ed2d(r['ed']))}, {r['opys']}  [чинна на {ukr(na)}]")
+     s.append(f'Джерело: {url}')
+-    s.append(f"Архів перевірено: {ukr(dt.date.fromisoformat(k['perevireno'][:10]))}")
++    s.append(f"Архів перевірено: {ukr(data_perevirky(k))}")
++    st = {'verified': 'перевірено (SHA-256 і DocumentDate з API)',
++          'legacy_unverified': 'старий імпорт без контрольної суми — для цитування звірити із сайтом',
++          'corrupt': 'ПОШКОДЖЕНО', 'date_mismatch': 'ДАТА НЕ ЗБІГАЄТЬСЯ'}.get(r.get('text_status'))
++    if st:
++        s.append(f'Перевірка тексту: {st}')
+     s += ['⚠ ' + p for p in pop]
+     return '\n'.join(s)
+ 
+@@ -194,13 +237,18 @@
+ 
+ def cmd_redaktsii(a):
+     k = potribna_kartka(a.akt)
+-    print(f"{k['nazva']} ({k['nreg']}), стан: {k['stan'] or '—'}; перевірено {k['perevireno'][:10]}")
++    print(f"{k['nazva']} ({k['nreg']}), стан: {k['stan'] or '—'}; перевірено {data_perevirky(k).isoformat()}")
++    api = k.get('api') or {}
++    if api.get('history_complete') is False and k.get('rezhym') == 'povna':
++        print('⚠ повноту історії редакцій не підтверджено: ' + str(api.get('history_reason') or ''))
++    elif k.get('rezhym') != 'povna':
++        print(f'⚠ режим «{k.get("rezhym")}»: в архіві не вся історія редакцій')
+     sohodni = dt.date.today()
+     chynna = [r for r in k['redaktsii'] if ed2d(r['ed']) and ed2d(r['ed']) <= sohodni]
+     chynna = chynna[-1]['ed'] if chynna else None
+     for r in k['redaktsii']:
+         d = ukr(ed2d(r['ed'])) or r['data_na_saiti']
+-        poz = ' ← чинна' if r['ed'] == chynna else (' (майбутня)' if not ed2d(r['ed']) or ed2d(r['ed']) > sohodni else '')
++        poz = ' ← чинна' if r['ed'] == chynna else (' (умовна)' if not ed2d(r['ed']) else (' (майбутня)' if ed2d(r['ed']) > sohodni else ''))
+         print(f"{d:12} {r['opys'][:90]}{'' if r['tekst'] else '  [тексту в архіві немає]'}{poz}")
+     for p in k.get('podii', []):
+         print(f"  подія {p['data']}: {p['opys'][:100]}")
+@@ -241,7 +289,7 @@
+             continue
+         radky, _ = tekst(k['nreg'], r['ed'])
+         st = stattia_z(radky, a.stattia)
+-        cur = '\n'.join(st) if st else None
++        cur = '\n'.join(norm_apos(st)) if st else None
+         d = ukr(ed2d(r['ed'])) or r['data_na_saiti']
+         if cur != prev:
+             if cur is None:
+@@ -272,6 +320,9 @@
+     s1, s2 = stattia_z(t1, a.stattia) or [], stattia_z(t2, a.stattia) or []
+     if s1 == s2:
+         print('Текст статті не змінився.'); return
++    s1, s2 = norm_apos(s1), norm_apos(s2)
++    if s1 == s2:
++        print('Текст статті не змінився (різниця лише в написанні апострофа).'); return
+     for l in difflib.unified_diff(s1, s2, f'від {ukr(ed2d(r1["ed"]))}', f'від {ukr(ed2d(r2["ed"]))}', lineterm='', n=0):
+         print(l)
+ 
