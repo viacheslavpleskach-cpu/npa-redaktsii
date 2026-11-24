@@ -18,10 +18,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "02f89e54d1755fadab8d39f43c33042dd9a8090f83f6e8f691a95f1fec2f49fb",
+   "document_date": "20160602",
+   "text_source": "txt-api"
   },
   {
    "ed": "20170101",
@@ -39,10 +42,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "5d817e562fcb734b1b2990e8dc6b4fa069c60e7b316e809ccb4c3b816a6710b2",
+   "document_date": "20170101",
+   "text_source": "txt-api"
   },
   {
    "ed": "20170105",
@@ -60,10 +66,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "083f732b669356cef1da6473652be105a09a915d9488e6918380da7356b74398",
+   "document_date": "20170105",
+   "text_source": "txt-api"
   },
   {
    "ed": "20171129",
@@ -81,10 +90,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "34e876ad9b8a33a9734ab3faeb7c6a2d2366e9f1b24200c63dc159baa9c7c395",
+   "document_date": "20171129",
+   "text_source": "txt-api"
   },
   {
    "ed": "20171215",
@@ -102,10 +114,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "020d7311b10207bcf3a94c6e7a46105ff812fab980912a25bd3bbc94abc1fffb",
+   "document_date": "20171215",
+   "text_source": "txt-api"
   },
   {
    "ed": "20180805",
@@ -123,10 +138,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "95bb828a38ab05b10b5bfde152799efe8a530b35627000a0de3d99d24b3fee20",
+   "document_date": "20180805",
+   "text_source": "txt-api"
   },
   {
    "ed": "20191107",
@@ -144,10 +162,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "eecc9da92228377fb67fd0c338215271c71683dea504c7c405c635a678b9b999",
+   "document_date": "20191107",
+   "text_source": "txt-api"
   },
   {
    "ed": "20191128",
@@ -165,10 +186,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "3526060f8e000c413b34ba1f0cde63d759779f906b283bd9372ef117f91cc4d4",
+   "document_date": "20191128",
+   "text_source": "txt-api"
   },
   {
    "ed": "20200101",
@@ -186,10 +210,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "fca506b3a6c53f365f4de641e90442daf6169070d7db37afbbe549bb8774d082",
+   "document_date": "20200101",
+   "text_source": "txt-api"
   },
   {
    "ed": "20200620",
@@ -207,10 +234,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "2d2c5ca153b7cdb29edd8a8859510889d4527de483492f3f01a58c4b5bbed4f7",
+   "document_date": "20200620",
+   "text_source": "txt-api"
   },
   {
    "ed": "20201210",
@@ -228,10 +258,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "c87cf9ae344dff897f06811d6aff5d58d96eecbebe4ff611c1059aac0fdefab9",
+   "document_date": "20201210",
+   "text_source": "txt-api"
   },
   {
    "ed": "20210523",
@@ -249,10 +282,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "97d84170d5f31942e4c3be8053050e0e3e96b1a8ea5f41a5692d291802f42c9e",
+   "document_date": "20210523",
+   "text_source": "txt-api"
   },
   {
    "ed": "20210616",
@@ -270,10 +306,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "4d474f62ba83e3f4f9fb9e7d90863adb95186cce53de597f549cd26be43689e5",
+   "document_date": "20210616",
+   "text_source": "txt-api"
   },
   {
    "ed": "20210715",
@@ -291,10 +330,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "023496f0bca2e75fcfe543f2d17b824f3435b3d344d59655676abd6e94f70c24",
+   "document_date": "20210715",
+   "text_source": "txt-api"
   },
   {
    "ed": "20210716",
@@ -312,10 +354,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "73e323f7b83c67957b2e71ae690cc4e89c90ed1f4974c502006d4e48412e55a7",
+   "document_date": "20210716",
+   "text_source": "txt-api"
   },
   {
    "ed": "20210805",
@@ -333,10 +378,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "e2a4459511276d4f383fbc7677fb3b405e060ae2431908b5433539961f417809",
+   "document_date": "20210805",
+   "text_source": "txt-api"
   },
   {
    "ed": "20211124",
@@ -354,10 +402,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "4553f07170e5b9c60ee79dcda1d18d91f47f67321fa2fa110bad5d65fe0315a1",
+   "document_date": "20211124",
+   "text_source": "txt-api"
   },
   {
    "ed": "20211210",
@@ -375,10 +426,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "ca3713d74e0309ac3b628ac544c58c95a20c95a1222c5578fe150b46b25412f5",
+   "document_date": "20211210",
+   "text_source": "txt-api"
   },
   {
    "ed": "20220101",
@@ -396,10 +450,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "04beb10798e5d2de10efc9bb2f6fa543fa09328459bcbd135a0956a19763ffaa",
+   "document_date": "20220101",
+   "text_source": "txt-api"
   },
   {
    "ed": "20220307",
@@ -417,10 +474,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "e0750ca09049e316b12075e20bf3e4609cd3b0898aed7328a9020b320ca609a5",
+   "document_date": "20220307",
+   "text_source": "txt-api"
   },
   {
    "ed": "20220322",
@@ -438,10 +498,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "92e17afdbf30409f5699bf951c105112b8dd438b058a49de9cc3aa517c7410de",
+   "document_date": "20220322",
+   "text_source": "txt-api"
   },
   {
    "ed": "20220818",
@@ -459,10 +522,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "11d939b6996d31e260997105ea5fab73813c312416d53baed3652e1c3a9306e4",
+   "document_date": "20220818",
+   "text_source": "txt-api"
   },
   {
    "ed": "20221215",
@@ -480,10 +546,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "90e8fad31e85b90e9460818e8b3c90eb3b85572a8dcbd1cfa6a709372e760b80",
+   "document_date": "20221215",
+   "text_source": "txt-api"
   },
   {
    "ed": "20221223",
@@ -503,10 +572,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "fc11b9a1b7e8b9fa3893572e10be52def3dee3ca54bfcd8b721209f721c765dd",
+   "document_date": "20221223",
+   "text_source": "txt-api"
   },
   {
    "ed": "20231019",
@@ -524,10 +596,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "5f141771b89fc6f35fbc201f4152b3da804467a8fedc0713a7dedf418b86c2d3",
+   "document_date": "20231019",
+   "text_source": "txt-api"
   },
   {
    "ed": "20231227",
@@ -545,10 +620,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "5e769f0d9e3378b68e594b50f0a24c610056cd6f2d2d50798a589a6365a5980c",
+   "document_date": "20231227",
+   "text_source": "txt-api"
   },
   {
    "ed": "20231230",
@@ -566,10 +644,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "9e7ed84751b7cf5305e7ab4003a5cd27cd95544a7383b11de78effc7fe34083d",
+   "document_date": "20231230",
+   "text_source": "txt-api"
   },
   {
    "ed": "20240101",
@@ -587,10 +668,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "79dca36c39c574eddd1718e781069074c570fbb77004146726fda6dbc69157e8",
+   "document_date": "20240101",
+   "text_source": "txt-api"
   },
   {
    "ed": "20240808",
@@ -608,10 +692,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "c6445451fabb79bd4f79ae9cc0e690b566aeabcdb52d0d209330afeacc49ea8d",
+   "document_date": "20240808",
+   "text_source": "txt-api"
   },
   {
    "ed": "20241211",
@@ -629,10 +716,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "7c24308763c94d7896ec3cb5a9129d43cd6b3e231172a2951e5cfd493715d65c",
+   "document_date": "20241211",
+   "text_source": "txt-api"
   },
   {
    "ed": "20250101",
@@ -650,10 +740,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "8d51f9ee018549136b25f1a1ef13a42f25065dc5cf7f97684469095352b01553",
+   "document_date": "20250101",
+   "text_source": "txt-api"
   },
   {
    "ed": "20250208",
@@ -671,10 +764,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "11203e01a7bbe71f3d9569ed42295bd251100421b1e528b46483c9cbdea8fef4",
+   "document_date": "20250208",
+   "text_source": "txt-api"
   },
   {
    "ed": "20250326",
@@ -692,10 +788,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "6f50fafe06d5fc98bd69a37f9185b30b47eed27d95c40ee88c3550b6a8b1017a",
+   "document_date": "20250326",
+   "text_source": "txt-api"
   },
   {
    "ed": "20250425",
@@ -713,10 +812,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "c9cb06f7dc42be49fbf610e98fb35f3a325062a39342a0035ac85626c9ac5f3f",
+   "document_date": "20250425",
+   "text_source": "txt-api"
   },
   {
    "ed": "20250604",
@@ -734,10 +836,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "5f2b767a680bba7080925adcd73d052eff1393562e4c43bc4bd53e3662c8a412",
+   "document_date": "20250604",
+   "text_source": "txt-api"
   },
   {
    "ed": "20260507",
@@ -755,10 +860,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "f42bacfd8d226f6885e30fc828433c2af5764201ebeb7e95660f304792b4e7a8",
+   "document_date": "20260507",
+   "text_source": "txt-api"
   },
   {
    "ed": "20260625",
@@ -779,7 +887,8 @@
    "text_status": "legacy_unverified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "api_text_issue": "TXT API втрачає верхні індекси (напр. «Стаття 151» замість «Стаття 15-1»); залишено текст браузерного імпорту (24.11.2026)"
   }
  ],
  "podii": [
@@ -854,8 +963,8 @@
    "invalid_unique": 0
   },
   "texts": {
-   "verified": 0,
-   "legacy_unverified": 37,
+   "verified": 36,
+   "legacy_unverified": 1,
    "corrupt": 0,
    "date_mismatch": 0,
    "missing": 0,

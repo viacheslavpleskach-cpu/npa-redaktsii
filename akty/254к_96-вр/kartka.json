@@ -18,10 +18,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "314297a7bf7829dbe2b869e0e93077168e22589cc8189ede27697f1519ae97f0",
+   "document_date": "19960628",
+   "text_source": "txt-api"
   },
   {
    "ed": "20060101",
@@ -39,10 +42,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "da3155a6e90916bf10c013c6db715ab354015e7d6f3cca7729a1d0b3b696d168",
+   "document_date": "20060101",
+   "text_source": "txt-api"
   },
   {
    "ed": "20100930",
@@ -60,10 +66,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "014979e399bb97a75290dc26825b6ed7febe4cde214d4e3f04e370448baa20a1",
+   "document_date": "20100930",
+   "text_source": "txt-api"
   },
   {
    "ed": "20110204",
@@ -81,10 +90,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "1d90a0c5279854c3d49e25aa95562379cca4fc617ed0fd92ed9cc5508f03cbc7",
+   "document_date": "20110204",
+   "text_source": "txt-api"
   },
   {
    "ed": "20131006",
@@ -102,10 +114,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "2b62aec8951e48c14d4d6a4d2f28b715fa298ccd675da1b4634283083b93a777",
+   "document_date": "20131006",
+   "text_source": "txt-api"
   },
   {
    "ed": "20140222",
@@ -119,10 +134,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "36cb43de92bfeb4dcd0385176c95092cd2d79ad0751b9c749a78b731d2ac6b34",
+   "document_date": "20140222",
+   "text_source": "txt-api"
   },
   {
    "ed": "20140302",
@@ -140,10 +158,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "84dd3d1b615d6be80a1f0473395fe28fcf7851221f17bf1e51024c14514b8352",
+   "document_date": "20140302",
+   "text_source": "txt-api"
   },
   {
    "ed": "20160930",
@@ -161,10 +182,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "3c3e0eefcf06068113222c6581639042ceeb00bf5e4e3c3509181b4f1079bc43",
+   "document_date": "20160930",
+   "text_source": "txt-api"
   },
   {
    "ed": "20190221",
@@ -182,10 +206,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "b3125a96afe7fe638d18b06214635b2cb353cae0a6cf84b8b6c9469771165993",
+   "document_date": "20190221",
+   "text_source": "txt-api"
   },
   {
    "ed": "20200101",
@@ -206,7 +233,8 @@
    "text_status": "legacy_unverified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "api_text_issue": "TXT API втрачає верхні індекси (напр. «Стаття 151» замість «Стаття 15-1»); залишено текст браузерного імпорту (24.11.2026)"
   }
  ],
  "podii": [
@@ -515,8 +543,8 @@
    "invalid_unique": 0
   },
   "texts": {
-   "verified": 0,
-   "legacy_unverified": 10,
+   "verified": 9,
+   "legacy_unverified": 1,
    "corrupt": 0,
    "date_mismatch": 0,
    "missing": 0,

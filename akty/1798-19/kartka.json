@@ -18,10 +18,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "d41929697211f378853a29edddf5d1a5f2c3fb4ff34db4267b90b6670ad7ed3a",
+   "document_date": "20161221",
+   "text_source": "txt-api"
   },
   {
    "ed": "20171129",
@@ -39,10 +42,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "70728b17410cc3e57c2b1a067c95f301fec6096b1579de8947072fb881a6546c",
+   "document_date": "20171129",
+   "text_source": "txt-api"
   },
   {
    "ed": "20180614",
@@ -60,10 +66,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "62e2cf85f0fc7108586295c13c24b705b5b410236de7cf18cc1c62dd74719429",
+   "document_date": "20180614",
+   "text_source": "txt-api"
   },
   {
    "ed": "20190111",
@@ -81,10 +90,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "5c096fdc85a750e996dc39f45ef5d83003ebdcbac6c01ed1e7aff3527edf55ab",
+   "document_date": "20190111",
+   "text_source": "txt-api"
   },
   {
    "ed": "20191107",
@@ -102,10 +114,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "92adecf2eba833a33258ff7893d2c2b6fcc1fe761beb4b11521436aba1685c3b",
+   "document_date": "20191107",
+   "text_source": "txt-api"
   },
   {
    "ed": "20191128",
@@ -123,10 +138,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "fd1b9760a90517193debb72fde955c93d172ac8ffdec7fb9ae2c2c9cc3515592",
+   "document_date": "20191128",
+   "text_source": "txt-api"
   },
   {
    "ed": "20210526",
@@ -144,10 +162,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "279bc8203d5d7b88d1f084e6e7d40ebca527c2cd16bcbbdccd20014172c29f7f",
+   "document_date": "20210526",
+   "text_source": "txt-api"
   },
   {
    "ed": "20210610",
@@ -165,10 +186,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "a518fb64d4dbf43cdcb54d75004afa4351f37275c696082bb569412dcfa47e3c",
+   "document_date": "20210610",
+   "text_source": "txt-api"
   },
   {
    "ed": "20210716",
@@ -186,10 +210,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "5380de06cf33bb0b91f4de6a919c22966e3fa3545fcb041bc890ec92ab8ff907",
+   "document_date": "20210716",
+   "text_source": "txt-api"
   },
   {
    "ed": "20210805",
@@ -209,10 +236,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "db746175e44d5f5295fc4c66ff781918c5d3be140135333b87ea271c5c9c2ab1",
+   "document_date": "20210805",
+   "text_source": "txt-api"
   },
   {
    "ed": "20220322",
@@ -230,10 +260,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "32f331bf783bf5b2a61e4366407c3ad513703aaf11faac54be709bf7c2312609",
+   "document_date": "20220322",
+   "text_source": "txt-api"
   },
   {
    "ed": "20220507",
@@ -251,10 +284,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "5a7ab370f0244a9fadd8887884ac9a124301b2f1e64d9eaee1f7ef562f548080",
+   "document_date": "20220507",
+   "text_source": "txt-api"
   },
   {
    "ed": "20231019",
@@ -274,10 +310,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "fe40f06c5bc0bd57592fd3a18189efcb34cdc3b0dca6af794f04188ec195b454",
+   "document_date": "20231019",
+   "text_source": "txt-api"
   },
   {
    "ed": "20231230",
@@ -295,10 +334,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "bccf1a531fd81d6313221fd569d8fece9045adefb75172dd8e878804b16319be",
+   "document_date": "20231230",
+   "text_source": "txt-api"
   },
   {
    "ed": "20240415",
@@ -316,10 +358,13 @@
    "basis_unresolved": [],
    "comment": "",
    "tekst": true,
-   "text_status": "legacy_unverified",
+   "text_status": "verified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "sha256": "9f28449ca377918f2c2f008b655f0561a9aa8e28861f47803d2dd03e0380fb7c",
+   "document_date": "20240415",
+   "text_source": "txt-api"
   },
   {
    "ed": "20260625",
@@ -340,7 +385,8 @@
    "text_status": "legacy_unverified",
    "bez_posylannia": false,
    "source": "api",
-   "snapshot_only": false
+   "snapshot_only": false,
+   "api_text_issue": "TXT API втрачає верхні індекси (напр. «Стаття 151» замість «Стаття 15-1»); залишено текст браузерного імпорту (24.11.2026)"
   }
  ],
  "podii": [
@@ -389,8 +435,8 @@
    "invalid_unique": 0
   },
   "texts": {
-   "verified": 0,
-   "legacy_unverified": 16,
+   "verified": 15,
+   "legacy_unverified": 1,
    "corrupt": 0,
    "date_mismatch": 0,
    "missing": 0,
