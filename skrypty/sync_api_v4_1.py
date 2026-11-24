@@ -26,6 +26,15 @@
 * старі офіційні номери підстав зберігаються; нові номери беруться з картки акта-підстави,
   а не виводяться евристично із суфікса nreg.
 
+v4.1.7 (24.11.2026) додає:
+* окремі редакції того самого дня (9–10-значний ідентифікатор порталу, напр. 2343-12:
+  201301186): записуються лише командою anomaly --record-separate після перевірки TXT API
+  (DocumentDate = перші 8 цифр, текст відмінний від ed<дата>); порядок у межах дня задає
+  власник за карткою сайту (--order before/after), поле poriadok_u_dni; сортування —
+  за датою, порядком у дні, ідентифікатором;
+* ручне виправлення опису й підстави редакції (команда pravka, без мережі): поле
+  ruchna_pravka має перевагу над API і старою карткою під час наступних sync.
+
 v4.1 (23.11.2026) додає:
 * консервативну повноту історії: некоректні ідентифікатори редакцій (напр. 2343-12:
   201301186) зберігаються з походженням, не підсумовуються з коректними і лишають
@@ -49,6 +58,10 @@ v4.1 (23.11.2026) додає:
   python skrypty/sync_api_v4_1.py verify                    # аудит текстів, нічого не змінює
   python skrypty/sync_api_v4_1.py verify --repair --nreg 2747-15
   python skrypty/sync_api_v4_1.py anomaly --nreg 2343-12 --raw 201301186
+  python skrypty/sync_api_v4_1.py anomaly --nreg 2343-12 --raw 201301186 --record-separate \
+         --order before --opys "Нова редакція" --pidstava "4212-VI"
+  python skrypty/sync_api_v4_1.py pravka --nreg 2343-12 --ed 20130118 --opys "Редакція" \
+         --pidstava "5405-VI, 5410-VI, 5518-VI" --prychyna "звірено з карткою сайту 24.11.2026"
   python skrypty/sync_api_v4_1.py status --out reports/stan.md
 
 Цей скрипт не є офіційним джерелом. Перед юридичним цитуванням звіряйте текст
@@ -78,13 +91,14 @@ except ImportError as exc:  # pragma: no cover - runtime diagnostic
 
 DATA_HOST = "https://data.rada.gov.ua"
 PUBLIC_HOST = "https://zakon.rada.gov.ua"
-VERSION = "4.1.5"
+VERSION = "4.1.7"
 USER_AGENT = "OpenData"
 DOC_UPDATE_URL = f"{DATA_HOST}/ogd/zak/laws/data/csv/doc-update.txt"
 PODIA_URL = f"{DATA_HOST}/ogd/zak/laws/data/csv/podia.txt"
 DEFAULT_DAILY_BUDGET = 150 * 1024 * 1024  # резерв 50 MB від задекларованих 200 MB/добу
 DATE_RE = re.compile(r"^\d{8}$")
 CONDITIONAL_RE = re.compile(r"^3000\d{4}$")
+SAME_DAY_RE = re.compile(r"^\d{9,10}$")   # окрема редакція того самого дня (ідентифікатор порталу)
 MANUAL_ONLY_PATH = Path("dani") / "manual_only.json"
 MANUAL_RECHECK_DAYS = 30
 TEXT_STATES = ("verified", "legacy_unverified", "corrupt", "date_mismatch", "missing")
@@ -161,6 +175,32 @@ def valid_edition_id(value: Any) -> str | None:
     if CONDITIONAL_RE.fullmatch(s):
         return s
     return parse_yyyymmdd(s)
+
+
+def edition_date(ed: Any) -> str | None:
+    """Календарна дата редакції YYYYMMDD: для звичайної — сам ідентифікатор, для окремої
+    редакції того самого дня (9–10 цифр) — перші 8 цифр; для умовної 3000xxxx — None."""
+    s = str(ed or "").strip()
+    if CONDITIONAL_RE.fullmatch(s):
+        return None
+    if DATE_RE.fullmatch(s):
+        return parse_yyyymmdd(s)
+    if SAME_DAY_RE.fullmatch(s):
+        return parse_yyyymmdd(s[:8])
+    return None
+
+
+def edition_sort_key(item: dict[str, Any]) -> tuple[str, int, str]:
+    """Порядок редакцій у картці: дата, порядок у межах дня (poriadok_u_dni), ідентифікатор.
+
+    Умовні 3000xxxx ідуть після всіх календарних. npa.py бере останню редакцію з датою ≤ дати,
+    тому для дня з кількома редакціями чинною на цей день вважається остання за порядком."""
+    ed = str(item.get("ed", ""))
+    try:
+        order = int(item.get("poriadok_u_dni") or 0)
+    except (TypeError, ValueError):
+        order = 0
+    return (ed[:8], order, ed)
 
 
 def invalid_edition_reason(value: Any) -> str:
@@ -302,7 +342,7 @@ def validate_document_date(headers: Any, *, requested_ed: str | None = None,
             "Сервер не надав коректного заголовка DocumentDate; текст не збережено."
         )
     if requested_ed:
-        expected = requested_ed
+        expected = edition_date(requested_ed) or requested_ed
     else:
         expected = expected_current_ed
         if not expected and allow_unversioned_current:
@@ -1476,11 +1516,11 @@ def classify_text_file(path: Path, ed: str | None, nreg: str | None = None) -> t
             if f"умовна редакція {ed}" not in label:
                 return "date_mismatch", f"DocumentDate «{label}» не підтверджує умовну редакцію {ed}"
         elif ed:
-            if parse_yyyymmdd(label) != ed:
+            if parse_yyyymmdd(label) != (edition_date(ed) or ed):
                 return "date_mismatch", f"DocumentDate {label} ≠ редакція {date_display(ed)}"
         return "verified", "SHA-256 і DocumentDate збігаються"
     legacy = _LEGACY_DATE_RE.search(header_lines[0] if header_lines else "")
-    if ed and legacy and not ed.startswith("3000") and parse_yyyymmdd(legacy.group(1)) != ed:
+    if ed and legacy and not ed.startswith("3000") and parse_yyyymmdd(legacy.group(1)) != (edition_date(ed) or ed):
         return "date_mismatch", f"у шапці «редакція від {legacy.group(1)}», а файл {ed}"
     return "legacy_unverified", "старий файл без SHA-256/DocumentDate"
 
@@ -1539,6 +1579,7 @@ def normalized_card(root: Path, nreg: str, row: dict[str, str], parsed: dict[str
             "snapshot_only": bool(merged.get("snapshot_only")),
             **{k: merged[k] for k in ("sha256", "document_date", "text_source") if merged.get(k)},
         })
+        _apply_manual(editions[-1], old_editions.get(ed))
     # Bulk дати для документів без історії залишаються єдиним snapshot, а не редакціями.
     bulk_only = list(parsed.get("bulk_only_dates") or [])
     if not editions and bulk_only:
@@ -1565,8 +1606,9 @@ def normalized_card(root: Path, nreg: str, row: dict[str, str], parsed: dict[str
         old_copy["text_status"] = (classify_text_file(red_dir / f"{ed}.txt", ed, nreg)[0]
                                    if ed in existing_files else "missing")
         old_copy["source"] = old_copy.get("source") or "archive-only"
+        _apply_manual(old_copy, old)
         editions.append(old_copy)
-    editions.sort(key=lambda x: x.get("ed", ""))
+    editions.sort(key=edition_sort_key)
 
     prefix = str(parsed.get("prefiks") or "laws")
     # Посилання лишається читабельним; URL-кодування використовується лише в HTTP-запитах.
@@ -1606,6 +1648,7 @@ def normalized_card(root: Path, nreg: str, row: dict[str, str], parsed: dict[str
             "unresolved_edition_ids": list(parsed.get("unresolved_edition_ids") or []),
             "invalid_source_records": list(parsed.get("invalid_source_records") or []),
             "resolved_edition_ids": list(old_api.get("resolved_edition_ids") or []),
+            "separate_edition_ids": list(old_api.get("separate_edition_ids") or []),
             "counts": dict(parsed.get("counts") or {}),
             "texts": tcounts,
             "all_texts_verified": all_texts_verified,
@@ -1618,6 +1661,23 @@ def normalized_card(root: Path, nreg: str, row: dict[str, str], parsed: dict[str
     return card
 
 
+def _apply_manual(item: dict[str, Any], old: dict[str, Any] | None) -> None:
+    """Переносить порядок у межах дня і ручну правку (pravka) зі старої картки.
+
+    Ручна правка має перевагу над описом і підставою з API та старої картки: її вносить
+    власник після звірки з карткою сайту, коли API змішує дані (2343-12, 18.01.2013)."""
+    if not old:
+        return
+    if old.get("poriadok_u_dni") not in (None, "", 0):
+        item["poriadok_u_dni"] = old["poriadok_u_dni"]
+    pr = old.get("ruchna_pravka")
+    if isinstance(pr, dict) and (pr.get("opys") or pr.get("pidstava") is not None):
+        basis = list(pr.get("pidstava") or [])
+        item["pidstava"] = basis
+        item["opys"] = _desc_with_basis(pr.get("opys") or item.get("opys") or "Редакція", basis)
+        item["ruchna_pravka"] = pr
+
+
 def choose_editions(mode: str, editions: list[dict[str, Any]], today: dt.date | None = None,
                     include_conditional: bool = False) -> list[str | None]:
     today = today or dt.date.today()
@@ -1626,7 +1686,7 @@ def choose_editions(mode: str, editions: list[dict[str, Any]], today: dt.date | 
     if mode == "povna":
         selected: list[str | None] = real_ids if real_ids else [None]
         return selected + (conditional_ids if include_conditional else [])
-    eligible = [ed for ed in real_ids if dt.datetime.strptime(ed, "%Y%m%d").date() <= today]
+    eligible = [ed for ed in real_ids if dt.datetime.strptime(edition_date(ed) or ed[:8], "%Y%m%d").date() <= today]
     if mode in ("chynna", "odyn"):
         return [eligible[-1]] if eligible else ([None] if not real_ids else [])
     return []
@@ -1694,7 +1754,9 @@ def sync_one(client: RadaHTTP, root: Path, row: dict[str, str],
     old_card = _load_old_card(root, nreg)
     podia = client.fetch_podia()
     parsed, card_meta = client.fetch_card(nreg)
-    resolved_ids = [str(x.get("raw")) for x in ((old_card or {}).get("api") or {}).get("resolved_edition_ids", [])
+    old_api_meta = (old_card or {}).get("api") or {}
+    resolved_ids = [str(x.get("raw")) for x in (list(old_api_meta.get("resolved_edition_ids") or [])
+                                                + list(old_api_meta.get("separate_edition_ids") or []))
                     if isinstance(x, dict) and x.get("raw")]
     parsed = parse_json_card(card_meta["raw"], fallback_title=(row.get("nazva") or nreg),
                              podia=podia, bulk_editions=bulk_editions, bulk_invalid=bulk_invalid,
@@ -2349,8 +2411,18 @@ def run_anomaly(args: argparse.Namespace) -> int:
     card = _load_old_card(root, nreg)
     if not card:
         raise SyncError(f"Немає kartka.json для {nreg}.")
+    record_separate = bool(getattr(args, "record_separate", False))
+    if record_separate:
+        if getattr(args, "record", False):
+            raise SyncError("--record і --record-separate взаємовиключні.")
+        if getattr(args, "order", None) not in ("before", "after"):
+            raise SyncError("Для --record-separate вкажіть --order before або --order after "
+                            "(місце редакції серед редакцій того самого дня за карткою сайту).")
+        if not SAME_DAY_RE.fullmatch(raw) or not edition_date(raw):
+            raise SyncError(f"{raw}: окрема редакція того самого дня має 9–10 цифр, перші 8 — дата.")
     client = make_client(args, root)
     evidence: dict[str, Any] = {"raw": raw, "checked_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
+    body: str | None = None
     try:
         parsed, meta = client.fetch_card(nreg)
         raw_eds = [str(x.get("datred") if isinstance(x, dict) else x) for x in _records(meta["raw"].get("eds"))]
@@ -2430,7 +2502,122 @@ def run_anomaly(args: argparse.Namespace) -> int:
         print("Доказ записано в kartka.json (api.resolved_edition_ids); повноту перерахує наступний sync.")
     elif args.record:
         print("Висновок не є доказом дубліката — у картку нічого не записано.")
+    if record_separate:
+        problem = _separate_problem(evidence, raw, body)
+        if problem:
+            print(f"Окрему редакцію НЕ записано: {problem}")
+            print_traffic(client, args.daily_budget_mb)
+            return 1
+        _record_separate(root, nreg, card, raw, body or "", evidence, args)
     print_traffic(client, args.daily_budget_mb)
+    return 0
+
+
+def _separate_problem(evidence: dict[str, Any], raw: str, body: str | None) -> str:
+    """'' — доказ окремої редакції того самого дня достатній; інакше причина відмови."""
+    day = edition_date(raw)
+    if body is None or not evidence.get("sha256"):
+        return "текст ed{0} не отримано ({1})".format(raw, evidence.get("why", "немає відповіді"))
+    if evidence.get("document_date") != day:
+        return f"DocumentDate {evidence.get('document_date') or '—'} не збігається з датою {day} у ідентифікаторі"
+    if evidence.get("reference_ed") != day:
+        return evidence.get("why") or f"дата {day} відсутня серед коректних редакцій картки"
+    if not evidence.get("reference_sha256"):
+        return "контрольний текст ed{0} недоступний: {1}".format(day, evidence.get("reference_error", "—"))
+    if evidence.get("reference_document_date") != day:
+        return f"контрольний текст має DocumentDate {evidence.get('reference_document_date') or '—'}"
+    if evidence["reference_sha256"] == evidence["sha256"]:
+        return "тексти однакові — це дублікат; використайте --record"
+    return ""
+
+
+def _record_separate(root: Path, nreg: str, card: dict[str, Any], raw: str, body: str,
+                     evidence: dict[str, Any], args: argparse.Namespace) -> None:
+    """Записує окрему редакцію того самого дня: текст, рядок у картці, доказ у api."""
+    day = edition_date(raw) or raw[:8]
+    basis = split_pidstava(getattr(args, "pidstava", None) or "")
+    label = str(getattr(args, "opys", None) or "Редакція").strip()
+    order = -1 if args.order == "before" else 1
+    info = {"opys": _desc_with_basis(label, basis), "pidstava": basis}
+    write_text_file(root, nreg, card, raw, body, info, day, evidence["sha256"])
+    item = {
+        "ed": raw, "data": date_display(day), "umovna": False, "data_na_saiti": date_display(day),
+        "opys": info["opys"], "podid": "", "pidstava": basis, "pidstava_nreg": [],
+        "basis_unresolved": [],
+        "comment": (f"окрема редакція того самого дня; ідентифікатор порталу {raw}; "
+                    f"{'перед' if order < 0 else 'після'} ed{day} за карткою сайту"),
+        "tekst": True, "text_status": "verified", "bez_posylannia": False,
+        "source": "api-separate", "snapshot_only": False, "poriadok_u_dni": order,
+        "sha256": evidence["sha256"], "document_date": day,
+        "text_source": f"{DATA_HOST}/laws/show/{encode_nreg(nreg)}/ed{raw}.txt",
+    }
+    eds = [x for x in card.get("redaktsii", []) if x.get("ed") != raw]
+    eds.append(item)
+    eds.sort(key=edition_sort_key)
+    card["redaktsii"] = eds
+    api = card.setdefault("api", {})
+    rec = dict(evidence)
+    rec.update({"order": args.order, "opys": label, "pidstava": basis,
+                "verdict": f"separate_same_day:{day}"})
+    api["separate_edition_ids"] = [x for x in api.get("separate_edition_ids", [])
+                                   if isinstance(x, dict) and x.get("raw") != raw] + [rec]
+    api["unresolved_edition_ids"] = [x for x in api.get("unresolved_edition_ids", []) if x != raw]
+    atomic_write(root / "akty" / slug(nreg) / "kartka.json",
+                 (json.dumps(card, ensure_ascii=False, indent=1) + "\n").encode("utf-8"))
+    print(f"Окрему редакцію записано: akty/{slug(nreg)}/red/{raw}.txt і kartka.json "
+          f"({'перед' if order < 0 else 'після'} {day}); повноту каталогу перерахує наступний sync.")
+
+
+def run_pravka(args: argparse.Namespace) -> int:
+    """Ручне виправлення опису й підстави редакції в kartka.json (без мережі).
+
+    Тіло тексту не змінюється (SHA-256 лишається чинним); у шапці файла замінюється
+    лише старий опис і рядок «# Підстава:». Правка зберігається в ruchna_pravka і має
+    перевагу під час наступних sync."""
+    root = args.root.resolve()
+    nreg, ed = args.nreg, str(args.ed).strip()
+    card = _load_old_card(root, nreg)
+    if not card:
+        raise SyncError(f"Немає kartka.json для {nreg}.")
+    item = next((x for x in card.get("redaktsii", []) if x.get("ed") == ed), None)
+    if item is None:
+        raise SyncError(f"Редакції {ed} немає в картці {nreg}.")
+    prychyna = str(args.prychyna or "").strip()
+    if not prychyna:
+        raise SyncError("Вкажіть --prychyna (звідки взято виправлення).")
+    basis = split_pidstava(args.pidstava) if args.pidstava is not None else list(item.get("pidstava") or [])
+    label = _description_label(args.opys) if args.opys else (_description_label(item.get("opys")) or "Редакція")
+    old_opys = str(item.get("opys") or "")
+    old_basis = list(item.get("pidstava") or [])
+    new_opys = _desc_with_basis(label, basis)
+    item["ruchna_pravka"] = {"opys": label, "pidstava": basis, "prychyna": prychyna,
+                             "zapysano": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+                             "bulo": {"opys": old_opys, "pidstava": old_basis}}
+    item["opys"], item["pidstava"] = new_opys, basis
+    path = root / "akty" / slug(nreg) / "red" / f"{ed}.txt"
+    header_note = "файла тексту немає"
+    if path.exists():
+        data = path.read_bytes().decode("utf-8")
+        nl = "\r\n" if "\r\n" in data else "\n"
+        lines = data.split(nl)
+        k = 0
+        changed = False
+        while k < len(lines) and lines[k].startswith("# "):
+            if k == 0 and old_opys and old_opys in lines[0]:
+                lines[0] = lines[0].replace(old_opys, new_opys)
+                changed = True
+            elif lines[k].startswith("# Підстава:"):
+                lines[k] = "# Підстава: " + (", ".join(basis) or "—")
+                changed = True
+            k += 1
+        if changed:
+            atomic_write(path, nl.join(lines).encode("utf-8"))
+            header_note = "шапку файла оновлено (тіло без змін)"
+        else:
+            header_note = "шапку файла не змінено (старий опис у ній не знайдено)"
+    atomic_write(root / "akty" / slug(nreg) / "kartka.json",
+                 (json.dumps(card, ensure_ascii=False, indent=1) + "\n").encode("utf-8"))
+    print(f"{nreg} {ed}: «{old_opys}» → «{new_opys}»; {header_note}.")
     return 0
 
 
@@ -2514,6 +2701,18 @@ def build_parser() -> argparse.ArgumentParser:
     an.add_argument("--nreg", required=True)
     an.add_argument("--raw", required=True, help="сирий ідентифікатор, напр. 201301186")
     an.add_argument("--record", action="store_true", help="записати доказ дубліката в kartka.json")
+    an.add_argument("--record-separate", action="store_true",
+                    help="записати як окрему редакцію того самого дня (текст відмінний від ed<дата>)")
+    an.add_argument("--order", choices=("before", "after"),
+                    help="з --record-separate: місце серед редакцій того самого дня за карткою сайту")
+    an.add_argument("--opys", help="з --record-separate: вид редакції з картки сайту, напр. «Нова редакція»")
+    an.add_argument("--pidstava", help="з --record-separate: підстава з картки сайту, напр. «4212-VI»")
+    pr = sub.add_parser("pravka", help="виправити опис і підставу редакції в kartka.json (без мережі)")
+    pr.add_argument("--nreg", required=True)
+    pr.add_argument("--ed", required=True, help="ідентифікатор редакції, напр. 20130118")
+    pr.add_argument("--opys", help="вид редакції, напр. «Редакція» або «Нова редакція»")
+    pr.add_argument("--pidstava", help="підстава через кому, напр. «5405-VI, 5410-VI, 5518-VI»")
+    pr.add_argument("--prychyna", required=True, help="звідки взято виправлення")
     stt = sub.add_parser("status", help="таблиця стану всіх актів (без мережі)")
     stt.add_argument("--nreg", help="один акт")
     stt.add_argument("--out", help="записати Markdown у файл")
@@ -2548,6 +2747,8 @@ def main(argv: list[str] | None = None) -> int:
             return run_anomaly(args)
         if args.command == "status":
             return run_status(args)
+        if args.command == "pravka":
+            return run_pravka(args)
     except SyncError as exc:
         print(f"ПОМИЛКА: {exc}", file=sys.stderr)
         return 2

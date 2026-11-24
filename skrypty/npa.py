@@ -146,6 +146,14 @@ def redaktsiia_na(k, na):
                    '(сайт у такому разі показує чинну редакцію — не використовувати її)')
         return None, pop
     r = pered[-1]
+    # v4.1.7: кілька редакцій в один день (окрема редакція з ідентифікатором порталу 9–10 цифр);
+    # порядок у межах дня — за карткою сайту (poriadok_u_dni), застосовується остання.
+    odnodenni = [x for x in realni if ed2d(x['ed']) == ed2d(r['ed'])]
+    if len(odnodenni) > 1 and ed2d(r['ed']) == na:
+        pop.append(f'{ukr(na)} набрали чинності {len(odnodenni)} редакції: '
+                   + '; '.join(f"{x['opys']} [ed{x['ed']}]" for x in odnodenni)
+                   + f'; на цю дату застосовано останню за карткою сайту ({r["opys"]}); '
+                   + f'текст іншої — akty/{k["nreg"].replace("/", "_")}/red/<ідентифікатор>.txt')
     nch = podiia(k, 'Набрання чинності')
     if nch and na < nch:
         pop.append(f'на {ukr(na)} акт прийнято, але він ще не набрав чинності (набрання чинності — {ukr(nch)})')
@@ -248,6 +256,8 @@ def cmd_redaktsii(a):
     chynna = chynna[-1]['ed'] if chynna else None
     for r in k['redaktsii']:
         d = ukr(ed2d(r['ed'])) or r['data_na_saiti']
+        if len(r['ed']) > 8 and not r['ed'].startswith('3000'):
+            d = f"{d} [ed{r['ed']}]"  # v4.1.7: окрема редакція того самого дня
         poz = ' ← чинна' if r['ed'] == chynna else (' (умовна)' if not ed2d(r['ed']) else (' (майбутня)' if ed2d(r['ed']) > sohodni else ''))
         print(f"{d:12} {r['opys'][:90]}{'' if r['tekst'] else '  [тексту в архіві немає]'}{poz}")
     for p in k.get('podii', []):
