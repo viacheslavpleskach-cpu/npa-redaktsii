@@ -26,6 +26,17 @@
 * старі офіційні номери підстав зберігаються; нові номери беруться з картки акта-підстави,
   а не виводяться евристично із суфікса nreg.
 
+v4.1.8 (24.11.2026) додає:
+* захист від неточних TXT API: у частині редакцій TXT API втрачає верхні індекси
+  («Стаття 151» замість «Стаття 15-1», «пунктом 2581» замість «258-1»), а КПК ed20140302 містить
+  главу, якої в редакції на сайті немає (звірено 24.11.2026);
+* verify --repair --include-legacy замінює старий текст лише тоді, коли зміст збігається
+  (після нормалізації: зміст сторінки, поле пошуку, апостроф, примітки у фігурних дужках) і
+  немає втрати верхніх індексів; інакше старий текст лишається, у картці — api_text_issue і
+  api_check, і повторно така редакція не завантажується (лише з --force);
+* sync: новий текст порівнюється з попередньою редакцією; втрата верхніх індексів → api_text_issue
+  (текст зберігається — іншого немає) і попередження; npa.py показує попередження.
+
 v4.1.7 (24.11.2026) додає:
 * окремі редакції того самого дня (9–10-значний ідентифікатор порталу, напр. 2343-12:
   201301186): записуються лише командою anomaly --record-separate після перевірки TXT API
@@ -91,7 +102,7 @@ except ImportError as exc:  # pragma: no cover - runtime diagnostic
 
 DATA_HOST = "https://data.rada.gov.ua"
 PUBLIC_HOST = "https://zakon.rada.gov.ua"
-VERSION = "4.1.7"
+VERSION = "4.1.8"
 USER_AGENT = "OpenData"
 DOC_UPDATE_URL = f"{DATA_HOST}/ogd/zak/laws/data/csv/doc-update.txt"
 PODIA_URL = f"{DATA_HOST}/ogd/zak/laws/data/csv/podia.txt"
@@ -373,6 +384,102 @@ def decode_text(raw: bytes, *, preferred: str = "utf-8") -> str:
 def clean_plain_text(text: str) -> str:
     # Не нормалізуємо апострофи, пробіли чи юридичний текст; лише EOL/BOM.
     return text.replace("\r\n", "\n").replace("\r", "\n").strip()
+
+
+# v4.1.8: перевірка тексту API відносно наявного тексту (старого імпорту або попередньої редакції).
+_SUP_TOKEN_RE = re.compile(r"(?<![\d.\-/])(\d{1,4})-(\d{1,2})(?![\d\-])")
+_VVR_RE = re.compile(r"\(Відомості[^()]*(?:\([^()]*\)[^()]*)*\)")
+_PAGE_JUNK = {"×", "Знайти:", "Пошук", "закрити", "Мінімальна довжина слова — 3 символи, не більше 4 слів..."}
+
+
+def superscript_loss(reference: str, new: str, limit: int = 20) -> list[str]:
+    """Позначення з верхнім індексом (через дефіс, «15-1», «258-1»), які в новому тексті втратили дефіс.
+
+    Позначення вважається втраченим, якщо в новому тексті немає «N-M», але є «NM» у тому самому
+    контексті (10 символів перед ним, без пробілів, апостроф уніфіковано) хоча б для одного
+    входження — так відсіюються збіги з іншими числами (напр. номер ВВР)."""
+    def norm(x: str) -> str:
+        return re.sub(r"\s+", "", re.sub(r"[’ʼ`´]", "'", x))
+    lost: list[str] = []
+    checked: set[str] = set()
+    new_flat = norm(new)
+    occurrences: dict[str, list[int]] = {}
+    for m in _SUP_TOKEN_RE.finditer(reference):
+        lst = occurrences.setdefault(m.group(0), [])
+        if len(lst) < 50:
+            lst.append(m.start())
+    for tok, starts in occurrences.items():
+        if tok in checked:
+            continue
+        checked.add(tok)
+        if re.search(r"(?<![\d.\-/])" + re.escape(tok) + r"(?![\d\-])", new):
+            continue
+        joined = tok.replace("-", "")
+        for st in starts:
+            ctx = norm(reference[max(0, st - 30):st])[-10:]
+            if ctx and (ctx + joined) in new_flat:
+                lost.append(tok)
+                break
+        if len(lost) >= limit:
+            break
+    return lost
+
+
+def _flat_content(text: str, drop_notes: bool = True) -> str:
+    t = re.sub(r"[’ʼ`´]", "'", text.replace("\r\n", "\n")).replace("\u00a0", " ")
+    t = t.replace("/*", " ").replace("*/", " ")
+    lines = []
+    for line in t.split("\n"):
+        ln = " ".join(line.split())
+        if not ln or ln in _PAGE_JUNK or ln.endswith("…"):
+            continue
+        lines.append(ln)
+    flat = "".join(lines)
+    if drop_notes:
+        flat = re.sub(r"\{[^{}]*\}", "", flat)
+    return flat.replace(" ", "")
+
+
+def legacy_matches_api(old_body: str, new_body: str) -> tuple[bool, str]:
+    """Чи збігається зміст старого тексту (браузерний імпорт) з текстом API.
+
+    Ігноруються: зміст сторінки на початку старого тексту, поле пошуку, скорочені заголовки «…»,
+    вид апострофа, позначки /* */ і примітки у фігурних дужках. Повертає (збіг, опис першої розбіжності)."""
+    a, b = _VVR_RE.sub("", _flat_content(old_body)), _VVR_RE.sub("", _flat_content(new_body))
+    if a == b:
+        return True, ""
+    # Вирівнювання за початком першої статті: у старому тексті перед ним — зміст сторінки.
+    k = b.find("Стаття1.")
+    if k >= 0:
+        ia = a.rfind(b[k:k + 20], 0, 40000 + k)
+        if ia >= 0:
+            if a[ia:] == b[k:] and a[:ia].endswith(b[:k]):
+                return True, ""
+            a, b = a[ia:], b[k:]
+    else:
+        head = b[:30]
+        i = a.find(head, 1) if head and a.startswith(head) else -1
+        if 0 < i < 40000:
+            if a[i:] == b:
+                return True, ""
+            a = a[i:]
+    k = next((j for j in range(min(len(a), len(b))) if a[j] != b[j]), min(len(a), len(b)))
+    return False, f"старий: …{a[max(0, k - 40):k + 60]}… / API: …{b[max(0, k - 40):k + 60]}…"
+
+
+def previous_text(root: Path, nreg: str, editions: list[dict[str, Any]], ed: str) -> str | None:
+    """Тіло тексту найближчої попередньої редакції, що є в архіві (для перевірки нового тексту)."""
+    ids = [e.get("ed") for e in sorted(editions, key=edition_sort_key) if e.get("ed")]
+    if ed not in ids:
+        return None
+    for prev in reversed(ids[:ids.index(ed)]):
+        p = root / "akty" / slug(nreg) / "red" / f"{prev}.txt"
+        if p.exists():
+            try:
+                return split_text_file(p.read_bytes().decode("utf-8"))[1]
+            except (OSError, UnicodeDecodeError):
+                return None
+    return None
 
 
 _HTML_TAG_RE = re.compile(
@@ -1670,6 +1777,9 @@ def _apply_manual(item: dict[str, Any], old: dict[str, Any] | None) -> None:
         return
     if old.get("poriadok_u_dni") not in (None, "", 0):
         item["poriadok_u_dni"] = old["poriadok_u_dni"]
+    for key in ("api_text_issue", "api_check"):
+        if old.get(key) and not item.get(key):
+            item[key] = old[key]
     pr = old.get("ruchna_pravka")
     if isinstance(pr, dict) and (pr.get("opys") or pr.get("pidstava") is not None):
         basis = list(pr.get("pidstava") or [])
@@ -1831,6 +1941,11 @@ def sync_one(client: RadaHTTP, root: Path, row: dict[str, str],
                 info_messages.append(f"{key}: короткий текст ({len(body)} символів); перевірте його окремо")
             if actual_prefix != card_meta.get("prefix", "laws"):
                 card["dzherelo"] = f"{PUBLIC_HOST}/{actual_prefix}/show/{nreg}"
+            lost: list[str] = []
+            if ed:
+                prev_body = previous_text(root, nreg, editions, ed)
+                if prev_body:
+                    lost = superscript_loss(prev_body, body)
             path = write_text_file(root, nreg, card, ed, body, info, actual_date, digest)
             written.append(str(path.relative_to(root)))
             if info is not None:
@@ -1839,6 +1954,13 @@ def sync_one(client: RadaHTTP, root: Path, row: dict[str, str],
                 info["sha256"] = digest
                 info["document_date"] = actual_date
                 info["text_source"] = text_source
+                if lost:
+                    info["api_text_issue"] = ("TXT API втрачає верхні індекси (" + ", ".join(lost[:5])
+                                              + " у попередній редакції записані через дефіс); номери з верхніми "
+                                              "індексами звіряти із сайтом")
+            if lost:
+                info_messages.append(f"{key}: [УВАГА] у тексті API втрачено верхні індекси ({', '.join(lost[:5])}) — "
+                                     "збережено з позначкою api_text_issue; звірити із сайтом")
         except BudgetExceeded:
             raise
         except (SyncError, requests.RequestException) as exc:
@@ -2322,7 +2444,7 @@ def run_verify(args: argparse.Namespace) -> int:
         print("Відновлювати нічого.")
         return 1 if missing_cards else 0
     client = make_client(args, root)
-    fixed = failed = skipped = 0
+    fixed = failed = skipped = kept = 0
     stopped = ""
     done: set[tuple[str, str]] = set()
     try:
@@ -2338,6 +2460,12 @@ def run_verify(args: argparse.Namespace) -> int:
             info = next((x for x in card.get("redaktsii", []) if x.get("ed") == ed), None)
             if ed and ed.startswith("3000") and not args.include_conditional:
                 print(f"{nreg} {ed}: умовна редакція — потрібен --include-conditional; пропущено")
+                skipped += 1
+                continue
+            if (it["state"] == "legacy_unverified" and info is not None and info.get("api_text_issue")
+                    and not getattr(args, "force", False)):
+                print(f"{nreg} {it['ed']}: текст API раніше визнано неточним ({info['api_text_issue'][:80]}…); "
+                      "пропущено (повторно — лише з --force)")
                 skipped += 1
                 continue
             try:
@@ -2356,6 +2484,32 @@ def run_verify(args: argparse.Namespace) -> int:
                     stopped = client.blocked
                 continue
             digest = hashlib.sha256(body.encode("utf-8")).hexdigest()
+            text_path = root / "akty" / slug(nreg) / "red" / f"{it['ed']}.txt"
+            if it["state"] == "legacy_unverified" and text_path.exists():
+                # v4.1.8: старий текст замінюється лише за збігу змісту і без втрати верхніх індексів.
+                old_body = split_text_file(text_path.read_bytes().decode("utf-8"))[1]
+                same, why = legacy_matches_api(old_body, body)
+                lost = superscript_loss(old_body, body)
+                if lost or not same:
+                    issue = ("TXT API втрачає верхні індекси (" + ", ".join(lost[:5]) + ")") if lost else \
+                            "зміст TXT API відрізняється від тексту браузерного імпорту"
+                    print(f"{nreg} {it['ed']}: залишено старий текст — {issue}" + (f"; {why[:220]}" if why else ""))
+                    if info is not None:
+                        info["api_text_issue"] = issue + "; залишено текст браузерного імпорту, звірити із сайтом"
+                        info["api_check"] = {"checked_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+                                             "api_sha256": digest, "zbih_zmistu": same,
+                                             "vtracheni_indeksy": lost[:10], "rozbizhnist": why[:400]}
+                        atomic_write(root / "akty" / slug(nreg) / "kartka.json",
+                                     (json.dumps(card, ensure_ascii=False, indent=1) + "\n").encode("utf-8"))
+                    kept += 1
+                    continue
+            elif ed and info is not None:
+                prev_body = previous_text(root, nreg, card.get("redaktsii", []), ed)
+                lost = superscript_loss(prev_body, body) if prev_body else []
+                if lost:
+                    info["api_text_issue"] = ("TXT API втрачає верхні індекси (" + ", ".join(lost[:5])
+                                              + "); номери з верхніми індексами звіряти із сайтом")
+                    print(f"{nreg} {it['ed']}: [УВАГА] у тексті API втрачено верхні індекси ({', '.join(lost[:5])})")
             write_text_file(root, nreg, card, ed, body, info, actual, digest)
             if info is not None:
                 info.update({"tekst": True, "text_status": "verified", "sha256": digest,
@@ -2368,8 +2522,9 @@ def run_verify(args: argparse.Namespace) -> int:
     finally:
         if args.request_log:
             client.save_request_log(Path(args.request_log))
-    remaining = len(targets) - fixed
-    print(f"Ціль: {len(targets)}; відновлено: {fixed}; не вдалося: {failed}; пропущено: {skipped}; "
+    remaining = len(targets) - fixed - kept
+    print(f"Ціль: {len(targets)}; відновлено: {fixed}; залишено старий текст: {kept}; не вдалося: {failed}; "
+          f"пропущено: {skipped}; "
           f"залишилося невідновленими: {remaining}" + (f" (зупинка: {stopped})" if stopped else ""))
     print_traffic(client, args.daily_budget_mb)
     # Повний успіх — лише якщо відновлено всі цілі (v4.1.1) і немає актів без картки (v4.1.2).
@@ -2697,6 +2852,8 @@ def build_parser() -> argparse.ArgumentParser:
     ver.add_argument("--repair", action="store_true", help="заново завантажити corrupt/date_mismatch/відсутні тексти з перевіркою DocumentDate")
     ver.add_argument("--include-legacy", action="store_true", help="з --repair: також замінити legacy_unverified (лише явним рішенням власника)")
     ver.add_argument("--include-conditional", action="store_true", help="з --repair: дозволити умовні 3000xxxx")
+    ver.add_argument("--force", action="store_true",
+                     help="з --repair --include-legacy: повторно перевірити редакції з позначкою api_text_issue")
     an = sub.add_parser("anomaly", help="перевірити некоректний ідентифікатор редакції через TXT API")
     an.add_argument("--nreg", required=True)
     an.add_argument("--raw", required=True, help="сирий ідентифікатор, напр. 201301186")

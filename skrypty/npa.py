@@ -154,6 +154,9 @@ def redaktsiia_na(k, na):
                    + '; '.join(f"{x['opys']} [ed{x['ed']}]" for x in odnodenni)
                    + f'; на цю дату застосовано останню за карткою сайту ({r["opys"]}); '
                    + f'текст іншої — akty/{k["nreg"].replace("/", "_")}/red/<ідентифікатор>.txt')
+    # v4.1.8: неточний текст API (втрата верхніх індексів тощо)
+    if r.get('api_text_issue'):
+        pop.append(f"текст редакції: {r['api_text_issue']}")
     nch = podiia(k, 'Набрання чинності')
     if nch and na < nch:
         pop.append(f'на {ukr(na)} акт прийнято, але він ще не набрав чинності (набрання чинності — {ukr(nch)})')
