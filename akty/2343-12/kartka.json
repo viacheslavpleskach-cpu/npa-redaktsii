@@ -1606,7 +1606,8 @@
    "snapshot_only": false,
    "sha256": "8a33d3d93f10bdd344ff2d5413a08ac984d47552927bbdb22b4b2c2637eceffd",
    "document_date": "20191021",
-   "text_source": "txt-api"
+   "text_source": "txt-api",
+   "api_text_issue": "TXT API втрачає верхні індекси («пунктом 211» замість «пунктом 21-1»); іншого тексту в архіві немає — номери з верхніми індексами звіряти із сайтом (24.11.2026)"
   }
  ],
  "podii": [
