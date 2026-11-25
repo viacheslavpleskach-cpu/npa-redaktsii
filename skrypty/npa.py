@@ -74,8 +74,9 @@ def kartka(nreg):
     return json.load(open(p, encoding='utf-8')) if os.path.exists(p) else None
 
 
-def znaity(zapyt, na=None, stattia=None):
-    """Повертає nreg акта. Кілька документів під одним скороченням (КУпАП) — обирає за датою."""
+def znaity(zapyt, na=None, stattia=None, vsi=False):
+    """Повертає nreg акта. Кілька документів під одним скороченням (КУпАП) — обирає за датою.
+    vsi=True — список nreg: усі частини акта, поділеного за статтями, чинні на дату (для пошуку без номера статті)."""
     q = zapyt.strip().lower()
     rows = perelik()
     tochni = [r for r in rows if r['nreg'].lower() == q]
@@ -92,9 +93,11 @@ def znaity(zapyt, na=None, stattia=None):
         r = vidsutni[0]
         sys.exit(f'«{r["nazva"]}»: {r["prymitka"] or "в архіві немає"}.')
     if len(tochni) == 1:
-        return tochni[0]['nreg']
-    nazvy = {r['skorocheno'].split(' (')[0] for r in tochni}
-    if len(nazvy) == 1:  # один акт, поділений на кілька документів (за датами або за статтями)
+        return [tochni[0]['nreg']] if vsi else tochni[0]['nreg']
+    # один акт, поділений на кілька документів, — дужки в скороченні лише про період і статті («(до 07.05.2017, ст. 1–212)»);
+    # «Закон про зміни до КПК (воєнний стан)» і «… (ЄСІКС)» — різні акти: неоднозначно, а не вибір за датою
+    nazvy = {re.sub(r'\s*\(до \d{2}\.\d{2}\.\d{4}[^)]*\)', '', r['skorocheno']) for r in tochni}
+    if len(nazvy) == 1:
         if stattia:
             m = re.match(r'\d+', str(stattia))
             if m:
@@ -104,16 +107,26 @@ def znaity(zapyt, na=None, stattia=None):
                     return not d or int(d.group(1)) <= n <= int(d.group(2))
                 tochni = [r for r in tochni if mistyt(r)] or tochni
         na = na or dt.date.today()
-        naikr, best = None, None
-        for r in tochni:
-            k = kartka(r['nreg'])
-            if not k:
-                continue
-            ds = [ed2d(x['ed']) for x in k['redaktsii'] if ed2d(x['ed']) and ed2d(x['ed']) <= na]
-            if ds and (naikr is None or max(ds) > naikr):
-                naikr, best = max(ds), r['nreg']
+        # документи одного періоду (частини за статтями: «КУпАП (до 07.05.2017, ст. 1–212)» і «…ст. 213–330)») — одна група;
+        # чинна на дату група — та, у якій найновіша редакція не пізніше дати. Редакції частин не збігаються в часі,
+        # тому частини не можна відбирати за однаковою датою редакції (до 26.11.2026 частина 213–330 губилася на ⅓ дат).
+        def grupa(r):
+            return re.sub(r',?\s*ст\.\s*[\d–\-]+(?=\))', '', r['skorocheno'])
+        naikr, best = None, []
+        for g in dict.fromkeys(grupa(r) for r in tochni):
+            chlenu, gmax = [], None
+            for r in tochni:
+                if grupa(r) != g:
+                    continue
+                k = kartka(r['nreg'])
+                ds = [ed2d(x['ed']) for x in k['redaktsii'] if ed2d(x['ed']) and ed2d(x['ed']) <= na] if k else []
+                if ds:
+                    chlenu.append(r['nreg'])
+                    gmax = max(gmax or max(ds), max(ds))
+            if chlenu and (naikr is None or gmax > naikr):
+                naikr, best = gmax, chlenu
         if best:
-            return best
+            return best if vsi else best[0]
     sys.exit('Неоднозначно, уточніть: ' + '; '.join(f"{r['nreg']} — {r['skorocheno']}" for r in tochni))
 
 
@@ -285,36 +298,57 @@ def cmd_stattia(a):
 
 def cmd_tekst(a):
     na = dataz(a.na)
-    k = potribna_kartka(a.akt, na)
-    r, pop = redaktsiia_na(k, na)
-    if not r:
-        sys.exit('\n'.join('⚠ ' + p for p in pop))
-    radky, p = tekst(k['nreg'], r['ed'])
-    print(shapka(k, r, na, pop))
-    print('Файл: ' + (p if radky is not None else 'немає в архіві'))
+    nregs = znaity(a.akt, na, vsi=True)
+    for nreg in nregs:                          # акт із кількох документів — шлях до кожної частини
+        k = kartka(nreg)
+        if not k:
+            sys.exit(f'{nreg}: акт є в переліку, але ще не завантажений в архів.')
+        r, pop = redaktsiia_na(k, na)
+        if not r:
+            sys.exit('\n'.join('⚠ ' + p for p in pop))
+        radky, p = tekst(k['nreg'], r['ed'])
+        print(shapka(k, r, na, pop))
+        print('Файл: ' + (p if radky is not None else 'немає в архіві'))
 
 
 def cmd_zminy(a):
     k = potribna_kartka(a.akt, None, a.stattia)
-    prev, bulo = None, False
+    prev, bulo, bez = None, False, []
     for r in k['redaktsii']:
-        if not r['tekst']:
+        d = ukr(ed2d(r['ed'])) or r['data_na_saiti']
+        radky = tekst(k['nreg'], r['ed'])[0] if r['tekst'] else None
+        if radky is None:                       # тексту редакції немає: зміну в ній не видно
+            bez.append(d)
             continue
-        radky, _ = tekst(k['nreg'], r['ed'])
         st = stattia_z(radky, a.stattia)
         cur = '\n'.join(norm_apos(st)) if st else None
-        d = ukr(ed2d(r['ed'])) or r['data_na_saiti']
         if cur != prev:
+            prym = (f' (перед нею {len(bez)} ред. без тексту: {bez[0]}–{bez[-1]} — зміну могла внести будь-яка з них)'
+                    if bez and prev is not None else '')
             if cur is None:
-                print(f'{d:12} статті немає в тексті')
+                print(f'{d:12} статті немає в тексті{prym}')
             elif prev is None:
                 print(f'{d:12} стаття є в тексті ({"перша поява" if bulo else "перша редакція в архіві"}), підстава {", ".join(r["pidstava"]) or "—"}')
             else:
-                print(f'{d:12} змінено, підстава {", ".join(r["pidstava"]) or "—"}')
+                print(f'{d:12} змінено, підстава {", ".join(r["pidstava"]) or "—"}{prym}')
             bulo = bulo or cur is not None
-        prev = cur
+        prev, bez = cur, []
     if k['rezhym'] != 'povna':
         print(f'⚠ в архіві не всі редакції (режим «{k["rezhym"]}»)')
+    # акт із кількох документів (КУпАП до 07.05.2017 — окремі документи): історія вище — лише в межах цього документа
+    skor = next((r['skorocheno'] for r in perelik() if r['nreg'] == k['nreg']), '')
+    baza = re.sub(r'\s*\(до \d{2}\.\d{2}\.\d{4}[^)]*\)', '', skor)
+    inshi = [r for r in perelik() if r['nreg'] and r['nreg'] != k['nreg'] and r['rezhym'] != 'nemaie'
+             and re.sub(r'\s*\(до \d{2}\.\d{2}\.\d{4}[^)]*\)', '', r['skorocheno']) == baza]
+    m = re.match(r'\d+', str(a.stattia))                      # лише документи, що містять цю статтю
+    if m:
+        def mistyt(r):
+            d = re.search(r'статті (\d+)\s*[-–]\s*(\d+)', r['nazva'])
+            return not d or int(d.group(1)) <= int(m.group()) <= int(d.group(2))
+        inshi = [r for r in inshi if mistyt(r)]
+    if skor and inshi:
+        print(f'⚠ показано історію лише в документі {k["nreg"]} ({skor}); решта історії акта — в інших документах: '
+              + '; '.join(f"npa.py zminy {r['nreg']} {a.stattia}  ({r['skorocheno']})" for r in inshi))
 
 
 def cmd_porivniaty(a):
@@ -340,26 +374,37 @@ def cmd_porivniaty(a):
         print(l)
 
 
+def _dlia_poshuku(s):
+    """Для порівняння: апостроф будь-якого коду, нерозривний пробіл = звичайний, кілька пробілів = один."""
+    return re.sub(r'[ \t\xa0]+', ' ', s.translate(APOS))
+
+
 def cmd_poshuk(a):
     na = dataz(a.na)
-    k = potribna_kartka(a.akt, na)
-    r, pop = redaktsiia_na(k, na)
-    if not r:
-        sys.exit('\n'.join('⚠ ' + p for p in pop))
-    radky, _ = tekst(k['nreg'], r['ed'])
-    if radky is None:
-        sys.exit('Тексту цієї редакції в архіві немає.')
-    print(shapka(k, r, na, pop)); print('—' * 40)
-    rx = re.compile(re.escape(a.fraza), re.I)
-    st, n = '', 0
-    for l in radky:
-        if re.match(r'^Стаття\s+\d', l) and not l.rstrip().endswith('…'):
-            st = l.split('.')[0]
-        if rx.search(l):
-            n += 1
-            if n <= a.max:
-                print(f'[{st or "—"}] {l[:400]}')
-    print(f'Знайдено рядків: {n}' + (f' (показано {a.max})' if n > a.max else ''))
+    nregs = znaity(a.akt, na, vsi=True)
+    if len(nregs) > 1:
+        print(f'Акт складається з {len(nregs)} документів, чинних на {ukr(na)}: пошук у кожному.')
+    rx = re.compile(re.escape(_dlia_poshuku(a.fraza.strip())), re.I)
+    for nreg in nregs:
+        k = kartka(nreg)
+        if not k:
+            sys.exit(f'{nreg}: акт є в переліку, але ще не завантажений в архів.')
+        r, pop = redaktsiia_na(k, na)
+        if not r:
+            sys.exit('\n'.join('⚠ ' + p for p in pop))
+        radky, _ = tekst(k['nreg'], r['ed'])
+        if radky is None:
+            sys.exit('Тексту цієї редакції в архіві немає.')
+        print(shapka(k, r, na, pop)); print('—' * 40)
+        st, n = '', 0
+        for l in radky:
+            if re.match(r'^Стаття\s+\d', l) and not l.rstrip().endswith('…'):
+                st = l.split('.')[0]
+            if rx.search(_dlia_poshuku(l)):
+                n += 1
+                if n <= a.max:
+                    print(f'[{st or "—"}] {l[:400]}')
+        print(f'Знайдено рядків: {n}' + (f' (показано {a.max})' if n > a.max else ''))
 
 
 def main():
