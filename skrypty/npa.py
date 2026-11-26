@@ -353,15 +353,20 @@ def cmd_zminy(a):
 
 def cmd_porivniaty(a):
     d1, d2 = dataz(a.z), dataz(a.po)
-    k = potribna_kartka(a.akt, d2, a.stattia)
-    r1, p1 = redaktsiia_na(k, d1)
-    r2, p2 = redaktsiia_na(k, d2)
+    # акт із кількох документів (КУпАП до 07.05.2017): документ для кожної дати свій, а не лише за пізнішою датою
+    k1, k2 = potribna_kartka(a.akt, d1, a.stattia), potribna_kartka(a.akt, d2, a.stattia)
+    r1, p1 = redaktsiia_na(k1, d1)
+    r2, p2 = redaktsiia_na(k2, d2)
     if not r1 or not r2:
         sys.exit('\n'.join('⚠ ' + p for p in p1 + p2))
-    print(f"{k['nazva']}, стаття {a.stattia}: редакція від {ukr(ed2d(r1['ed']))} → від {ukr(ed2d(r2['ed']))}")
-    if r1['ed'] == r2['ed']:
+    inshyi = k1['nreg'] != k2['nreg']
+    print(f"{k2['nazva']}, стаття {a.stattia}: редакція від {ukr(ed2d(r1['ed']))} → від {ukr(ed2d(r2['ed']))}")
+    if inshyi:
+        print(f"⚠ акт поділено на документи: на {ukr(d1)} — {k1['nreg']} ({k1['nazva']}), "
+              f"на {ukr(d2)} — {k2['nreg']} ({k2['nazva']}); порівнюються тексти статті з різних документів")
+    if not inshyi and r1['ed'] == r2['ed']:
         print('Між цими датами редакція не змінювалася.'); return
-    t1, _ = tekst(k['nreg'], r1['ed']); t2, _ = tekst(k['nreg'], r2['ed'])
+    t1, _ = tekst(k1['nreg'], r1['ed']); t2, _ = tekst(k2['nreg'], r2['ed'])
     if t1 is None or t2 is None:
         sys.exit('Тексту однієї з редакцій в архіві немає.')
     s1, s2 = stattia_z(t1, a.stattia) or [], stattia_z(t2, a.stattia) or []
