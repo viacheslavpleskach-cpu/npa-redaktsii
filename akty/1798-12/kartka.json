@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "povna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/1798-12",
- "perevireno": "2026-11-24T16:17:27+00:00",
+ "perevireno": "2026-11-25T05:47:02+00:00",
  "redaktsii": [
   {
    "ed": "19911106",
@@ -2708,14 +2708,14 @@
  ],
  "bez_redaktsii": false,
  "api": {
-  "datred": "20260424",
+  "datred": "20261125",
   "edcnt": 126,
   "orgdat": "19911106",
   "orgnum": "1798-XII",
-  "poddat": "20260424",
+  "poddat": "20261125",
   "status_id": "5",
   "pidstava_nreg": [
-   "4833-20"
+   "5065-20"
   ],
   "source": "json-card",
   "history_complete": true,
@@ -2729,7 +2729,7 @@
    "edcnt": 126,
    "json_valid_dates": 126,
    "doc_update_added": [],
-   "datred": "20260424",
+   "datred": "20261125",
    "editions_total": 126,
    "invalid_unique": 0
   },
@@ -2742,9 +2742,9 @@
    "expected": 126
   },
   "all_texts_verified": false,
-  "doc_update_modified": "2026-11-24T11:10:05",
-  "sync_version": "4.1.7",
-  "checked_at": "2026-11-24T16:17:27+00:00",
+  "doc_update_modified": "2026-11-25T02:10:07",
+  "sync_version": "4.1.8",
+  "checked_at": "2026-11-25T05:47:02+00:00",
   "snapshot_only": false
  }
 }

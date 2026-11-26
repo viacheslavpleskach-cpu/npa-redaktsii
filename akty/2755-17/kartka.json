@@ -4,7 +4,7 @@
  "stan": "Чинний",
  "rezhym": "chynna",
  "dzherelo": "https://zakon.rada.gov.ua/laws/show/2755-17",
- "perevireno": "2026-11-24T16:21:30+00:00",
+ "perevireno": "2026-11-25T05:47:10+00:00",
  "redaktsii": [
   {
    "ed": "20101202",
@@ -5462,9 +5462,9 @@
    "expected": 1
   },
   "all_texts_verified": false,
-  "doc_update_modified": "2026-11-05T17:55:06",
-  "sync_version": "4.1.7",
-  "checked_at": "2026-11-24T16:21:30+00:00",
+  "doc_update_modified": "2026-11-24T17:45:05",
+  "sync_version": "4.1.8",
+  "checked_at": "2026-11-25T05:47:10+00:00",
   "snapshot_only": false
  }
 }
