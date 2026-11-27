@@ -26,6 +26,15 @@
 * старі офіційні номери підстав зберігаються; нові номери беруться з картки акта-підстави,
   а не виводяться евристично із суфікса nreg.
 
+v4.1.9 (27.11.2026) додає:
+* відновлення верхніх індексів за HTML API: коли текст TXT API втратив «N-M» (заміна старого тексту
+  чи нова редакція), завантажується .htm тієї самої редакції (у HTML — «15 - 1»); дефіси вставляються
+  в текст TXT, інше не змінюється. Приймається лише тоді, коли DocumentDate HTML — та сама редакція,
+  HTML без цих дефісів збігається з TXT символ у символ, індексів відносно старого тексту / попередньої
+  редакції більше не втрачено, а старий текст (для заміни) збігається за legacy_matches_api;
+  у картці — text_source «txt-api+html-api» і api_text_fix;
+* verify --repair --api-text-issue — повторна перевірка всіх редакцій з позначкою api_text_issue.
+
 v4.1.8 (24.11.2026) додає:
 * захист від неточних TXT API: у частині редакцій TXT API втрачає верхні індекси
   («Стаття 151» замість «Стаття 15-1», «пунктом 2581» замість «258-1»), а КПК ed20140302 містить
@@ -85,6 +94,7 @@ import csv
 import datetime as dt
 import email.utils
 import hashlib
+import html
 import io
 import json
 import random
@@ -102,7 +112,7 @@ except ImportError as exc:  # pragma: no cover - runtime diagnostic
 
 DATA_HOST = "https://data.rada.gov.ua"
 PUBLIC_HOST = "https://zakon.rada.gov.ua"
-VERSION = "4.1.8"
+VERSION = "4.1.9"
 USER_AGENT = "OpenData"
 DOC_UPDATE_URL = f"{DATA_HOST}/ogd/zak/laws/data/csv/doc-update.txt"
 PODIA_URL = f"{DATA_HOST}/ogd/zak/laws/data/csv/podia.txt"
@@ -465,6 +475,119 @@ def legacy_matches_api(old_body: str, new_body: str) -> tuple[bool, str]:
             a = a[i:]
     k = next((j for j in range(min(len(a), len(b))) if a[j] != b[j]), min(len(a), len(b)))
     return False, f"старий: …{a[max(0, k - 40):k + 60]}… / API: …{b[max(0, k - 40):k + 60]}…"
+
+
+# v4.1.9: відновлення верхніх індексів за HTML API (.htm) тієї самої редакції.
+_HTML_SUP_RE = re.compile(r"(?<![\d.\-/])(\d{1,4}) - (\d{1,2})(?![\d\-])")
+_HTML_TEXT_FROM_RE = re.compile(r"^Текст документа від (\d{2}\.\d{2}\.\d{4})")
+
+
+def html_text_lines(doc: str) -> tuple[list[str], dict[str, str]]:
+    """Рядки тексту редакції з HTML API і метадані сторінки (Nreg, «Текст документа від»).
+
+    Відкидаються шапка сторінки (назва, «Стан», «Ідентифікатор», «Текст документа від …:»), рядки
+    «[ image ]» і підвал «© Офіційний вебпортал парламенту України»."""
+    meta: dict[str, str] = {}
+    m = re.search(r'<meta\s+name="Nreg"\s+content="([^"]*)"', doc, re.I)
+    if m:
+        meta["nreg"] = html.unescape(m.group(1)).strip()
+    i = doc.lower().find("<body")
+    body = doc[i:] if i >= 0 else doc
+    body = re.sub(r"(?is)<(script|style|head)\b.*?</\1\s*>", "", body)
+    body = re.sub(r"(?i)<br\s*/?>", "\n", body)
+    body = re.sub(r"(?i)</(p|h\d|tr|div|li|table)\s*>", "\n", body)
+    text = html.unescape(re.sub(r"<[^>]+>", "", body)).replace("\u00a0", " ")
+    lines = [" ".join(ln.split()) for ln in text.split("\n") if ln.strip()]
+    start = next((k for k, ln in enumerate(lines) if _HTML_TEXT_FROM_RE.match(ln)), None)
+    if start is None:
+        return [], meta
+    meta["tekst_vid"] = _HTML_TEXT_FROM_RE.match(lines[start]).group(1)
+    end = max((k for k, ln in enumerate(lines) if ln.startswith("© Офіційний вебпортал")), default=len(lines))
+    return [ln for ln in lines[start + 1:end] if ln != "[ image ]"], meta
+
+
+def restore_superscripts_from_html(txt_body: str, html_doc: str, *, nreg: str | None = None,
+                                   ed: str | None = None) -> tuple[str | None, int, str]:
+    """Вставляє в текст TXT API дефіси верхніх індексів («151» → «15-1») за HTML API тієї самої редакції.
+
+    У HTML позначення з верхнім індексом записане як «15 - 1». Текст TXT лишається без інших змін
+    (рядки, пробіли, апострофи). Приймається лише тоді, коли без цих дефісів і пробілів HTML збігається
+    з TXT символ у символ. Повертає (відновлений текст | None, кількість вставлених дефісів, причина відмови)."""
+    lines, meta = html_text_lines(html_doc)
+    if not lines:
+        return None, 0, "у HTML немає рядка «Текст документа від …»"
+    if nreg and meta.get("nreg") and meta["nreg"] != nreg:
+        return None, 0, f"HTML належить іншому акту ({meta['nreg']})"
+    if ed and not ed.startswith("3000"):
+        want = date_display(edition_date(ed) or ed)
+        if meta.get("tekst_vid") != want:
+            return None, 0, f"HTML містить текст від {meta.get('tekst_vid')}, а не {want}"
+    marked = _HTML_SUP_RE.sub("\\1\x00\\2", "\n".join(lines))
+
+    def nc(c: str) -> str:
+        return "'" if c in "’ʼ`´" else c
+    fm = [nc(c) for c in marked if not c.isspace()]
+    out: list[str] = []
+    j = inserted = 0
+    for pos, c in enumerate(txt_body):
+        if c.isspace():
+            out.append(c)
+            continue
+        if j < len(fm) and fm[j] == "\x00":
+            j += 1
+            if c == "-":
+                out.append(c)
+                continue
+            out.append("-")
+            inserted += 1
+        if j >= len(fm) or fm[j] != nc(c):
+            ctx = " ".join(txt_body[max(0, pos - 40):pos + 40].split())
+            return None, 0, f"зміст HTML відрізняється від TXT біля «{ctx}»"
+        out.append(c)
+        j += 1
+    if j != len(fm):
+        return None, 0, "HTML довший за TXT (зміст відрізняється в кінці)"
+    if not inserted:
+        return None, 0, "у HTML немає верхніх індексів, яких бракує в TXT"
+    return "".join(out), inserted, ""
+
+
+def html_superscript_fix(client: "RadaHTTP", nreg: str, ed: str | None, prefix: str, txt_body: str,
+                         reference: str, *, expected_current_ed: str | None = None,
+                         allow_unversioned_current: bool = False,
+                         allow_conditional: bool = False) -> tuple[str | None, dict[str, Any]]:
+    """Спроба відновити верхні індекси за HTML API. Повертає (текст | None, звіт для картки).
+
+    Текст приймається, лише якщо: DocumentDate HTML-відповіді — та сама редакція; зміст HTML без
+    дефісів верхніх індексів збігається з TXT; відносно reference (старий текст або попередня
+    редакція) верхніх індексів більше не втрачено."""
+    report: dict[str, Any] = {"checked_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+                              "txt_sha256": hashlib.sha256(txt_body.encode("utf-8")).hexdigest()}
+    try:
+        doc, hprefix, headers = client.fetch_edition_html(nreg, ed, prefix)
+        validate_document_date(headers, requested_ed=ed, expected_current_ed=expected_current_ed,
+                               allow_unversioned_current=allow_unversioned_current,
+                               allow_conditional=allow_conditional)
+    except BudgetExceeded as exc:
+        report["problem"] = f"бюджет трафіку: {exc}"
+        report["budget"] = True
+        return None, report
+    except SyncError as exc:
+        report["problem"] = f"{exc}"
+        if client.blocked:
+            report["blocked"] = client.blocked
+        return None, report
+    report["dzherelo"] = f"{DATA_HOST}/{hprefix}/show/{encode_nreg(nreg)}{'/ed' + ed if ed else ''}.htm"
+    fixed, n, why = restore_superscripts_from_html(txt_body, doc, nreg=nreg, ed=ed)
+    if fixed is None:
+        report["problem"] = why
+        return None, report
+    still = superscript_loss(reference, fixed) if reference else []
+    if still:
+        report["problem"] = "і в HTML бракує верхніх індексів (" + ", ".join(still[:5]) + ")"
+        return None, report
+    report["vidnovleno_indeksiv"] = n
+    return fixed, report
 
 
 def previous_text(root: Path, nreg: str, editions: list[dict[str, Any]], ed: str) -> str | None:
@@ -1255,6 +1378,29 @@ class RadaHTTP:
             f"TXT endpoint для {nreg} ({ed or 'поточна редакція'}) недоступний. {last_error or ''}"
         )
 
+    def fetch_edition_html(self, nreg: str, ed: str | None,
+                           preferred_prefix: str = "laws") -> tuple[str, str, dict[str, str]]:
+        """v4.1.9: HTML API (.htm) редакції — лише для відновлення верхніх індексів у тексті TXT."""
+        encoded = encode_nreg(nreg)
+        suffix = f"/ed{ed}" if ed else ""
+        prefixes = [preferred_prefix] + [p for p in ("laws", "rada") if p != preferred_prefix]
+        last_error = None
+        for prefix in prefixes:
+            url = f"{DATA_HOST}/{prefix}/show/{encoded}{suffix}.htm"
+            try:
+                response = self.get(url, allow_404=True)
+            except ManualOnlyError as exc:
+                last_error = str(exc)
+                continue
+            if response is None:
+                continue
+            doc = decode_text(response.content, preferred="utf-8")
+            if "Текст документа від" not in doc:
+                last_error = f"{url}: відповідь не схожа на HTML-текст редакції"
+                continue
+            return doc, prefix, dict(response.headers)
+        raise ManualOnlyError(f"HTML endpoint для {nreg} ({ed or 'поточна редакція'}) недоступний. {last_error or ''}")
+
     def fetch_verified_text(self, nreg: str, ed: str | None, preferred_prefix: str,
                             *, expected_current_ed: str | None = None,
                             allow_unversioned_current: bool = False,
@@ -1777,7 +1923,7 @@ def _apply_manual(item: dict[str, Any], old: dict[str, Any] | None) -> None:
         return
     if old.get("poriadok_u_dni") not in (None, "", 0):
         item["poriadok_u_dni"] = old["poriadok_u_dni"]
-    for key in ("api_text_issue", "api_check"):
+    for key in ("api_text_issue", "api_check", "api_text_fix"):
         if old.get(key) and not item.get(key):
             item[key] = old[key]
     pr = old.get("ruchna_pravka")
@@ -1942,10 +2088,23 @@ def sync_one(client: RadaHTTP, root: Path, row: dict[str, str],
             if actual_prefix != card_meta.get("prefix", "laws"):
                 card["dzherelo"] = f"{PUBLIC_HOST}/{actual_prefix}/show/{nreg}"
             lost: list[str] = []
+            fix: dict[str, Any] = {}
+            fix_report: dict[str, Any] = {}
             if ed:
                 prev_body = previous_text(root, nreg, editions, ed)
                 if prev_body:
                     lost = superscript_loss(prev_body, body)
+                if lost:
+                    # v4.1.9: верхні індекси — з HTML API тієї самої редакції.
+                    fixed_body, fix = html_superscript_fix(
+                        client, nreg, ed, actual_prefix, body, prev_body,
+                        allow_conditional=bool(include_conditional))
+                    if fix.get("budget"):
+                        raise BudgetExceeded(fix["problem"])
+                    if fixed_body is not None:
+                        body, lost, fix_report = fixed_body, [], fix
+                        text_source = text_source + "+html-api"
+                        digest = hashlib.sha256(body.encode("utf-8")).hexdigest()
             path = write_text_file(root, nreg, card, ed, body, info, actual_date, digest)
             written.append(str(path.relative_to(root)))
             if info is not None:
@@ -1958,9 +2117,21 @@ def sync_one(client: RadaHTTP, root: Path, row: dict[str, str],
                     info["api_text_issue"] = ("TXT API втрачає верхні індекси (" + ", ".join(lost[:5])
                                               + " у попередній редакції записані через дефіс); номери з верхніми "
                                               "індексами звіряти із сайтом")
+                    info["api_check"] = {"checked_at": fix.get("checked_at", ""), "api_sha256": digest,
+                                         "vtracheni_indeksy": lost[:10], "html": str(fix.get("problem", ""))[:300]}
+                else:
+                    info.pop("api_text_issue", None)
+                    info.pop("api_check", None)
+                if fix_report:
+                    info["api_text_fix"] = fix_report
+                else:
+                    info.pop("api_text_fix", None)
             if lost:
                 info_messages.append(f"{key}: [УВАГА] у тексті API втрачено верхні індекси ({', '.join(lost[:5])}) — "
-                                     "збережено з позначкою api_text_issue; звірити із сайтом")
+                                     f"HTML API: {fix.get('problem', '')}; збережено з позначкою api_text_issue; "
+                                     "звірити із сайтом")
+            elif fix_report:
+                info_messages.append(f"{key}: верхні індекси відновлено за HTML API ({fix_report['vidnovleno_indeksiv']})")
         except BudgetExceeded:
             raise
         except (SyncError, requests.RequestException) as exc:
@@ -2440,6 +2611,16 @@ def run_verify(args: argparse.Namespace) -> int:
     targets = [(n, it) for n, it in problems if it["state"] in ("corrupt", "date_mismatch", "missing")]
     if args.include_legacy:
         targets += [(r["nreg"], it) for r in report for it in r["items"] if it["state"] == "legacy_unverified"]
+    if getattr(args, "api_text_issue", False):
+        # v4.1.9: повторна перевірка редакцій з позначкою api_text_issue (старий текст залишено або
+        # збережено текст API з втратою верхніх індексів) — з відновленням індексів за HTML API.
+        seen = {(n, it["ed"]) for n, it in targets}
+        for r in report:
+            c = _load_old_card(root, r["nreg"]) or {}
+            flagged = {x.get("ed") for x in c.get("redaktsii", []) if x.get("api_text_issue")}
+            targets += [(r["nreg"], it) for it in r["items"]
+                        if it["ed"] in flagged and it["state"] in ("legacy_unverified", "verified")
+                        and (r["nreg"], it["ed"]) not in seen]
     if not targets:
         print("Відновлювати нічого.")
         return 1 if missing_cards else 0
@@ -2463,16 +2644,20 @@ def run_verify(args: argparse.Namespace) -> int:
                 skipped += 1
                 continue
             if (it["state"] == "legacy_unverified" and info is not None and info.get("api_text_issue")
-                    and not getattr(args, "force", False)):
+                    and not getattr(args, "force", False) and not getattr(args, "api_text_issue", False)):
                 print(f"{nreg} {it['ed']}: текст API раніше визнано неточним ({info['api_text_issue'][:80]}…); "
                       "пропущено (повторно — лише з --force)")
                 skipped += 1
                 continue
+            fix_report: dict[str, Any] = {}
+            fix: dict[str, Any] = {}
+            lost: list[str] = []
+            fetch_kw = dict(expected_current_ed=(card.get("api") or {}).get("datred") if ed is None else None,
+                            allow_unversioned_current=(ed is None), allow_conditional=bool(args.include_conditional))
             try:
                 body, prefix, headers, actual, source = client.fetch_verified_text(
                     nreg, ed, (re.search(r"/(laws|rada)/show/", card.get("dzherelo", "")) or [None, "laws"])[1],
-                    expected_current_ed=(card.get("api") or {}).get("datred") if ed is None else None,
-                    allow_unversioned_current=(ed is None), allow_conditional=bool(args.include_conditional))
+                    **fetch_kw)
             except BudgetExceeded as exc:
                 print(f"ЗУПИНКА ЗА БЮДЖЕТОМ: {exc}")
                 stopped = "бюджет трафіку"
@@ -2490,15 +2675,35 @@ def run_verify(args: argparse.Namespace) -> int:
                 old_body = split_text_file(text_path.read_bytes().decode("utf-8"))[1]
                 same, why = legacy_matches_api(old_body, body)
                 lost = superscript_loss(old_body, body)
+                html_note = ""
+                if lost:
+                    # v4.1.9: верхні індекси — з HTML API тієї самої редакції; далі ті самі дві перевірки.
+                    fixed_body, fix = html_superscript_fix(client, nreg, ed, prefix, body, old_body, **fetch_kw)
+                    if fix.get("budget") or fix.get("blocked"):
+                        print(f"ЗУПИНКА: {fix['problem']}")
+                        stopped = "бюджет трафіку" if fix.get("budget") else fix["blocked"]
+                        break
+                    if fixed_body is not None:
+                        same2, why2 = legacy_matches_api(old_body, fixed_body)
+                        if same2 and not superscript_loss(old_body, fixed_body):
+                            body, source, same, why, lost, fix_report = fixed_body, source + "+html-api", True, "", [], fix
+                            digest = hashlib.sha256(body.encode("utf-8")).hexdigest()
+                        else:
+                            html_note = "; HTML API: зміст після відновлення індексів не збігся зі старим текстом"
+                            why = why2 or why
+                    else:
+                        html_note = f"; HTML API: {fix.get('problem', '')}"
                 if lost or not same:
                     issue = ("TXT API втрачає верхні індекси (" + ", ".join(lost[:5]) + ")") if lost else \
                             "зміст TXT API відрізняється від тексту браузерного імпорту"
-                    print(f"{nreg} {it['ed']}: залишено старий текст — {issue}" + (f"; {why[:220]}" if why else ""))
+                    print(f"{nreg} {it['ed']}: залишено старий текст — {issue}{html_note}" + (f"; {why[:220]}" if why else ""))
                     if info is not None:
                         info["api_text_issue"] = issue + "; залишено текст браузерного імпорту, звірити із сайтом"
                         info["api_check"] = {"checked_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
                                              "api_sha256": digest, "zbih_zmistu": same,
                                              "vtracheni_indeksy": lost[:10], "rozbizhnist": why[:400]}
+                        if html_note:
+                            info["api_check"]["html"] = html_note[2:][:300]
                         atomic_write(root / "akty" / slug(nreg) / "kartka.json",
                                      (json.dumps(card, ensure_ascii=False, indent=1) + "\n").encode("utf-8"))
                     kept += 1
@@ -2507,13 +2712,35 @@ def run_verify(args: argparse.Namespace) -> int:
                 prev_body = previous_text(root, nreg, card.get("redaktsii", []), ed)
                 lost = superscript_loss(prev_body, body) if prev_body else []
                 if lost:
+                    fixed_body, fix = html_superscript_fix(client, nreg, ed, prefix, body, prev_body, **fetch_kw)
+                    if fix.get("budget") or fix.get("blocked"):
+                        print(f"ЗУПИНКА: {fix['problem']}")
+                        stopped = "бюджет трафіку" if fix.get("budget") else fix["blocked"]
+                        break
+                    if fixed_body is not None:
+                        body, source, lost, fix_report = fixed_body, source + "+html-api", [], fix
+                        digest = hashlib.sha256(body.encode("utf-8")).hexdigest()
+                if lost:
                     info["api_text_issue"] = ("TXT API втрачає верхні індекси (" + ", ".join(lost[:5])
                                               + "); номери з верхніми індексами звіряти із сайтом")
-                    print(f"{nreg} {it['ed']}: [УВАГА] у тексті API втрачено верхні індекси ({', '.join(lost[:5])})")
+                    info["api_check"] = {"checked_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+                                         "api_sha256": digest, "vtracheni_indeksy": lost[:10],
+                                         "html": str(fix.get("problem", ""))[:300]}
+                    print(f"{nreg} {it['ed']}: [УВАГА] у тексті API втрачено верхні індекси ({', '.join(lost[:5])}); "
+                          f"HTML API: {fix.get('problem', '')}")
             write_text_file(root, nreg, card, ed, body, info, actual, digest)
             if info is not None:
                 info.update({"tekst": True, "text_status": "verified", "sha256": digest,
                              "document_date": actual, "text_source": source})
+                if not lost:
+                    info.pop("api_text_issue", None)
+                    info.pop("api_check", None)
+                if not fix_report:
+                    info.pop("api_text_fix", None)
+                else:
+                    info["api_text_fix"] = fix_report
+                    print(f"{nreg} {it['ed']}: верхні індекси відновлено за HTML API "
+                          f"({fix_report['vidnovleno_indeksiv']})")
                 atomic_write(root / "akty" / slug(nreg) / "kartka.json",
                              (json.dumps(card, ensure_ascii=False, indent=1) + "\n").encode("utf-8"))
             fixed += 1
@@ -2854,6 +3081,9 @@ def build_parser() -> argparse.ArgumentParser:
     ver.add_argument("--include-conditional", action="store_true", help="з --repair: дозволити умовні 3000xxxx")
     ver.add_argument("--force", action="store_true",
                      help="з --repair --include-legacy: повторно перевірити редакції з позначкою api_text_issue")
+    ver.add_argument("--api-text-issue", action="store_true",
+                     help="з --repair: повторно перевірити всі редакції з позначкою api_text_issue "
+                          "(верхні індекси — з HTML API тієї самої редакції)")
     an = sub.add_parser("anomaly", help="перевірити некоректний ідентифікатор редакції через TXT API")
     an.add_argument("--nreg", required=True)
     an.add_argument("--raw", required=True, help="сирий ідентифікатор, напр. 201301186")

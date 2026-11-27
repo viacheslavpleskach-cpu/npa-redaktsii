@@ -28,6 +28,7 @@ import os
 import platform
 import shutil
 import subprocess
+import re
 import sys
 import time
 import urllib.request
@@ -153,8 +154,8 @@ def main():
     c, out = run("version", [sys.executable, "-c",
                              "import sys; sys.path.insert(0, r'%s'); import sync_api_v4_1 as s; print(s.VERSION)"
                              % (ARCH / "skrypty")])
-    if "4.1.8" not in out:
-        raise SystemExit("Очікувалася версія синхронізатора 4.1.8 — див. 001_version.txt")
+    if not re.search(r"4\.1\.(8|9)|4\.[2-9]", out):
+        raise SystemExit("Очікувалася версія синхронізатора 4.1.8 або новіша — див. 001_version.txt")
     before = snapshot()
     removed = []
     for a in OLD_COPIES:
